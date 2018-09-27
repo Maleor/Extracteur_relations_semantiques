@@ -2,13 +2,19 @@ package extracteur;
 
 public class Template {
 	
-	public String objet;
-	public String sujet;
+	private String objet;
+	private String sujet;
 	
 	public Template(String sujet, String objet){
 		this.objet = objet;
 		this.sujet = sujet;
 	}
 
+	public String getObjet() {
+		return this.objet;
+	}
 	
+	public String getSujet() {
+		return this.sujet;
+	}
 }
