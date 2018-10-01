@@ -48,6 +48,10 @@ public class Template_matrix {
 
 	}
 	
+	public int get_template_size_at_column(int c){
+		return templates_matrix.get(c).get(0).get_t_length();
+	}
+	
 	public int get_size(){
 		return this.templates_matrix.size();
 	}
