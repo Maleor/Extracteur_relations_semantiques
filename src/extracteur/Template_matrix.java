@@ -60,6 +60,10 @@ public class Template_matrix {
 		return this.templates_matrix.get(c).size();
 	}
 	
+	public Template get_template(int i, int j) {
+		return templates_matrix.get(i).get(j);
+	}
+	
 	/* Affiche la matrice de template */ 
 	public void show_template_matrix() {
 		int i;
