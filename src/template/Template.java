@@ -1,4 +1,4 @@
-package extracteur;
+package template;
 
 public class Template {
 	/* Un template contient une relation cible et une expression en langages naturel */

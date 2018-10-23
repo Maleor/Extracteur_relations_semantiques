@@ -1,0 +1,16 @@
+
+*** These modified files were found in JOE when it aborted on Tue Oct  9 16:21:31 2018
+*** JOE was aborted because the terminal closed
+
+*** Fichier '(Sans nom)'
+/auto_home/mdodard/.gitconfig
+
+*** Fichier '/auto_home/mdodard/.gitconfig'
+# Ceci est le fichier de configuration personnel de Git.
+[user]
+# Veuillez adapter et décommenter les lignes suivantes :
+#	name = maleor
+#	email = mathieu.dodard@gmail.com
+*** Fichier '* Startup Log *'
+Traitement de '/etc/joe/editorrc'...Traitement de '/etc/joe/ftyperc'...Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
