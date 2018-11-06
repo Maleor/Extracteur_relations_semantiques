@@ -1,48 +1,1206 @@
 poney
 poney
-218.0
+89801
+1
+0
 <def>
-1. Cheval de petite taille (adulte moins de 1,49 m de hauteur au garrot), au trot rapide et sec, servant maintenant surtout pour l'agrÃ©ment, souvent cheval de loisir, cheval de selle ou cheval polyvalent.  J'avais laissÃ© Reykjavik, un grand village ; [?] ; des poneys et une ou deux mauvaises carrioles assuraient le transport.     (Jean-Baptiste Charcot, Dans la mer du Groenland, 1928)    [?] la comtesse Vanska, avec ses poneys pieÂ ; madame Daste, et ses fameux stappers noirsÂ ; madame de Guende et madame TessiÃ¨re, en coupÃ©.     (Ã‰mile Zola, La CurÃ©e, 1871)    Le poney est le seul moyen de transport dans ce pays dÃ©pourvu de voies de communication; il est Ã  l'Islandais ce que le chameau est au BÃ©douin : il porte le voyageur et tous ses impedimenta.     (Jules Leclercq, La Terre de glace, FÃ©roÃ«, Islande, les geysers, le mont HÃ©kla, Paris : E. Plon & Cie, 1883, p.9)  2. Un poney (fÃ©minin : ponette), appelÃ© cheval nain en Louisiane, est, selon la dÃ©finition courante, un cheval de petite taille, avec une conformation et un tempÃ©rament particuliers. Il existe de nombreuses races de poneys. Par rapport aux chevaux, les poneys prÃ©sentent souvent une criniÃ¨re Ã©paisse, une queue et un pelage fournis, ainsi que des jambes proportionnellement plus courtes, un corps plus large, une ossature plus lourde, une encolure plus courte et Ã©paisse, et une tÃªte plus courte avec le front plus large. La FÃ©dÃ©ration Ã©questre internationale (FEI) ne prend en considÃ©ration que la taille pour dÃ©finir ce qu'est un poney. Selon ses normes, tout cheval de moins d'1,48 m au garrot (ou 1,49 m ferrÃ©) est classÃ© Â« poney Â», afin de faciliter les compÃ©titions officielles.
+1. Cheval de petite taille (adulte moins de 1,49 m de hauteur au garrot), au trot rapide et sec, servant maintenant surtout pour l'agrément, souvent cheval de loisir, cheval de selle ou cheval polyvalent.  J'avais laissé Reykjavik, un grand village ; [?] ; des poneys et une ou deux mauvaises carrioles assuraient le transport.     (Jean-Baptiste Charcot, Dans la mer du Groenland, 1928)    [?] la comtesse Vanska, avec ses poneys pie ; madame Daste, et ses fameux stappers noirs ; madame de Guende et madame Tessière, en coupé.     (Émile Zola, La Curée, 1871)    Le poney est le seul moyen de transport dans ce pays dépourvu de voies de communication; il est à l'Islandais ce que le chameau est au Bédouin : il porte le voyageur et tous ses impedimenta.     (Jules Leclercq, La Terre de glace, Féroë, Islande, les geysers, le mont Hékla, Paris : E. Plon & Cie, 1883, p.9)  2. Un poney (féminin : ponette), appelé cheval nain en Louisiane, est, selon la définition courante, un cheval de petite taille, avec une conformation et un tempérament particuliers. Il existe de nombreuses races de poneys. Par rapport aux chevaux, les poneys présentent souvent une crinière épaisse, une queue et un pelage fournis, ainsi que des jambes proportionnellement plus courtes, un corps plus large, une ossature plus lourde, une encolure plus courte et épaisse, et une tête plus courte avec le front plus large. La Fédération équestre internationale (FEI) ne prend en considération que la taille pour définir ce qu'est un poney. Selon ses normes, tout cheval de moins d'1,48 m au garrot (ou 1,49 m ferré) est classé « poney », afin de faciliter les compétitions officielles.3. Le Haguard, également nommé poney ou bidet de la Hague, est une race de chevaux, de type bidet, propre à la région naturelle de la Hague, dans le département de la Manche en Normandie. Employé au bât, sous la selle et par les services des postes, ce petit cheval est connu pour son allure particulière à transmission héréditaire, le « pas relevé ». Il s'est illustré en courses de trot près de Cherbourg, notamment en 1835 et 1836. Jadis élevé dans les zones vallonnées et marécageuses des arrondissements de Cherbourg, de Valognes et de Coutances, le Haguard s'est éteint en raison de l'amélioration des routes, et de croisements avec le Pur-sang et des trotteurs. Une petite population a vraisemblablement été transférée en Mayenne, participant à la formation du poney français de selle dans les années 1970.
 </def>
-sortant
-r_aki;petit,,2.0;animal,,1.0;cheval,,1.0;criniÃ¨re,,1.0;enfant,,1.0;herbivore,,1.0;poulain,,1.0;quadrupÃ¨de,,1.0;sabot,,1.0;Ã©quitation,,1.0
-r_holo;faune,,29.0;rÃ¨gne animal,,28.0
-r_sentiment;bonheur,,54.0;indiffÃ©rence,,30.0;satisfaction,,24.0;surprise,,23.0;amour,,-5.0;joie,,-5.0;plaisir,,-42.0
-r_data;Morpho:nospace,,32.0;Morpho:min,,29.0
-r_lieu-1;selle,,38.0
-r_infopot;_POL-POS,,177.0;_INFO-CNRTL-NO,,56.0;_POL-NEUTRE_PC,,56.0;_INFO-SEM-PLACE-HUMAN,,48.0;_INFO-SEM-LIVING-BEING,,47.0;_POL-POS_PC,,38.0;_INFO-SEM-PLACE,,35.0;_INFO-MONOSEMIC,,32.0;_INFO-SEM-THING-CONCRETE,,31.0;_POL-NEG,,29.0;_INFO-WIKI-YES,,25.0;_SEX_NO,,16.0;_POL-NEG_PC,,6.0
-r_wiki;Charbon,,10.0;Connemara,,10.0;Fjord,,10.0;Garrot,,10.0;Haflinger,,10.0;Jean-Louis Gouraud,,10.0;Louisiane,,10.0;Mine,,10.0;My Little Pony,,10.0;MÃ©rens,,10.0;New Forest,,10.0;Nom vernaculaire,,10.0;Scots,,10.0;Stroller,,10.0;Taxon,,10.0;Welsh cob,,10.0;camargue,,10.0;charbon,,10.0;cheval islandais,,10.0;concours complet,,10.0;connemara,,10.0;galeries,,10.0;mines,,10.0;poney Hackney,,10.0;poney australien,,10.0;poney-clubs,,10.0;scots,,10.0;Ã‰quitation,,10.0;Angleterre,,9.0;Animal,,9.0;Avelignese,,9.0;Belgique,,9.0;Camargue,,9.0;Cheval,,9.0;Colbert,,9.0;Europe,,9.0;France,,9.0;Grande-Bretagne,,9.0;Highland,,9.0;ISBN,,9.0;International Standard Book Number,,9.0;Irlande,,9.0;Islandais,,9.0;Jean-Baptiste Colbert,,9.0;Latin,,9.0;Poulain,,9.0;Race,,9.0;RÃ©volution industrielle,,9.0;Shetland,,9.0;adultes,,9.0;ancien franÃ§ais,,9.0;anglais,,9.0;animal,,9.0;annÃ©es 1960,,9.0;attelage,,9.0;centre Ã©questre,,9.0;cheval de selle,,9.0;chevaux,,9.0;dressage,,9.0;femelle,,9.0;fer Ã  cheval,,9.0;ferrÃ©,,9.0;garrot,,9.0;haras nationaux,,9.0;highland,,9.0;latin,,9.0;manÃ¨ge,,9.0;nanisme,,9.0;nom vernaculaire,,9.0;nÃ©otÃ©nie,,9.0;pottok,,9.0;poulains,,9.0;race,,9.0;races,,9.0;races de chevaux,,9.0;randonnÃ©e,,9.0;rÃ©volution industrielle,,9.0;saut d'obstacles,,9.0;sports Ã©questres,,9.0;sÃ©lection naturelle,,9.0;taxon,,9.0;taxons,,9.0;tourisme Ã©questre,,9.0;traction hippomobile,,9.0;vÃ©hicule hippomobile,,9.0;Ã©quitation,,9.0
-r_syn;cheval,,27.0;cheval (animal),,26.0
-r_hypo;shetland,,79.0;fjord,,78.0;haflinger,,78.0;landais,,78.0;fjord (cheval),,76.0;islandais,,53.0;pottok,,53.0;poney haflinger,,38.0;poney celte,,37.0;poney connemara,,36.0;poney highland,,36.0;poney pottok,,36.0;poney celtique,,35.0;poney de,,34.0;poney mÃ©rens,,34.0;poney shetland,,32.0;cheval de la Caspienne,,31.0;poney club,,31.0;poney basque,,30.0;poney exmoor,,30.0;poney gallois,,29.0;poney Galicien,,28.0;poney fjord,,26.0;American Indian Pony,,25.0;Aravani,,25.0;Chamurthi,,25.0;Cheval des FÃ©roÃ©,,25.0;Chummarti,,25.0;Dexter Leam Pondi,,25.0;Poney des iles FÃ©roÃ©,,25.0;cheval celte,,25.0;hobin,,25.0;poney Boer,,25.0;poney Hackney,,25.0;poney ariÃ©geois,,25.0;poney australien,,25.0;poney bosniaque,,25.0;poney bosnien,,25.0;poney brÃ©silien,,25.0;poney classique allemand,,25.0;poney d'Islande,,25.0;poney danois,,25.0;poney de Birmanie,,25.0;poney de DÃ¼lmen,,25.0;poney de Kagoshima,,25.0;poney de Mandchourie,,25.0;poney de Manipur,,25.0;poney de Monterufoli,,25.0;poney de Pinde,,25.0;poney de Somalie,,25.0;poney de l'Ã®le de Sable,,25.0;poney de selle allemand,,25.0;poney de selle australien,,25.0;poney de selle britannique,,25.0;poney des AmÃ©riques,,25.0;poney des AÃ§ores,,25.0;poney des Barthes,,25.0;poney des Musey,,25.0;poney des barthes,,25.0;poney galicien,,25.0;poney iakoute,,25.0;poney indien,,25.0;poney indien du lac La Croix,,25.0;poney new forest,,25.0;poney tachetÃ© britannique,,25.0;poney tibÃ©tain,,25.0;pottock,,25.0;poney dartmoor,,24.0;poney franÃ§ais de selle,,24.0;poney islandais,,24.0;poney landais,,24.0;poney fell,,22.0;Spiti,,7.0
-r_carac;mignon,,126.0;nain,,56.0;intelligent,,55.0;gris,,52.0;petit,,51.0;amical,,45.0;retors,,45.0;domestique,,35.0;tÃªtu,,35.0;amniote,,34.0;mort,,32.0;endotherme,,29.0;vivant,,29.0;bilatÃ©ralement symÃ©trique,,28.0;herbivore,,27.0;hÃ©tÃ©rotrophe,,26.0;=heterotroph=,,11.0
-r_lieu;Ã©curie,,158.0;prÃ©,,148.0;haras,,128.0;box,,118.0;centre Ã©questre,,118.0;champs de course,,118.0;cirque,,89.0;manÃ¨ge,,89.0;champ,,70.0;champs,,63.0;dehors,,63.0;stalle,,63.0;cirque (spectacle itinÃ©rant),,59.0;manÃ¨ge (Ã©quitation),,59.0;Ã  l'extÃ©rieur,,59.0;carrousel,,53.0;ferme,,53.0;prairie,,53.0;Ã©curies,,53.0;parc,,51.0;corral,,43.0
-r_flpot;_FL:15,,42.0;_FL:24,,34.0;_FL:6,,29.0;_FL:28,,24.0;_FL:17,,22.0;_FL:26,,19.0;_FL:8,,16.0;_FL:0,,12.0
-r_link;bn:00063528n,,35.0;bn:13786908n,,35.0;wiki:@,,29.0
-r_inhib;fjord (crique),,14.0;pie (oiseau),,9.0;pie (gÃ¢teau),,9.0;pie (bavard),,9.0;pie (assolement),,9.0;Ãªtre (existence),,8.0;monture (lunettes),,4.0;monture (support),,4.0;organisme (corps humain),,4.0;Ãªtre (se trouver),,4.0;Ãªtre (exister),,4.0;pie (blanc et noir),,3.0;organisme (ensemble des organes),,2.0;organisme (organisation),,2.0;Ãªtre vivant (vivre),,1.0
-r_pos;Nom:,,99.0;Nom:Mas+SG,,51.0;Gender:Mas,,45.0;Number:Sing,,45.0
-r_locution;poney club,,163.0;roxer du poney,,148.0;poney de,,64.0;faire du poney,,59.0;poney d'Islande,,59.0;poney celtique,,58.0;poney highland,,57.0;poney new forest,,56.0;poney shetland,,56.0;poney haflinger,,54.0;poney Galicien,,53.0;poney basque,,53.0;poney fjord,,53.0;poney mÃ©rens,,53.0;aller chercher sa fille au poney,,52.0;poney pottok,,52.0;poney ariÃ©geois,,47.0;poney dartmoor,,47.0;poney de selle australien,,47.0;poney fell,,47.0;mon petit poney,,46.0;poney celte,,46.0;poney connemara,,46.0;poney des Barthes,,46.0;poney gallois,,46.0;Mon petit poney,,45.0;poney Boer,,45.0;poney bosnien,,45.0;poney de Pinde,,45.0;poney de Somalie,,45.0;poney des AÃ§ores,,45.0;poney exmoor,,45.0;poney landais,,45.0;poney classique allemand,,44.0;poney de DÃ¼lmen,,44.0;poney de Mandchourie,,44.0;poney de Monterufoli,,43.0;poney islandais,,43.0;Un poney trÃ¨s courageux,,42.0;poney de Birmanie,,42.0;poney des barthes,,42.0;poney galicien,,42.0;poney indien du lac La Croix,,42.0;poney indien,,41.0;animateur poney,,39.0;poney australien,,39.0;poney franÃ§ais de selle,,39.0;Ã©quitation sur poney,,39.0;poney brÃ©silien,,38.0;poney danois,,38.0;poney de Terre-Neuve,,38.0;poney de selle allemand,,38.0;poney de selle britannique,,38.0;poney des Musey,,38.0;poney tachetÃ© britannique,,38.0;race de poney,,38.0;poney de Kagoshima,,37.0;poney Hackney,,36.0;poney bosniaque,,36.0;poney de l'Ã®le de Sable,,36.0;poney des AmÃ©riques,,36.0;poney iakoute,,36.0;poney de Manipur,,35.0;poney tibÃ©tain,,35.0;avoir poney,,32.0
-r_agent-1;brouter (paÃ®tre),,66.0;galoper,,35.0;sauter,,35.0;manger (alimentation, absorber),,32.0;ambler,,30.0;boire,,30.0;boire (se dÃ©saltÃ©rer),,30.0;courir,,30.0;dormir,,30.0;embler,,30.0;hennir,,30.0;manger,,30.0;manger (alimentation),,30.0;mourir,,30.0;mourir (cesser de vivre),,30.0;se nourrir,,30.0;se reproduire,,30.0;vivre,,30.0;vivre (Ãªtre en vie),,30.0;gambader,,17.0
-r_associated;cheval,,78.0;uniconte,,78.0;Ã©pineurien,,76.0;opisthoconte,,75.0;holozoaire,,73.0;mÃ©tazoaire,,71.0;filozoaire,,69.0;eucaryote,,68.0;choanobionte,,67.0;gnathostome,,67.0;cordÃ©,,66.0;crÃ¢niate,,66.0;eumÃ©tazoaire,,66.0;herbivore,,66.0;olfactorien,,66.0;tÃ©trapode,,66.0;amniote,,64.0;bilatÃ©rien,,64.0;crÃ¢niÃ©,,64.0;synapside,,64.0;deutÃ©rostomien,,62.0;petit,,60.0;islandais,,58.0;chordÃ©,,56.0;moyen de transport,,56.0;animal,,55.0;animal domestique,,55.0;animal (zoologie),,55.0;mammifÃ¨re,,55.0;quadrupÃ¨de,,55.0;vertÃ©brÃ©,,55.0;Ãªtre vivant,,55.0;pottok,,54.0;Ã©quidÃ©,,51.0;cheval de la Caspienne,,48.0;cheval (animal),,45.0;solipÃ¨de,,41.0;biologie,,40.0;vertÃ©brÃ©s,,40.0;vÃ©hicules,,36.0;poulain (cheval),,35.0;Ã©talon (cheval),,35.0;cordÃ© (zoologie),,34.0;zoologie,,34.0;=pony=,,32.0;choano-organisme,,32.0;poney Galicien,,32.0;symÃ©trie bilatÃ©rale,,32.0;organisme vivant,,31.0;organisme (Ãªtre vivant),,31.0;animaux,,30.0;mammifÃ¨res,,30.0;pur-sang,,29.0;shetland,,29.0;Ã©talon,,29.0;Ãªtre vivant (entitÃ©),,29.0;Zoologie,,28.0;entitÃ© vivante,,28.0;fjord (cheval),,28.0;ponette,,28.0;Ãªtre (individu),,28.0;cheval nain,,27.0;jument,,27.0;oeil (organe),,27.0;espÃ¨ce animale,,26.0;fjord,,24.0;haflinger,,24.0;landais,,24.0;lieu,,24.0;poulain,,22.0;vÃ©hicule,,22.0;poney de,,16.0;faune,,12.0;rÃ¨gne animal,,12.0;poney fjord,,10.0;poney haflinger,,10.0;poney highland,,10.0;poney mÃ©rens,,10.0;poney shetland,,10.0;siÃ¨ge,,8.0;poney celte,,7.0;poney celtique,,7.0;poney pottok,,7.0;poney basque,,6.0;poney club,,6.0;poney dartmoor,,6.0;poney exmoor,,6.0;poney islandais,,6.0;poney landais,,6.0;poney connemara,,5.0;poney gallois,,5.0;robe (pelage),,4.0
-r_domain;vertÃ©brÃ©s,,39.0;vÃ©hicules,,35.0;biologie,,32.0;zoologie,,27.0;animaux,,26.0;Zoologie,,-20.0;animal,,-26.0
-r_isa;animal,,239.0;cheval,,219.0;cheval (animal),,197.0;mammifÃ¨re,,196.0;Ã©quidÃ©,,190.0;solipÃ¨de,,189.0;synapside,,180.0;amniote,,175.0;quadrupÃ¨de,,174.0;gnathostome,,168.0;crÃ¢niate,,166.0;tÃ©trapode,,164.0;crÃ¢niÃ©,,160.0;vertÃ©brÃ©,,160.0;olfactorien,,156.0;herbivore,,154.0;chordÃ©,,153.0;cordÃ©,,153.0;cordÃ© (zoologie),,148.0;Ã©pineurien,,145.0;deutÃ©rostomien,,142.0;vÃ©hicule,,140.0;bilatÃ©rien,,138.0;moyen de transport,,137.0;animal domestique,,135.0;eumÃ©tazoaire,,135.0;lieu,,132.0;mÃ©tazoaire,,126.0;choanobionte,,124.0;animal (zoologie),,122.0;choano-organisme,,116.0;filozoaire,,110.0;holozoaire,,106.0;uniconte,,102.0;opisthoconte,,101.0;entitÃ© vivante,,92.0;Ãªtre vivant (entitÃ©),,91.0;Ãªtre (individu),,90.0;organisme (Ãªtre vivant),,88.0;Ãªtre vivant,,88.0;organisme vivant,,83.0;espÃ¨ce animale,,52.0;quadripÃ¨de,,45.0;mammifÃ¨re herbivore,,43.0;cynodonte,,34.0;organisme animal,,34.0;animal de cirque,,29.0;entitÃ© biologique,,29.0;entitÃ© physique,,27.0;tÃ©trapode (vertÃ©brÃ©),,26.0;coelomÃ©,,21.0;cÃ©lomate,,18.0;coelomate,,16.0;organisme,,4.0; un/le Ãªtre ,,3.0;Ãªtre,,2.0;lieu (poisson),,-25.0;thÃ©rapside,,-30.0
-r_has_part;encolure,,40.0;oreille,,38.0;peau,,38.0;cuisse,,37.0;muscle,,37.0;robe (pelage),,37.0;langue,,35.0;sang chaud,,35.0;tÃªte (anatomie),,35.0;coeur,,34.0;colonne vertÃ©brale,,34.0;poil,,34.0;poumons,,34.0;tÃªte,,34.0;tÃªte (extrÃ©mitÃ© supÃ©rieure du corps),,34.0;dent,,32.0;dos,,32.0;oeil,,32.0;oeil (organe),,32.0;patte postÃ©rieure,,32.0;robe,,32.0;cerveau,,31.0;croupe,,31.0;acide dÃ©soxyribonuclÃ©ique,,30.0;flanc,,30.0;garot,,30.0;garrot,,30.0;oeil (organe de la vue),,30.0;poils,,30.0;siÃ¨ge,,30.0;bouche,,29.0;pattes,,29.0;queue (queue d'animal),,29.0;coeur (organe musculaire),,28.0;crin,,28.0;naseaux,,28.0;patte,,28.0;patte (membre),,28.0;queue,,28.0;dent (dentaire),,27.0;oreilles,,27.0;sabot,,27.0;sabots,,27.0;squelette,,27.0;systÃ¨me nerveux en position dorsale,,27.0;ventre,,27.0;vertÃ¨bre,,27.0;ADN,,26.0;adn,,26.0;articulation,,26.0;corps,,26.0;corps (anatomie),,26.0;criniÃ¨re,,26.0;nerf,,26.0;os (squelette),,26.0;patte antÃ©rieure,,26.0;squelette (anatomie),,26.0;systÃ¨me nerveux,,26.0;tube digestif,,26.0;ventre (anatomie),,26.0;yeux,,26.0;=vertebra=,,10.0
-r_lemma;poney,,57.0
-r_color;beige,,1.0;marron,,1.0
-entrant
-r_carac-1;=heterotroph=,,60.0;hÃ©tÃ©rotrophe,,59.0;amical,,30.0;amniote,,30.0;herbivore,,30.0;intelligent,,30.0;domestique,,29.0;vivant,,29.0;mignon,,27.0;mort,,27.0;tÃªtu,,27.0;endotherme,,22.0;petit,,22.0;bilatÃ©ralement symÃ©trique,,21.0;gris,,21.0;nain,,21.0;retors,,21.0
-r_aki;aquaponey,,1.0
-r_holo;=vertebra=,,175.0;vertÃ¨bre,,174.0;queue (queue d'animal),,125.0;queue,,55.0;ADN,,35.0;acide dÃ©soxyribonuclÃ©ique,,35.0;adn,,35.0;garrot,,30.0;ventre,,30.0;oeil (organe de la vue),,28.0;oeil (organe),,28.0;encolure,,27.0;systÃ¨me nerveux en position dorsale,,27.0;=nervous system=,,17.0;nerf,,17.0;systÃ¨me nerveux,,17.0;tube digestif,,17.0;articulation,,16.0;ventre (anatomie),,16.0;corps (anatomie),,15.0;patte antÃ©rieure,,15.0;squelette (anatomie),,15.0;dos,,14.0;oeil,,14.0;peau,,14.0;squelette,,14.0;patte postÃ©rieure,,12.0;cerveau,,11.0;poumons,,10.0;corps,,9.0;colonne vertÃ©brale,,8.0;siÃ¨ge,,8.0;tÃªte (anatomie),,8.0;coeur,,7.0;cuisse,,7.0;muscle,,7.0;oreille,,7.0;robe (pelage),,7.0;criniÃ¨re,,5.0;bouche,,4.0;coeur (organe musculaire),,4.0;crin,,4.0;croupe,,4.0;dent,,4.0;dent (dentaire),,4.0;flanc,,4.0;garot,,4.0;langue,,4.0;naseaux,,4.0;oreilles,,4.0;os (squelette),,4.0;patte,,4.0;patte (membre),,4.0;pattes,,4.0;poil,,4.0;poils,,4.0;robe,,4.0;sabot,,4.0;sabots,,4.0;sang chaud,,4.0;tÃªte,,4.0;tÃªte (extrÃ©mitÃ© supÃ©rieure du corps),,4.0;yeux,,4.0
-r_lieu-1;Ã©curie,,118.0;carrousel,,40.0;champs,,40.0;cirque,,40.0;dehors,,40.0;ferme,,40.0;manÃ¨ge,,40.0;prairie,,40.0;box,,39.0;champs de course,,39.0;haras,,39.0;stalle,,39.0;Ã©curies,,39.0;centre Ã©questre,,38.0;prÃ©,,38.0;manÃ¨ge (Ã©quitation),,34.0;Ã  l'extÃ©rieur,,34.0;champ,,31.0;cirque (spectacle itinÃ©rant),,30.0;corral,,30.0
-r_is_smaller_than;chat (mammifÃ¨re),,51.0;chat,,29.0
-r_wiki;American Indian Pony,,10.0;Amur,,10.0;Anadolu,,10.0;Anatolien,,10.0;Anatolien natif,,10.0;Ancalagon,,10.0;Arachne,,10.0;Araigne,,10.0;Aravani,,10.0;Arborescence du monde Ã©questre,,10.0;Arctium,,10.0;Arpenteur,,10.0;Assateague,,10.0;Augusta,,10.0;Aurizko zaldia,,10.0;Avelignese,,10.0;AÃ©nos,,10.0;Bachkir,,10.0;Baise,,10.0;Bali,,10.0;Bardane,,10.0;Bardi,,10.0;Barthais,,10.0;Ben Maher,,10.0;Bose,,10.0;Bouriate,,10.0;Caballo Burguete,,10.0;Caballo de Raza Burguete,,10.0;Cayuse,,10.0;Cayuses,,10.0;Chamurthi,,10.0;Char,,10.0;Cheju,,10.0;Cheval des FÃ©roÃ©,,10.0;Chummarti,,10.0;Cob Gypsy,,10.0;Colorado ranger,,10.0;Colorado rangerbred,,10.0;Connemara,,10.0;Criollo vÃ©nÃ©zuÃ©lien,,10.0;D'autres articles audio,,10.0;Debao,,10.0;Dexter Leam Pondi,,10.0;Dosanko,,10.0;Edwina Tops-Alexander,,10.0;Elizabeth Barrett Browning,,10.0;Epona,,10.0;Equitation,,10.0;Equus caballus,,10.0;Equus ferus caballus,,10.0;Eriskay,,10.0;Falabella,,10.0;Fjord,,10.0;Fjording,,10.0;Flores,,10.0;FÃ©dÃ©ration franÃ§aise d'Ã©quitation,,10.0;Galopa,,10.0;Gerco SchrÃ¶der,,10.0;Gotland,,10.0;Gotland Russ,,10.0;Guangxi,,10.0;Guillaume Henry,,10.0;Guy Mannering ou l'Astrologue,,10.0;Gypsy Vanner,,10.0;Haflinger,,10.0;Highland,,10.0;Hokkaido washu,,10.0;Homer au nez rouge,,10.0;Iakoute,,10.0;Irlande,,10.0;Isabelle,,10.0;Jacinte Giscard d'Estaing,,10.0;Jacky au royaume des filles,,10.0;Java,,10.0;Jeju,,10.0;Jos Lansink,,10.0;Kagoshima,,10.0;Kelpie,,10.0;Kevin Staut,,10.0;Kiso,,10.0;L'AltaÃ¯,,10.0;Le Poney de Lisa,,10.0;Le pinceau de calligraphie,,10.0;Llanero,,10.0;LlaÃ±ero,,10.0;Michael Whitaker,,10.0;Misaki,,10.0;Mon Petit Poney,,10.0;MÃ©rens,,10.0;New Forest,,10.0;Newfoundland,,10.0;Nick Skelton,,10.0;Noma,,10.0;Padang,,10.0;Petiso argentino,,10.0;Philippe Lejeune,,10.0;Poly,,10.0;Poly et le MystÃ¨re du chÃ¢teau,,10.0;Poly Ã  Venise,,10.0;Poney de l'Esperia,,10.0;Poney des iles FÃ©roÃ©,,10.0;Poney du Cameroun,,10.0;Poney du Logone,,10.0;Poney du Nigeria,,10.0;Ponyta,,10.0;Poulain,,10.0;PÃ©nÃ©lope LeprÃ©vost,,10.0;Quarter pony,,10.0;Regina,,10.0;Rinkagate,,10.0;Roger-Yves Bost,,10.0;Scott Brash,,10.0;Shetland,,10.0;Simon Delestre,,10.0;Skogsruss,,10.0;Skyros,,10.0;Spiti,,10.0;Stroller,,10.0;Taishuh,,10.0;Tetawken,,10.0;Thessalonien,,10.0;Timor,,10.0;Tinker,,10.0;Tokara,,10.0;Tom Bombadil,,10.0;TransbaÃ¯kal,,10.0;Un poney trÃ¨s courageux,,10.0;Valberg,,10.0;Velcro,,10.0;Velcro Companies,,10.0;Welsh,,10.0;Welsh D,,10.0;Welsh cob,,10.0;Welsh-arabe,,10.0;Welsh-arabian,,10.0;Wendell,,10.0;Zabaikal,,10.0;ZÃ¨bre,,10.0;abyssinien,,10.0;affaire Norman Scott,,10.0;affaire Thorpe,,10.0;alimentation des Ã©quidÃ©s,,10.0;amourski,,10.0;araignÃ©es gÃ©antes,,10.0;asturcÃ³n,,10.0;baixadeiro,,10.0;bama myinn,,10.0;bardane,,10.0;bardanes,,10.0;bardigiano,,10.0;basotho,,10.0;basuto,,10.0;bhirum,,10.0;bidet,,10.0;bidet de poste,,10.0;bidet du Morvan,,10.0;bloc de branche gauche,,10.0;bridon,,10.0;califourchon,,10.0;canadian rustic pony,,10.0;canasson,,10.0;caspien,,10.0;char,,10.0;cheval Burguete,,10.0;cheval celte,,10.0;cheval de Nangchen,,10.0;cheval de bÃ¢t,,10.0;cheval de l'Amour,,10.0;cheval de la Caspienne,,10.0;cheval de mÃ©rens,,10.0;cheval de somme,,10.0;cheval du Morvan,,10.0;cheval finnois,,10.0;cheval iakoute,,10.0;cheval sans papiers,,10.0;chevaux,,10.0;chincoteague,,10.0;cob gallois,,10.0;connemara,,10.0;cuir de cheval,,10.0;equitation,,10.0;eriskay,,10.0;estonien,,10.0;estonien natif,,10.0;exmoor,,10.0;falabella,,10.0;filet,,10.0;finlandais,,10.0;finnois universel,,10.0;fjordhest,,10.0;fjording,,10.0;fleuve,,10.0;forn,,10.0;galiceno,,10.0;garrano,,10.0;guoxia,,10.0;gypsy cob,,10.0;irish cob,,10.0;irlandaise,,10.0;jeu de rÃ´le animal,,10.0;karakatchan,,10.0;kazakh,,10.0;kelpie,,10.0;knabstrup,,10.0;knabstrupper,,10.0;konik,,10.0;konik polski,,10.0;kuda-Bali,,10.0;losino,,10.0;marba,,10.0;mont ValÃ©rien,,10.0;morvandiau,,10.0;mounted-games,,10.0;mÃ©rengais,,10.0;new forest,,10.0;noir,,10.0;palomino,,10.0;personnages des,,10.0;personnages des Simpson,,10.0;petit cheval du Guangxi,,10.0;petplay,,10.0;pinceau,,10.0;pinceau Ã  lavis,,10.0;pindos,,10.0;poney Boer,,10.0;poney Hackney,,10.0;poney australien,,10.0;poney bosniaque,,10.0;poney bosnien,,10.0;poney celtique,,10.0;poney classique allemand,,10.0;poney danois,,10.0;poney de Birmanie,,10.0;poney de DÃ¼lmen,,10.0;poney de Kagoshima,,10.0;poney de Mandchourie,,10.0;poney de Manipur,,10.0;poney de Monterufoli,,10.0;poney de Pinde,,10.0;poney de Terre-Neuve,,10.0;poney de l'Ã®le de Sable,,10.0;poney de selle allemand,,10.0;poney de selle australien,,10.0;poney de selle britannique,,10.0;poney des AmÃ©riques,,10.0;poney des AÃ§ores,,10.0;poney des Musey,,10.0;poney des barthes,,10.0;poney galicien,,10.0;poney iakoute,,10.0;poney indien,,10.0;poney indien du lac La Croix,,10.0;poney tachetÃ© britannique,,10.0;poney tibÃ©tain,,10.0;pony-games,,10.0;pottock,,10.0;pottok,,10.0;pouliche,,10.0;poulinage,,10.0;questre,,10.0;race chevaline,,10.0;races chez le cheval,,10.0;races de chevaux,,10.0;rapidash,,10.0;robe,,10.0;robe de cheval,,10.0;robe du cheval,,10.0;rubican,,10.0;shetland amÃ©ricain,,10.0;signe de Babinski,,10.0;ski attelÃ©,,10.0;spiti,,10.0;sports de glace,,10.0;station nationale classÃ©e de sports d'hiver,,10.0;village de charme,,10.0;welara,,10.0;zÃ¨bres,,10.0;Ã‰couter cet article,,10.0;Ã‰pona,,10.0;Ã‰pone,,10.0;Ã‰quifun,,10.0;Ã‰ric Navet,,10.0;Ã  califourchon,,10.0;Ã©questre,,10.0;Ã©quin,,10.0;Ã©quine,,10.0;Ã©thique du cheval,,10.0;poussette,,9.0;sport d'hiver,,9.0;sports d'hiver,,9.0;Ã©quitation,,9.0;ski,,8.0;zÃ¨bre,,7.0
-r_syn;cheval,,38.0;cheval (animal),,27.0
-r_hypo;solipÃ¨de,,121.0;Ã©quidÃ©,,121.0;cheval,,103.0;uniconte,,78.0;Ã©pineurien,,76.0;opisthoconte,,75.0;holozoaire,,73.0;mÃ©tazoaire,,71.0;organisme animal,,71.0;filozoaire,,69.0;eucaryote,,68.0;choano-organisme,,67.0;choanobionte,,67.0;gnathostome,,67.0;cordÃ©,,66.0;crÃ¢niate,,66.0;crÃ¢niÃ©,,66.0;eumÃ©tazoaire,,66.0;herbivore,,66.0;olfactorien,,66.0;tÃ©trapode,,66.0;=domestic animal=,,65.0;animal domestique,,65.0;amniote,,64.0;bilatÃ©rien,,64.0;coelomate,,64.0;coelomÃ©,,64.0;cÃ©lomate,,64.0;synapside,,64.0;deutÃ©rostomien,,62.0;chordÃ©,,56.0;cordÃ© (zoologie),,56.0;moyen de transport,,56.0;animal,,55.0;animal (zoologie),,55.0;mammifÃ¨re,,55.0;quadripÃ¨de,,55.0;quadrupÃ¨de,,55.0;vertÃ©brÃ©,,55.0;Ãªtre vivant,,55.0;cheval (animal),,34.0;entitÃ© vivante,,34.0;organisme vivant,,34.0;organisme (Ãªtre vivant),,34.0;Ãªtre vivant (entitÃ©),,34.0;Ãªtre (individu),,34.0;organisme,,32.0;espÃ¨ce animale,,29.0;animal de cirque,,25.0;cynodonte,,25.0;entitÃ© biologique,,25.0;entitÃ© physique,,25.0;mammifÃ¨re herbivore,,25.0;tÃ©trapode (vertÃ©brÃ©),,25.0;lieu,,24.0;Ãªtre,,24.0;vÃ©hicule,,22.0; un/le Ãªtre ,,22.0;cheval (viande),,-1.0;cheval (Ã©quitation),,-1.0;cheval (laideron),,-4.0
-r_has_antimagn;cheval,,120.0
-r_lieu;selle,,108.0;selle (cheval),,5.0
-r_agent;gambader,,130.0;brouter (paÃ®tre),,65.0;galoper,,45.0;se nourrir,,31.0;ambler,,30.0;boire,,30.0;boire (se dÃ©saltÃ©rer),,30.0;courir,,30.0;dormir,,30.0;embler,,30.0;hennir,,30.0;manger,,30.0;manger (alimentation),,30.0;manger (alimentation, absorber),,30.0;se reproduire,,30.0;vivre,,30.0;mourir (cesser de vivre),,17.0;vivre (Ãªtre en vie),,17.0;mourir,,16.0;sauter,,13.0
-r_associated;pie (pelage),,175.0;roxer du poney,,148.0;poney club,,147.0;cheval,,131.0;shetland,,104.0;haflinger,,103.0;animal domestique,,91.0;solipÃ¨de,,91.0;Ã©quidÃ©,,91.0;cob,,90.0;=domestic animal=,,89.0;niche est Ã  chien ce que Ã©curie est Ã  ...,,81.0;=mammalia=,,80.0;mammifÃ¨res,,77.0;fjord (cheval),,76.0;aller chercher sa fille au poney,,74.0;rÃªnes,,61.0;amniote,,60.0;entitÃ© vivante,,60.0;organisme vivant,,60.0;organisme (Ãªtre vivant),,60.0;poney d'Islande,,60.0;poney de,,60.0;vertÃ©brÃ©,,60.0;Ãªtre vivant (entitÃ©),,60.0;Ãªtre (individu),,60.0;trotter,,59.0;uniconte,,59.0;Ãªtre vivant,,59.0;holozoaire,,58.0;monture,,58.0;Fell,,57.0;poney mÃ©rens,,57.0;vÃ©hicule,,57.0;crÃ¢niate,,56.0;crÃ¢niÃ©,,56.0;moyen de transport,,56.0;olfactorien,,56.0;opisthoconte,,56.0;pie,,56.0;poney fjord,,56.0;quadripÃ¨de,,56.0;quadrupÃ¨de,,56.0;Ã©pineurien,,55.0;animal (zoologie),,54.0;bilatÃ©rien,,54.0;choano-organisme,,54.0;choanobionte,,54.0;coelomate,,54.0;coelomÃ©,,54.0;cÃ©lomate,,54.0;fjord,,54.0;lieu,,54.0;mÃ©tazoaire,,54.0;organisme animal,,54.0;pie (Adj),,54.0;poney celtique,,54.0;poney haflinger,,54.0;poney shetland,,54.0;tÃ©trapode,,54.0;eumÃ©tazoaire,,53.0;filozoaire,,53.0;islandais,,53.0;landais,,53.0;poney Galicien,,53.0;poney basque,,53.0;poney highland,,53.0;pottock,,53.0;pottok,,53.0;synapside,,53.0;animal,,52.0;chordÃ©,,52.0;cordÃ© (zoologie),,52.0;deutÃ©rostomien,,52.0;gnathostome,,52.0;herbivore,,52.0;animal herbivore,,51.0;cordÃ©,,51.0;eucaryote,,51.0;mammifÃ¨re,,51.0;manÃ¨ge,,51.0;ruade,,51.0;Ã¢ne bÃ¢tÃ©,,51.0;Ã¢ne rouge,,51.0;poney exmoor,,44.0;poney dartmoor,,43.0;pur sang,,43.0;pur-sang,,43.0;pursang,,43.0;organisme,,42.0;poney celte,,42.0;poney landais,,42.0;poney islandais,,41.0;poney pottok,,41.0;faire du poney,,40.0;poney connemara,,39.0;cheval (animal),,38.0;poney gallois,,37.0;poneys,,35.0; un/le Ãªtre ,,34.0;MammifÃ¨res,,32.0;cheval nain,,32.0;monture (animal),,32.0;ponette,,32.0;Ãªtre,,32.0;=pony=,,31.0;Mammalia,,31.0;galop,,31.0;cheval de la Caspienne,,30.0;jument,,30.0;Ã©talon,,30.0;rÃ¨gne animal,,29.0;Ã©talon (cheval),,29.0;faune,,28.0;padang,,28.0;poulain,,28.0;poulain (cheval),,28.0;Zoologie,,27.0;oeil (organe),,26.0;animaux,,24.0;zoologie,,24.0;queue,,23.0;vÃ©hicules,,23.0;=vertebrata=,,22.0;vertÃ©brÃ©s,,22.0;espÃ¨ce animale,,16.0;poney franÃ§ais de selle,,16.0;animateur poney,,15.0;Ã©quitation sur poney,,15.0;poney de selle britannique,,14.0;poney tachetÃ© britannique,,14.0;race de poney,,14.0;mon petit poney,,12.0;poney de Kagoshima,,12.0;poney fell,,12.0;Mon petit poney,,11.0;Un poney trÃ¨s courageux,,11.0;poney Boer,,11.0;poney Hackney,,11.0;poney ariÃ©geois,,11.0;poney australien,,11.0;poney bosniaque,,11.0;poney bosnien,,11.0;poney brÃ©silien,,11.0;poney classique allemand,,11.0;poney danois,,11.0;poney de Birmanie,,11.0;poney de DÃ¼lmen,,11.0;poney de Mandchourie,,11.0;poney de Manipur,,11.0;poney de Monterufoli,,11.0;poney de Pinde,,11.0;poney de Somalie,,11.0;poney de Terre-Neuve,,11.0;poney de l'Ã®le de Sable,,11.0;poney de selle allemand,,11.0;poney de selle australien,,11.0;poney des AmÃ©riques,,11.0;poney des AÃ§ores,,11.0;poney des Musey,,11.0;poney des barthes,,11.0;poney galicien,,11.0;poney indien,,11.0;poney indien du lac La Croix,,11.0;poney new forest,,11.0;poney tibÃ©tain,,11.0;poney des Barthes,,10.0;avoir poney,,8.0;Spiti,,7.0;alezan,,5.0;poney iakoute,,5.0;queue (queue d'animal),,5.0;=vertebra=,,4.0;vertÃ¨bre,,4.0;aquaponey,,2.0;fiord,,1.0;oeil (organe de la vue),,1.0
-r_isa;landais,,258.0;fjord,,251.0;islandais,,250.0;pottock,,250.0;pottok,,250.0;haflinger,,246.0;shetland,,238.0;cheval de la Caspienne,,206.0;fjord (cheval),,82.0;poney Galicien,,54.0;poney de selle australien,,43.0;poney celte,,42.0;poney club,,42.0;poney de,,42.0;poney bosnien,,39.0;poney de Manipur,,39.0;poney pottok,,38.0;poney celtique,,36.0;poney fjord,,36.0;poney haflinger,,36.0;poney highland,,36.0;poney iakoute,,36.0;poney mÃ©rens,,36.0;poney shetland,,36.0;poney australien,,35.0;poney des barthes,,35.0;poney galicien,,35.0;poney indien,,35.0;Aravani,,34.0;poney de l'Ã®le de Sable,,34.0;poney Boer,,33.0;poney de Mandchourie,,33.0;poney de Monterufoli,,33.0;poney de Somalie,,33.0;hobin,,32.0;poney basque,,32.0;poney classique allemand,,32.0;poney dartmoor,,32.0;poney de DÃ¼lmen,,32.0;poney de Kagoshima,,32.0;poney exmoor,,32.0;poney indien du lac La Croix,,32.0;poney islandais,,32.0;poney landais,,32.0;Dexter Leam Pondi,,31.0;poney bosniaque,,31.0;poney connemara,,31.0;poney danois,,31.0;poney des Musey,,31.0;poney gallois,,31.0;poney tibÃ©tain,,31.0;American Indian Pony,,30.0;cheval celte,,30.0;poney de Birmanie,,30.0;poney de selle allemand,,30.0;poney des AmÃ©riques,,30.0;Cheval des FÃ©roÃ©,,29.0;poney Hackney,,29.0;poney de Pinde,,29.0;poney brÃ©silien,,28.0;poney des AÃ§ores,,27.0;Poney des iles FÃ©roÃ©,,26.0;poney ariÃ©geois,,26.0;poney d'Islande,,26.0;poney des Barthes,,26.0;poney fell,,26.0;poney franÃ§ais de selle,,26.0;poney new forest,,26.0;Chamurthi,,25.0;Chummarti,,25.0;Spiti,,25.0;poney de selle britannique,,25.0;poney tachetÃ© britannique,,25.0;fiord,,1.0
-r_has_part;faune,,12.0;rÃ¨gne animal,,12.0
-r_sentiment-1;bonheur,,2.0;satisfaction,,2.0;surprise,,2.0;plaisir,,1.0
-r_domain-1;vertÃ©brÃ©s,,74.0;=vertebrata=,,72.0;Zoologie,,32.0;zoologie,,32.0;animaux,,28.0;vÃ©hicules,,27.0;animal,,22.0
-r_lemma;poneys,,59.0;poney,,57.0
+voisinage 
+434182;'Comtois';1;50
+1734681;'poney basque';1;0
+151553;'_FL:0';6;50
+38916;'pottok';1;52
+3706941;'aller chercher sa fille au poney';1;0
+1761309;'equitation';1;0
+5945426;'cheval du Morvan';777;0
+5945427;'bidet du Morvan';777;0
+104460;'chevaux';1;262
+16399;'islandais';1;58
+135190;'lieu';1;1448
+36886;'faune';1;380
+57369;'Normandie';1;364
+151576;'_FL:6';6;50
+2598971;':r12203209';10;0
+1814534;'élevage du cheval en France';1;0
+5945466;'kuda-Bali';777;0
+5945467;'spiti';777;0
+2586629;'Number:Sing';4;0
+5945464;'poney indien du lac La Croix';777;0
+3184658;'pie>269839';1;0;pie>blanc et noir
+2586627;'Gender:Mas';4;0
+5945471;'Chummarti';777;0
+2408449;'Bouriate';1;0
+5945469;'Chamurthi';777;0
+5945462;'poney indien';777;0
+5945463;'American Indian Pony';777;0
+4024336;'Online Computer Library Center';1;0
+5679206;'Elizabeth Barrett Browning';777;0
+5945453;'Guillaume Henry';777;0
+249912;'champs de course';1;58
+397369;'Henson';1;50
+233532;'Epona';1;60
+272452;'ponette';777;50
+272453;'cheval nain';777;50
+3575927;'Morpho:min';18;50
+325703;'robe du cheval';1;50
+30789;'Auxois';1;50
+6529071;'Anatolien natif';777;0
+32851;'mammifères';1;144
+5945351;'Noma';777;0
+2324605;'Christianisme';1;0
+5945348;'Misaki';777;0
+5945400;'cheval de Nangchen';777;0
+11137226;':r437160';10;0
+325728;'uniconte';1;38
+264288;'signe de Babinski';1;52
+5679155;'éthique du cheval';777;0
+325731;'opisthoconte';1;68
+24679;'taxon';1;66
+5945394;'poney de Kagoshima';777;0
+5918770;'alimentation des équidés';777;0
+325741;'choanobionte';1;70
+5945395;'Kiso';777;0
+41066;'stalle';1;66
+325736;'holozoaire';1;54
+151663;'_FL:15';6;50
+325738;'filozoaire';1;62
+9105658;'=pony=';1;0
+409716;'Welsh';1;50
+106613;'Padang';1;50
+39031;'cerveau';1;1628
+112758;'Palestine';1;174
+79993;'anglais';1;1236
+45177;'trotter';1;182
+155779;'véhicules';1;72
+241794;'_POL-NEUTRE';36;50
+2367654;'poney exmoor';1;0
+594059;'bloc de branche gauche';1;0
+112773;'pur-sang';1;68
+75908;'mines';1;64
+63622;'cob';1;52
+129166;'abyssinien';1;50
+34960;'shetland';1;74
+399506;'équine';1;50
+102549;'Gotland';1;50
+150;'chat';1;5098
+10549303;'équitation sur poney';777;0
+8884240;':r10046899';10;0
+1814668;'Tokara';1;0
+3223718;'Araigne';777;0
+159898;'garot';1;50
+10549304;'poney-clubs';777;0
+10549305;'animateur poney';777;0
+1810621;'Épone';777;0
+137390;'zèbre';1;212
+110773;'amniote';1;78
+26806;'monture';1;216
+11382801;'Ta Prohm';777;0
+256195;'fjord>39022';1;50;fjord>crique
+299204;'village de charme';777;50
+299205;'station nationale classée de sports d'hiver';777;50
+237765;'patte>141795';1;50;patte>membre
+256196;'fjord>145246';1;50;fjord>cheval
+5626013;'Équitation';777;0
+24776;'Tourlaville';1;50
+2105586;'trotteurs';2;0
+258257;'pie>2149';1;50;pie>gâteau
+151767;'_FL:17';6;50
+47319;'colonne vertébrale';1;260
+6529204;'race de poney';1;0
+10047566;'poste aux chevaux';777;0
+2406649;'Castillonnais';1;0
+219363;'corps>112609';1;148;corps>anatomie
+116980;'squelette';1;1070
+43253;'dormir';1;6012
+293105;'Juan Manuel Fangio';777;50
+10961324;'avoir poney';1;0
+1814805;'Jeju';1;0
+76046;'oreilles';1;494
+248081;'chordé';1;222
+47385;'Auvergne';1;160
+11129269;'Le pinceau de calligraphie';777;0
+3576104;'Morpho:nospace';18;50
+8757659;':r177332439';10;0
+375067;'race chevaline';1;50
+11129270;'pinceau à lavis';777;0
+76064;'biotope';1;90
+5945727;'race de chevaux';1;0
+2402572;'poney islandais';1;0
+131370;'haras';1;86
+133424;'endotherme';1;50
+2533651;'Velcro';1;0
+69943;'fleuve';1;1618
+143669;'vertébrés';1;80
+139578;'muscle';1;1532
+151867;'pattes';1;1098
+11151765;'Spiti';1;0
+121150;'Camargue';1;144
+94530;'Bali';1;68
+31046;'têtu';1;170
+5808414;'cheval Burguete';777;0
+35143;'biologie';1;1808
+5808415;'Caballo Burguete';777;0
+3858804;'Cherbourg-en-Cotentin';1;0
+436570;'entité biologique';1;50
+8542;'beige';1;134
+3156334;'an:120842:4455:97335:?';12;50
+59743;'bridon';1;50
+121186;'trot';1;114
+2392386;'poney celte';1;0
+117095;'zoologie';1;1542
+96615;'randonnée';1;652
+20838;'Skyros';1;50
+102760;'amical';1;200
+16747;'adn';1;156
+6013229;'Lire la suite';777;0
+5808416;'Caballo de Raza Burguete';777;0
+5808417;'Aurizko zaldia';777;0
+2453851;'new forest';1;0
+239996;'poulain>145246';1;12;poulain>cheval
+10314012;'=heterotroph=';1;0
+567691;'races de chevaux';777;50
+248198;'_SEX_NO';36;50
+2442;'vivre';1;2194
+2525613;'embler';1;0
+268681;'tourisme équestre';1;50
+10989866;'Guy Mannering ou l'Astrologue';777;0
+280981;'pottock';777;50
+420241;'Kelpie';1;50
+106906;'Timor';1;52
+5534152;'Portails thématiques';777;0
+2480570;'Mérens';1;0
+135591;'poil';1;2542
+88491;'reproduction';1;632
+37298;'amour';1;6778
+88498;'Augusta';1;50
+10991888;'Val de Saire';777;0
+2501020;'poney mérens';1;0
+41407;'septembre';1;2344
+53696;'fjord';1;64
+55748;'Kagoshima';1;50
+137668;'Char';1;50
+2863587;'Zèbre';1;0
+135631;'crin';1;130
+106958;'Irlande';1;228
+11577701;'Enzo Apicella';777;0
+11577702;'Alain Baptizet';777;0
+123350;'sabot';1;418
+11577703;'Tadeusz Kraus';777;0
+11577704;'David Azulai';777;0
+213466;'chat>63235';1;548;chat>mammifère
+51676;'finlandais';1;52
+1636805;'oeil>44335';1;50;oeil>organe
+11577709;'Bernard Bragg';777;0
+11577711;'Franco Franchi';777;0
+9601394;'Michael Whitaker';777;0
+330215;'bilatéralement symétrique';1;22
+2480579;'Bachkir';1;0
+2464206;'quadripède';1;0
+317929;'olfactorien';1;32
+76271;'Cheval';1;56
+301546;'questre';777;50
+141814;'vertèbre';1;310
+139779;'ADN';1;662
+154115;'naseaux';1;86
+248322;'Wikimedia Foundation';1;8
+2013724;'bidets';2;0
+2951721;'aquaponey';666;0
+326146;'système nerveux en position dorsale';1;56
+11125415;'Gerco Schröder';777;0
+55823;'métazoaire';1;154
+27154;'animal domestique';1;324
+57875;'tube digestif';1;108
+102933;'alezan';1;54
+41493;'Bardi';1;50
+2540094;'Barthais';1;0
+573968;'Écouter cet article';777;50
+403996;'Poly';1;50
+6912626;'=domestic animal=';1;0
+47643;'poussette';1;160
+11082368;'Philippe Lejeune';777;0
+2517517;'Iakoute';1;0
+596517;'pie>171869';1;0;pie>Adj:
+4653;'courir';1;1988
+234035;'être vivant>2442';1;4;être vivant>vivre
+225847;'organisme>71624';1;64;organisme>être vivant
+7860802;':r108104016';10;0
+225846;'organisme>332175';1;52;organisme>ensemble des organes
+234036;'être vivant>123933';1;248;être vivant>entité
+27191;'ferré';1;76
+225849;'organisme>86627';1;50;organisme>organisation
+225848;'organisme>118203';1;50;organisme>corps humain
+152125;'Zoologie';1;208
+16962;'âne bâté';1;56
+105028;'Angleterre';1;1056
+145999;'Breton';1;74
+332362;'Dinornithiformes';777;50
+43601;'se reproduire';1;478
+72272;'Isabelle';1;60
+311888;'Autre que pur sang';777;50
+2649;'biens nationaux';1;50
+64090;'Épona';1;50
+109155;'sélection naturelle';1;108
+139872;'Flores';1;50
+109157;'ruade';1;74
+123492;'statue';1;623
+115304;'deutérostomien';1;110
+295529;'traction hippomobile';777;50
+4649513;':r10011090';10;0
+86640;'vertébré';1;840
+162417;'centre équestre';1;72
+5837346;'knabstrup';777;0
+5837350;'knabstrupper';777;0
+291460;'cheval de la Caspienne';777;50
+234119;'manège>83824';1;4;manège>équitation
+225934;'oeil>330323';1;106;oeil>organe de la vue
+213644;'os>116980';1;282;os>squelette
+2568887;'poney fjord';1;0
+10832436;'Mon Petit Poney';777;0
+146071;'selle';1;684
+12952;'Cambodge';1;98
+101018;'gnathostome';1;74
+12960;'haflinger';1;50
+107179;'ski';1;1116
+412342;'Pied';1;50
+264880;'bilatérien';1;64
+264881;'crânié';1;48
+6842;'rênes';1;52
+33468;'écuries';1;50
+412347;'Highland';1;50
+148157;'fiord';1;50
+398023;'Cayuse';1;50
+275142;'races';1;50
+422595;'highland';1;50
+264908;'eumétazoaire';1;58
+80589;'carrousel';1;56
+275144;'chrétienne';1;18
+1088197;'animal herbivore';1;0
+260820;'entité vivante';1;64
+2568953;'Connemara';1;0
+10983;'attelage';1;120
+2591434;':r563624';10;0
+64238;'noir';1;3681
+94958;'poulain';1;252
+297707;'bardanes';777;50
+9472609;':r213913454';10;0
+6283948;'Taxon';1;0
+314109;'âne rouge';1;50
+2446047;'poney new forest';1;0
+6312606;'cheval islandais';1;0
+10578526;'Anglo-normand';777;0
+11600821;'Yuri Vardanyan';777;0
+396042;'tétrapode>86640';1;50;tétrapode>vertébré
+11410337;'Le Poney de Lisa';777;0
+84753;'équin';1;54
+148240;'galeries';1;54
+273168;'Equus ferus caballus';777;50
+273169;'Equus caballus';777;50
+8990;'patte';1;1758
+213792;'coeur>213791';1;92;coeur>organe musculaire
+23332;'encolure';1;140
+135974;'prairie';1;220
+119588;'Cotentin';1;50
+47918;'boire';1;4348
+11156379;'Edwina Tops-Alexander';777;0
+230196;'pie>99340';1;50;pie>assolement
+107324;'Scots';1;50
+152386;'sabots';1;106
+49989;'champs';1;394
+117584;'garrot';1;72
+154448;'Equitation';1;62
+414558;'Garrot';1;50
+123745;'véhicule';1;2064
+211810;'saut d'obstacles';1;54
+52075;'crins';1;62
+97135;'Cheju';1;50
+2444106;'poney ariégeois';1;0
+10435567;'Willie McCovey';777;0
+396149;'cynodonte';1;62
+109426;'galoper';1;172
+396146;'thérapside';1;54
+1964903;'Trot';1;0
+3228593;'wiki:@';444;0
+285570;'bataille de Waterloo';1;50
+6800353;'=nervous system=';1;0
+293772;'Avelignese';777;50
+37768;'juif';1;428
+2399149;'poney landais';1;0
+220046;'selle>145246';1;54;selle>cheval
+103311;'système nerveux';1;246
+324490;'roxer du poney';1;50
+3158975;'Nom vernaculaire';777;0
+306059;'cheval de somme';777;50
+172941;'Anatolien';1;2
+172944;'Anglais';1;20
+5618625;'D'autres articles audio';777;0
+99220;'hétérotrophe';1;62
+52119;'langue';1;3938
+10908465;'Nick Skelton';777;0
+64408;'Pakistan';1;116
+172953;'Ardennais';1;50
+254878;'_POL-NEG_PC';36;50
+2532280;'poney highland';1;0
+254877;'_POL-NEUTRE_PC';36;50
+220060;'étalon>145246';1;60;étalon>cheval
+254876;'_POL-POS_PC';36;50
+414630;'Bardane';1;50
+414631;'Arctium';1;50
+78759;'rubican';1;50
+238504;'poulinage';1;50
+5944297;'Jacky au royaume des filles';777;0
+10619665;'Eriskay';777;0
+416700;'Tinker';1;50
+142265;'la';1;322
+58301;'Juifs';1;56
+162759;'_INFO-SEM-PLACE';36;504
+11576184;'Jair Bolsonaro';777;0
+162763;'_INFO-SEM-THING-CONCRETE';36;1238
+10908525;'Kevin Staut';777;0
+11576189;'Andrea Manfredi';777;0
+10908520;'Ben Maher';777;0
+10908521;'Scott Brash';777;0
+10056522;'Homer au nez rouge';777;0
+10908530;'Pénélope Leprévost';777;0
+158679;'irlandaise';1;56
+56280;'oreille';1;1785
+173027;'caspien';1;50
+2427840;'poney fell';1;0
+21480;'palomino';1;52
+103405;'indifférence';1;464
+3173341;'James J. Bulger';1;0
+11125593;'Simon Delestre';777;0
+416757;'Accueil';1;50
+58356;'box';1;182
+402430;'Race';1;50
+10908508;'Jos Lansink';777;0
+4332479;'Église catholique en France';777;0
+13311;'mont Valérien';1;52
+265220;'épineurien';1;20
+2581543;'cheval celte';777;0
+2581542;'poney celtique';777;0
+5831774;'falabella';777;0
+11590840;'Haguard';777;0
+10761396;'Criollo vénézuélien';777;0
+10761397;'Llanero';777;0
+95256;'queue';1;2448
+33819;'station spatiale internationale';1;50
+10761407;'Llañero';777;0
+121889;'pré';1;870
+111649;'charbon';1;546
+285728;'DOI';1;2
+115748;'ISSN';1;50
+6947917;'=vertebrata=';1;0
+179240;'ancien français';1;50
+11377792;'petplay';777;0
+10601617;'personnages des Simpson';777;0
+2509844;'pursang';1;0
+97335;'écurie';1;436
+265277;'crâniate';1;52
+13369;'être';1;806
+171067;'à califourchon';1;2
+2358297;'poney pottok';1;0
+105533;'sports de glace';1;50
+3145;'Corse';1;178
+420937;'poneys';1;52
+91217;'Texas';1;138
+240720;'squelette>112609';1;102;squelette>anatomie
+21590;'nain';1;654
+3298410;'Galopa';1;0
+29786;'ferme';1;2022
+33882;'se nourrir';1;370
+3298409;'Ponyta';1;0
+74846;'corps';1;4622
+6681658;'manger>113902';1;10;manger>alimentation
+156772;'postes';1;58
+339053;'bidet de poste';1;50
+218223;'pie>138092';1;4;pie>pelage
+152685;'Animal';1;50
+218227;'robe de cheval';1;32
+218225;'pie>43384';1;4;pie>bavard
+218224;'pie>140176';1;48;pie>oiseau
+136310;'califourchon';1;60
+130164;'manger';1;9656
+5831717;'Arborescence du monde équestre';777;0
+2366626;'poney connemara';1;0
+173188;'Islandais';1;52
+2366627;'connemara';1;0
+3298485;'rapidash';777;0
+2358444;'exmoor';1;0
+46228;'Louisiane';1;86
+17559;'animal';1;13293
+224422;'manger>113902>119570';1;196;manger>alimentation>absorber
+136356;'Grande-Bretagne';1;100
+58535;'morvandiau';1;50
+5944560;'Poly à Venise';777;0
+271535;'Duel';1;50
+2354319;'Rinkagate';777;0
+5944566;'Fjording';777;0
+2354318;'affaire Norman Scott';777;0
+138412;'Shetland';1;50
+249004;'nom vernaculaire';1;4
+2354322;'affaire Thorpe';777;0
+5944555;'Poly et le Mystère du château';777;0
+2084010;'taxons';2;0
+191669;'_INFO-SEM-LIVING-BEING';36;160
+64698;'corral';1;54
+124094;'enfant';1;18408
+2436325;'poney des Barthes';1;0
+2508002;'kelpie';1;0
+152778;'moyen de transport';1;428
+412879;'Wendell';1;50
+11543674;'Jamal Khashoggi';777;0
+42188;'filet';1;642
+7376;'Norman';1;54
+330964;'cordé>117095';1;36;cordé>zoologie
+77008;'yeux';1;4014
+11377791;'jeu de rôle animal';777;0
+330963;'cordé>3674';1;50;cordé>botanique
+216283;'dent>45311';1;236;dent>dentaire
+109785;'peau';1;3124
+572627;'poids lourds';777;50
+3450090;'bn:00063528n';444;0
+3450091;'bn:13786908n';444;0
+187622;'patte antérieure';1;8
+187620;'patte postérieure';1;6
+210148;'à l'extérieur';1;90
+10052734;'Amble';1;0
+93416;'octobre';1;2382
+144619;'Charolais';1;56
+1813745;'îles Shetland';1;0
+173292;'Newfoundland';1;50
+396521;'poney Galicien';1;50
+152813;'_FL:28';6;50
+181494;'cheval de bât';1;50
+40184;'siège';1;1326
+2983124;'_SW';36;50
+81153;'Nation';1;58
+152836;'_FL:24';6;50
+142602;'cordé';1;100
+83208;'cirque';1;1470
+11529;'char';1;284
+6065494;'Fédération française d'équitation';777;0
+140553;'Java';1;104
+152844;'sang chaud';1;80
+247057;'symétrie bilatérale';1;6
+10831287;'Roger-Yves Bost';777;0
+10831286;'Éric Navet';777;0
+5944654;'My Little Pony';777;0
+5944655;'mon petit poney';777;0
+5944652;'poney des barthes';777;0
+10778045;'Erika Mahringer';777;0
+292126;'International Standard Book Number';777;54
+5881159;'Bidet';1;0
+5944692;'Stroller';777;0
+95539;'kazakh';1;50
+60723;'retors';1;66
+677182;':r2554381';10;0
+677183;':r10761160';10;0
+677180;':r9899238';10;0
+677181;':r14052071';10;0
+6198633;'umls:C0324180';444;0
+9536;'dehors';1;746
+677194;':r2896373';10;0
+2600294;'poney d'Islande';1;0
+677195;':r10922397';10;0
+677192;':r10785043';10;0
+212289;'Révolution industrielle';1;50
+677193;':r8942473';10;0
+232768;'Église catholique';1;4
+677198;':r11254540';10;0
+677199;':r10750643';10;0
+91463;'gambader';1;74
+677196;':r1683986';10;0
+101703;'Fell';1;50
+214340;'robe>138092';1;70;robe>pelage
+677197;':r12046073';10;0
+677186;':r10790271';10;0
+5944595;'poney australien';777;0
+677187;':r10862675';10;0
+677184;':r10766374';10;0
+677185;':r2554383';10;0
+126285;'dos';1;952
+677190;':r10767579';10;0
+116045;'bidet';1;132
+157007;'être>146885';1;50;être>Nom:Mas+SG
+677191;':r1683985';10;0
+142671;'Bose';1;50
+677188;':r10778587';10;0
+677189;':r2822578';10;0
+11122150;'estonien natif';777;0
+677210;':r2236832';10;0
+677211;':r2044360';10;0
+570713;'personnages des';777;50
+677208;':r11124777';10;0
+677209;':r2554382';10;0
+677214;':r14419853';10;0
+677215;':r11134248';10;0
+677212;':r2236829';10;0
+677213;':r2236831';10;0
+677202;':r2855691';10;0
+677203;':r10779774';10;0
+677200;':r597733';10;0
+40282;'Jean-Baptiste Colbert';1;50
+677201;':r10755929';10;0
+120157;'règne animal';1;72
+677206;':r2554431';10;0
+677207;':r9617020';10;0
+677204;':r630017';10;0
+677205;':r2554432';10;0
+677226;':r3132650';10;0
+677227;':r3132651';10;0
+677224;':r2785192';10;0
+677225;':r13887033';10;0
+677230;':r2554417';10;0
+81253;'néoténie';1;50
+677231;':r2554419';10;0
+5944639;'asturcón';777;0
+677228;':r2307156';10;0
+677229;':r13027425';10;0
+1384;'vivant';1;586
+677218;':r11147569';10;0
+677219;':r11154190';10;0
+677216;':r11140951';10;0
+677217;':r10932731';10;0
+677222;':r14027832';10;0
+677223;':r13917945';10;0
+677220;':r13979156';10;0
+677221;':r13728524';10;0
+677242;':r2554430';10;0
+677243;':r2554423';10;0
+146803;'pieds';1;632
+677240;':r2806370';10;0
+71026;'flanc';1;106
+677241;':r2697688';10;0
+95605;'champ';1;1974
+677246;':r2554422';10;0
+677247;':r2554427';10;0
+677244;':r2554420';10;0
+677245;':r2554421';10;0
+677234;':r3104882';10;0
+3290442;'Percheron';1;0
+677235;':r2554428';10;0
+677232;':r2554418';10;0
+677233;':r3104881';10;0
+677238;':r2554426';10;0
+132479;'marron';1;664
+677239;':r2925468';10;0
+267642;'organisme animal';1;4
+677236;':r2554429';10;0
+677237;':r15795473';10;0
+677258;':r2940132';10;0
+5944794;'chincoteague';777;0
+677259;':r10773334';10;0
+46465;'Magne';1;50
+5944795;'Assateague';777;0
+677256;':r2960415';10;0
+677257;':r2507945';10;0
+677262;':r3039105';10;0
+677263;':r2966774';10;0
+677260;':r2875610';10;0
+677261;':r2971813';10;0
+677250;':r2554392';10;0
+69001;'pouliche';1;86
+5944786;'Welsh D';777;0
+677251;':r2984524';10;0
+5944787;'cob gallois';777;0
+30089;'Guangxi';1;52
+677248;':r2554424';10;0
+677249;':r2554425';10;0
+5944785;'Welsh cob';777;0
+677254;':r2507946';10;0
+677255;':r13028329';10;0
+677252;':r11260399';10;0
+5944788;'Gotland Russ';777;0
+677253;':r2985799';10;0
+5944789;'Skogsruss';777;0
+11027751;'Équifun';777;0
+58768;'organisme';1;244
+677274;':r2554413';10;0
+677275;':r2554414';10;0
+677272;':r2507944';10;0
+677273;':r2507943';10;0
+677278;':r2706056';10;0
+677279;':r2554385';10;0
+152983;'sport d'hiver';1;66
+677276;':r11828141';10;0
+38295;'équidé';1;280
+677277;':r2507942';10;0
+105878;'nanisme';1;90
+136597;'duel';1;451
+677266;':r2884555';10;0
+677267;':r2554410';10;0
+677264;':r2929956';10;0
+677265;':r2935311';10;0
+677270;':r2554384';10;0
+677271;':r2554411';10;0
+677268;':r2507947';10;0
+5944772;'konik';777;0
+677269;':r2507948';10;0
+5944773;'konik polski';777;0
+677290;':r2554408';10;0
+677291;':r2554407';10;0
+677288;':r2554399';10;0
+677289;':r2554409';10;0
+677294;':r2554404';10;0
+677295;':r2554403';10;0
+7589;'femelle';1;654
+677292;':r2554406';10;0
+677293;':r2554405';10;0
+677282;':r2762254';10;0
+677283;':r2747163';10;0
+2585997;'_INFO-CNRTL-NO';36;50
+677280;':r2554387';10;0
+677281;':r2554388';10;0
+677286;':r2699235';10;0
+677287;':r2554412';10;0
+677284;':r2740249';10;0
+677285;':r2707111';10;0
+677306;':r2554397';10;0
+677307;':r2554398';10;0
+677304;':r2554395';10;0
+677305;':r2554396';10;0
+677310;':r15871757';10;0
+126388;'articulation';1;600
+677311;':r14712638';10;0
+316850;'entité physique';1;50
+677308;':r2843421';10;0
+677309;':r2641317';10;0
+110006;'Lessay';1;50
+677298;':r2810095';10;0
+2389404;'camargue';1;0
+28088;'zèbres';1;50
+60856;'bardane';1;50
+677299;':r2840803';10;0
+677296;':r2554402';10;0
+677297;':r2554401';10;0
+677302;':r2554391';10;0
+677303;':r2554394';10;0
+230846;'wiki';1;54
+677300;':r2554389';10;0
+677301;':r2554390';10;0
+52673;'intelligent';1;386
+1852895;'Amur';1;0
+6065560;'mounted-games';777;0
+36294;'herbivore';1;200
+146885;'Nom:Mas+SG';4;50
+677314;':r2554393';10;0
+6948258;'=mammalia=';1;0
+677315;':r2846391';10;0
+677312;':r13002948';10;0
+677313;':r11689393';10;0
+4640141;':r10257766';10;0
+6065559;'pony-games';777;0
+144846;'tête';1;5450
+677316;':r2554400';10;0
+153037;'_FL:26';6;50
+136653;'Cherbourg';1;52
+2960895;'Mine';1;0
+32211;'étalon';1;210
+302545;'International Standard Serial Number';777;50
+10427721;'Championnats du monde de gymnastique artistique 2018';777;0
+99801;'Knesset';1;50
+11492724;'Falabella';777;0
+60902;'dent';1;3318
+2602447;'mérengais';777;0
+2602446;'cheval de mérens';777;0
+101869;'Colbert';1;54
+2305491;'zootechniciens';2;0
+6081963;'Anadolu';1;0
+38392;'Abyssinie';1;50
+5950883;'Poney';1;0
+58876;'cuisse';1;716
+214526;'cirque>11080943';1;72;cirque>spectacle itinérant
+5944926;'Gypsy Vanner';777;0
+79364;'sauter';1;970
+11644596;'Theodor Hoffmann';777;0
+5944924;'irish cob';777;0
+5944925;'gypsy cob';777;0
+54794;'eucaryote';1;188
+3229243;'bocage normand';1;0
+10546858;'Cob Gypsy';777;0
+5944904;'poney galicien';777;0
+10546866;'poney tacheté britannique';777;0
+2563636;'poney shetland';1;0
+10546869;'poney de selle britannique';777;0
+239128;'_COM';36;50
+286233;'Dave Duncan';777;50
+56865;'sport';1;4568
+10925696;'Jacinte Giscard d'Estaing';777;0
+5944946;'Mon petit poney';777;0
+79400;'pinceau';1;900
+91691;'surprise';1;1064
+142894;'pie';1;332
+437800;'mammifère herbivore';1;50
+179763;'Arabe';1;50
+568892;'Cayuses';777;50
+568893;'Tetawken';777;50
+5944930;'Un poney très courageux';777;0
+208443;'sports équestres';1;50
+65081;'organisme vivant';1;116
+5944928;'Jean-Louis Gouraud';777;0
+4648570;':r10046885';10;0
+4648571;':r10046895';10;0
+4648568;':r10046877';10;0
+4648569;':r10046883';10;0
+216643;'cheval>17559';1;244;cheval>animal
+83522;'Belgique';1;474
+81477;'hennir';1;50
+216646;'cheval>106558';1;50;cheval>laideron
+216645;'cheval>140100';1;48;cheval>viande
+216644;'cheval>83824';1;36;cheval>équitation
+214602;'queue>214624';1;58;queue>queue d'animal
+925253;'forn';1;0
+75341;'novembre';1;2460
+110160;'robe';1;1008
+142939;'ISBN';1;60
+157284;'lieu>68467';1;56;lieu>poisson
+10546887;'Quarter pony';777;0
+175720;'Mammalia';1;50
+265839;'synapside';1;28
+77424;'oeil';1;2978
+5944870;'Dexter Leam Pondi';777;0
+138879;'Inde';1;570
+276096;'_INFO-WIKI-YES';36;50
+1859220;'poney de';777;0
+2561709;'poney haflinger';1;0
+1859218;'amourski';777;0
+1859219;'cheval de l'Amour';777;0
+91794;'tétrapode';1;88
+2365106;'poney gallois';1;0
+114327;'acide désoxyribonucléique';1;136
+11507257;'cheval oriental';777;0
+239264;'brouter>58913';1;2;brouter>paître
+102050;'Regina';1;50
+130724;'Álvaro de Luna';1;50
+5945075;'Poney du Nigeria';777;0
+427692;'Latin';1;8
+5945072;'Colorado ranger';777;0
+5945073;'Colorado rangerbred';777;0
+233133;'animal>117095';1;646;animal>zoologie
+3313308;'ski attelé';777;0
+233138;'tête>390963';1;42;tête>extrémité supérieure du corps
+10012203;'Florence Malraux';777;0
+5945070;'Poney du Cameroun';777;0
+5945068;'Poney du Logone';777;0
+5945069;'poney des Musey';777;0
+124600;'mourir';1;1764
+153276;'fer à cheval';1;142
+317124;'cuir de cheval';1;50
+259780;'adultes';1;56
+5944989;'bhirum';777;0
+89801;'poney';1;218
+50889;'gris';1;862
+106187;'équestre';1;96
+5944976;'shetland américain';777;0
+241352;'ventre>112609';1;46;ventre>anatomie
+5944977;'L'Altaï';777;0
+5944982;'poney de l'île de Sable';777;0
+5944983;'poney de Mandchourie';777;0
+5944971;'losino';777;0
+5944974;'garrano';777;0
+89812;'canasson';1;84
+409296;'Statue';1;50
+5944973;'galiceno';777;0
+5944962;'basuto';777;0
+5944960;'bardigiano';777;0
+5944961;'basotho';777;0
+4566683;':r10046847';10;0
+87775;'amble';1;50
+42719;'arabe';1;447
+5945016;'eriskay';777;0
+2457293;'États généraux';1;0
+65257;'croupe';1;90
+87789;'coelomate';1;50
+233198;'boire>86872';1;50;boire>se désaltérer
+159468;'espèce animale';1;108
+16110;'bouche';1;4174
+237293;'bataille de Wagram';1;50
+5945013;'poney de Somalie';777;0
+259820;'vivre>160251';1;50;vivre>être en vie
+567034;'haras nationaux';777;50
+227063;'cheval de selle';1;58
+218875;'monture>44386';1;50;monture>support
+130808;'course';1;2083
+218874;'monture>104729';1;2;monture>lunettes
+218873;'monture>17559';1;4;monture>animal
+36604;'Boulonnais';1;50
+423672;'scots';1;50
+63235;'mammifère';1;3547
+5945182;'poney de Monterufoli';777;0
+167684;'années 1960';1;146
+5945181;'Poney de l'Esperia';777;0
+118539;'poils';1;836
+390927;'tête>112609';1;60;tête>anatomie
+106252;'crinière';1;518
+134929;'FBI';1;76
+2398001;'poney dartmoor';1;0
+235291;'Arachne';1;50
+5963587;'bataille de Marengo';777;0
+3759908;'Fjord';1;0
+5945210;'guoxia';777;0
+5945211;'petit cheval du Guangxi';777;0
+5945209;'poney tibétain';777;0
+28453;'bonheur';1;2094
+5945212;'Debao';777;0
+9453499;'races chez le cheval';777;0
+251694;'mourir>126720';1;158;mourir>cesser de vivre
+9052090;'Arpenteur';777;0
+9052091;'Ancalagon';777;0
+9052089;'araignées géantes';777;0
+112441;'landais';1;52
+139065;'sports d'hiver';1;118
+5945189;'poney de Terre-Neuve';777;0
+20287;'Orcades';1;50
+5945115;'Petiso argentino';777;0
+5955;'parc';1;962
+251716;'_INFO-MONOSEMIC';36;50
+36682;'estonien';1;52
+2574188;'Charbon';1;0
+5945109;'poney de Manipur';777;0
+65362;'ambler';1;50
+5945103;'cheval sans papiers';777;0
+145246;'cheval';1;3188
+171870;'Nom:';4;50
+5945092;'poney Boer';777;0
+188253;'David Ben Gourion';1;50
+391009;'célomate';1;50
+2504514;'OCLC';1;0
+391010;'coelomé';1;50
+2377548;'fjordhest';777;0
+2424655;'poney français de selle';1;0
+2594636;':r1682203';10;0
+2377546;'fjording';1;0
+5945130;'Cheval des Féroé';777;0
+5945131;'poney danois';777;0
+83824;'équitation';1;450
+71539;'animaux';1;1378
+141168;'domestique';1;486
+5945129;'Poney des iles Féroé';777;0
+5945134;'poney brésilien';777;0
+69492;'galop';1;98
+59255;'Angkor';1;50
+2250587;'poulains';2;0
+434044;'Baise';1;50
+112511;'quadrupède';1;380
+212861;'padang';1;50
+104321;'manège';1;258
+237443;'être>37229';1;52;être>se trouver
+5945306;'Dosanko';777;0
+5945307;'Taishuh';777;0
+237441;'être>85728';1;6;être>exister
+5945304;'Hokkaido washu';777;0
+458629;'_INFO-SEM-PLACE-HUMAN';36;504
+5945310;'Welsh-arabian';777;0
+57221;'joie';1;3706
+237445;'être>68439';1;28;être>individu
+237444;'être>94160';1;50;être>existence
+5945309;'welara';777;0
+5945298;'poney des Amériques';777;0
+5607389;':r108107226';10;0
+3872691;'New Forest';1;0
+5945299;'poney des Açores';777;0
+5945302;'poney de Pinde';777;0
+5945303;'Thessalonien';777;0
+5945300;'Aénos';777;0
+5945301;'pindos';777;0
+5945288;'finnois universel';777;0
+14227;'dressage';1;96
+4034473;'dbnary:fra:__ws_1_poney__nom__1';444;0
+3461025;'Station spatiale internationale';1;0
+1654671;'hobin';1;0
+180116;'véhicule hippomobile';1;12
+5945282;'poney bosnien';777;0
+5945283;'poney bosniaque';777;0
+5945280;'karakatchan';777;0
+5945281;'poney de Dülmen';777;0
+5945287;'cheval finnois';777;0
+5945284;'poney classique allemand';777;0
+5945285;'poney de selle allemand';777;0
+122787;'solipède';1;52
+925611;'Tom Bombadil';777;0
+77735;'Europe';1;830
+108463;'ventre';1;958
+87987;'France';1;2584
+3401600;'Wiki';1;0
+6070;'jument';1;482
+55222;'petit';1;3286
+5945315;'Zabaikal';777;0
+5945312;'Welsh-arabe';777;0
+305080;'poney club';777;50
+329657;'choano-organisme';1;62
+5945316;'Transbaïkal';777;0
+128961;'mignon';1;474
+10456923;'CAB International';777;0
+223173;'_POL-POS';36;50
+10456921;'University of Oklahoma Press';777;0
+223172;'_POL-NEG';36;50
+10456920;'DAD-IS';777;0
+153541;'pur sang';1;70
+102345;'plaisir';1;3198
+71624;'être vivant';1;1842
+5945235;'baixadeiro';777;0
+9486172;'Biotope';1;0
+5945236;'canadian rustic pony';777;0
+96211;'coeur';1;2120
+145360;'race';1;364
+6797233;'=vertebra=';1;0
+61399;'révolution industrielle';1;68
+2486269;'faire du poney';1;0
+77784;'Valberg';1;50
+10846073;'Haflinger';1;0
+5945221;'poney de selle australien';777;0
+32735;'poumons';1;250
+5945275;'Aravani';777;0
+2402245;'concours complet';1;0
+143334;'Mammifères';1;52
+5808048;'cheval iakoute';777;0
+5808049;'poney iakoute';777;0
+83944;'nerf';1;810
+102382;'latin';1;446
+229363;'Poulain';666;50
+122864;'mort';1;6366
+65521;'clarinettiste';1;72
+5787563;'marba';777;0
+264176;'animal de cirque';1;6
+5945251;'poney Hackney';777;0
+225274;'Royaume de France';1;4
+5945248;'poney de Birmanie';777;0
+14330;'satisfaction';1;516
+5945249;'bama myinn';777;0
+151550;'_FL:8';6;50
+5816230;'Velcro Companies';777;0
+
+// types relations (id,nom)
+0,r_associated
+128,r_node2relnode
+3,r_domain
+4,r_pos
+5,r_syn
+6,r_isa
+8,r_hypo
+9,r_has_part
+73,r_is_smaller_than
+777,r_wiki
+10,r_holo
+11,r_locution
+12,r_flpot
+13,r_agent
+15,r_lieu
+17,r_carac
+18,r_data
+19,r_lemma
+21,r_has_antimagn
+23,r_carac-1
+24,r_agent-1
+666,r_aki
+27,r_domain-1
+28,r_lieu-1
+32,r_sentiment
+36,r_infopot
+999,r_inhib
+106,r_color
+555,r_cooccurrence
+115,r_sentiment-1
+444,r_link
+// relations sortantes 
+
+0:214340,4;2365106,5;2366626,5;1734681,6;305080,6;2367654,6;2398001,6;2399149,6;2402572,6;5945727,6;2358297,7;2581542,7;2392386,7;40184,8;2568887,10;2563636,10;2561709,10;2532280,10;2501020,10;36886,12;120157,12;1859220,16;94958,22;123745,22;135190,24;53696,24;12960,24;112441,24;159468,26;6070,27;1636805,27;272453,27;256196,28;260820,28;237445,28;152125,28;272452,28;32211,29;112773,29;34960,29;234036,29;32851,30;71539,30;65081,31;225847,31;247057,32;396521,32;329657,32;9105658,32;330964,34;117095,34;239996,35;220060,35;155779,36;143669,40;35143,40;122787,41;216643,45;291460,48;38295,51;38916,54;63235,55;233133,55;112511,55;17559,55;27154,55;71624,55;86640,55;152778,56;248081,56;16399,58;55222,60;115304,62;264881,64;110773,64;265839,64;264880,64;36294,66;317929,66;264908,66;91794,66;265277,66;142602,66;101018,67;325741,67;54794,68;325738,69;55823,71;325736,73;325731,75;265220,76;145246,78;325728,78;239128,1000000;
+3:17559,-26;152125,-20;71539,26;117095,27;35143,32;155779,35;143669,39;
+4:2586627,45;2586629,45;146885,51;171870,99;
+5:216643,26;145246,27;
+6:396146,-30;157284,-25;13369,2;157007,3;58768,4;87789,16;391009,18;391010,21;5945727,25;396042,26;316850,27;436570,29;264176,29;267642,34;396149,34;437800,43;2464206,45;159468,52;65081,83;71624,88;225847,88;237445,90;234036,91;260820,92;325731,101;54794,102;325728,102;325736,106;325738,110;329657,116;233133,122;325741,124;55823,126;135190,132;27154,135;264908,135;152778,137;264880,138;123745,140;115304,142;265220,145;330964,148;248081,153;142602,153;36294,154;317929,156;86640,160;264881,160;91794,164;265277,166;101018,168;112511,174;110773,175;265839,180;122787,189;38295,190;63235,196;216643,197;145246,219;17559,239;
+8:11151765,7;2427840,22;2402572,24;2399149,24;2398001,24;2424655,24;280981,25;2600294,25;2436325,25;2446047,25;2444106,25;1654671,25;2581543,25;5944982,25;5944870,25;5945129,25;5945130,25;5945131,25;5945462,25;5945463,25;5945464,25;5945275,25;5808049,25;5945394,25;5945302,25;5945299,25;5945298,25;5945285,25;5945284,25;5945283,25;5945282,25;5945281,25;5945251,25;5945248,25;5945221,25;5945209,25;5945182,25;5945134,25;5945109,25;5945092,25;5945069,25;5945013,25;5944983,25;5944904,25;5944652,25;5944595,25;5945471,25;5945469,25;10546869,25;10546866,25;2568887,26;396521,28;2365106,29;1734681,30;2367654,30;291460,31;305080,31;2563636,32;1859220,34;2501020,34;2581542,35;2358297,36;2366626,36;2532280,36;2392386,37;2561709,38;16399,53;38916,53;256196,76;53696,78;12960,78;112441,78;34960,79;
+9:6797233,11;77008,26;106252,26;213644,26;74846,26;139779,26;219363,26;240720,26;187622,26;241352,26;103311,26;83944,26;126388,26;57875,26;16747,26;123350,27;216283,27;152386,27;76046,27;116980,27;108463,27;141814,27;326146,27;8990,28;95256,28;154115,28;237765,28;213792,28;135631,28;16110,29;151867,29;214602,29;71026,30;159898,30;118539,30;117584,30;225934,30;40184,30;114327,30;65257,31;39031,31;60902,32;77424,32;110160,32;187620,32;126285,32;1636805,32;144846,34;233138,34;135591,34;96211,34;47319,34;32735,34;152844,35;52119,35;390927,35;214340,37;139578,37;58876,37;56280,38;109785,38;23332,40;
+777:24679,9;76271,9;145360,9;83824,9;212289,9;61399,9;136356,9;229363,9;172944,9;79993,9;179240,9;102382,9;152685,9;17559,9;7589,9;227063,9;167684,9;77735,9;40282,9;101869,9;38916,9;117584,9;104460,9;153276,9;27191,9;138412,9;105878,9;81253,9;121150,9;83522,9;208443,9;10983,9;211810,9;14227,9;96615,9;162417,9;180116,9;104321,9;106958,9;105028,9;268681,9;109155,9;87987,9;427692,9;402430,9;275142,9;567691,9;567034,9;295529,9;292126,9;142939,9;259780,9;173188,9;293772,9;412347,9;422595,9;249004,9;2084010,9;2250587,9;3158975,10;107324,10;423672,10;2389404,10;2402245,10;2568953,10;2366627,10;2480570,10;46228,10;5626013,10;2960895,10;75908,10;2574188,10;111649,10;148240,10;414558,10;3759908,10;3872691,10;6283948,10;6312606,10;5944595,10;5945251,10;5944692,10;5944785,10;5944654,10;5944928,10;56865,10;10549304,10;10846073,10;115748,10;416757,10;5534152,10;5881159,10;116045,10;57369,10;156772,10;1964903,10;121186,10;2105586,10;11590840,10;6013229,10;93416,10;64408,10;2324605,10;275144,10;138879,10;293105,10;11576184,10;11543674,10;75341,10;11577701,10;11577702,10;11577703,10;10012203,10;10435567,10;11577704,10;3173341,10;10778045,10;11577709,10;286233,10;11577711,10;11576189,10;91217,10;142265,10;65521,10;271535,10;136597,10;134929,10;572627,10;3401600,10;230846,10;2457293,10;225274,10;4332479,10;232768,10;81153,10;2649,10;58301,10;37768,10;112758,10;38392,10;188253,10;99801,10;3461025,10;33819,10;11382801,10;59255,10;12952,10;248322,10;10456920,10;10456923,10;2305491,10;119588,10;2013724,10;9486172,10;76064,10;179763,10;42719,10;11507257,10;3229243,10;3858804,10;136653,10;10052734,10;87775,10;24776,10;5950883,10;420937,10;154115,10;126285,10;65257,10;412342,10;146803,10;52075,10;50889,10;88491,10;130808,10;10047566,10;41407,10;10991888,10;46465,10;110006,10;144619,10;47385,10;1813745,10;20287,10;7376,10;10456921,10;4024336,10;2504514,10;302545,10;285728,10;1814534,10;172953,10;30789,10;36604,10;145999,10;434182,10;3290442,10;10578526,10;311888,10;2406649,10;397369,10;332362,10;11600821,10;10427721,10;130724,10;409296,10;123492,10;5963587,10;237293,10;285570,10;3145,10;11644596,10;
+10:120157,28;36886,29;
+11:10961324,33;5945209,35;5945109,35;5808049,36;5945298,36;5945283,36;5945251,36;5944982,36;5945394,37;5945285,38;5945189,38;5945134,38;5945131,38;5945069,38;6529204,38;2424655,39;5944595,39;10546869,39;10546866,39;10549305,40;10549303,40;5945462,41;5945464,42;5945248,42;5944930,42;5944904,42;5944652,42;2402572,43;5945182,43;5945284,44;5945281,44;5944983,44;2367654,45;2399149,45;5945302,45;5945299,45;5945282,45;5945092,45;5945013,45;5944946,45;2365106,46;2366626,46;2392386,46;2436325,46;5944655,46;2398001,47;2427840,47;2444106,47;5945221,47;2358297,52;3706941,52;396521,53;1734681,53;2568887,53;2501020,53;2561709,54;2563636,56;2446047,56;2532280,57;2581542,58;2486269,59;2600294,59;1859220,64;324490,148;305080,163;
+12:151553,12;151550,16;153037,19;151767,22;152813,24;151576,29;152836,34;151663,42;
+15:64698,43;5955,51;33468,53;29786,53;80589,53;135974,53;234119,59;210148,59;214526,59;41066,63;9536,63;49989,63;95605,70;83208,89;104321,89;162417,118;249912,118;58356,118;131370,128;121889,148;97335,158;
+17:10314012,11;99220,26;36294,27;330215,28;133424,29;1384,29;122864,32;110773,34;31046,35;141168,35;60723,45;102760,45;55222,51;50889,52;52673,55;21590,56;128961,126;
+18:3575927,29;3576104,32;
+19:89801,57;
+24:91463,17;2442,30;4653,30;43253,30;43601,30;47918,30;65362,30;81477,30;130164,30;233198,30;124600,30;251694,30;259820,30;2525613,30;33882,30;6681658,30;224422,32;109426,35;79364,35;239264,66;
+666:145246,1;124094,1;106252,1;94958,1;17559,1;112511,1;36294,1;123350,1;83824,1;55222,2;
+28:146071,38;
+32:102345,-42;37298,-5;57221,-5;91691,23;14330,24;103405,30;28453,54;
+36:254878,6;248198,16;276096,25;223172,29;162763,31;251716,32;162759,35;254876,38;191669,47;458629,48;254877,56;2585997,56;223173,177;241794,263;
+999:234035,1;225846,2;225849,2;3184658,3;225848,4;237441,4;237443,4;218874,4;218875,4;330963,5;237444,8;218224,9;218225,9;230196,9;258257,9;256195,14;
+106:8542,1;132479,1;50889,14;
+555:2983124,10286;
+444:4034473,1;3228593,29;6198633,29;3450090,35;3450091,35;
+
+// relations entrantes 
+
+0:148157,1;225934,1;2951721,2;141814,4;102933,5;214602,5;5808049,5;6797233,5;11151765,7;10961324,9;2436325,10;2444106,11;2446047,11;5945464,11;5945462,11;5945302,11;5945299,11;5945298,11;5945285,11;5945284,11;5945283,11;5945282,11;5945281,11;5945251,11;5945248,11;5945221,11;5945209,11;5945189,11;5945182,11;5945134,11;5945131,11;5945109,11;5945092,11;5945069,11;5945013,11;5944983,11;5944982,11;5944946,11;5944930,11;5944904,11;5944652,11;5944595,11;2427840,12;5945394,12;5944655,12;6529204,14;10546869,15;159468,16;2424655,16;10549305,16;10549303,16;10546866,19;143669,22;6947917,22;155779,23;95256,23;117095,24;71539,24;1636805,26;152125,27;94958,28;212861,28;239996,28;36886,28;220060,29;120157,29;6070,30;32211,30;291460,30;69492,31;9105658,31;175720,31;218873,32;143334,32;13369,32;272453,32;272452,32;157007,34;420937,35;2365106,37;216643,38;2366626,39;2486269,40;2358297,41;2402572,41;2392386,42;2399149,42;58768,42;112773,43;153541,43;2398001,43;2509844,43;2367654,44;109157,51;63235,51;142602,51;54794,51;16962,51;104321,51;314109,51;1088197,51;248081,52;17559,52;36294,52;101018,52;115304,52;330964,52;112441,53;16399,53;38916,53;265839,53;264908,53;325738,53;396521,53;1734681,53;2532280,53;280981,53;53696,54;135190,54;55823,54;233133,54;264880,54;91794,54;325741,54;329657,54;2563636,54;2561709,54;2581542,54;267642,54;391009,54;391010,54;87789,54;596517,54;265220,55;152778,56;112511,56;325731,56;264881,56;317929,56;265277,56;2568887,56;2464206,56;142894,56;101703,57;123745,57;2501020,57;26806,58;325736,58;45177,59;71624,59;325728,59;86640,60;110773,60;234036,60;65081,60;225847,60;260820,60;237445,60;1859220,60;2600294,60;6842,61;3706941,74;256196,76;32851,77;6948258,80;3156334,81;6912626,89;63622,90;38295,91;27154,91;122787,91;12960,103;34960,104;145246,131;305080,147;324490,148;218223,175;
+5:216643,27;145246,38;
+6:148157,1;5945469,25;5945471,25;10546869,25;11151765,25;2424655,26;2427840,26;2600294,26;2436325,26;2444106,26;2446047,26;5945129,26;10546866,26;5945299,27;5945134,28;5945130,29;5945302,29;5945251,29;2581543,30;5945463,30;5945298,30;5945285,30;5945248,30;2365106,31;2366626,31;5944870,31;5945131,31;5945283,31;5945209,31;5945069,31;1734681,32;2398001,32;2367654,32;2399149,32;2402572,32;1654671,32;5945464,32;5945394,32;5945284,32;5945281,32;5945182,33;5945092,33;5945013,33;5944983,33;5944982,34;5945275,34;5945462,35;5944904,35;5944652,35;5944595,35;2568887,36;2563636,36;2561709,36;2532280,36;2501020,36;2581542,36;5808049,36;2358297,38;5945282,39;5945109,39;1859220,42;305080,42;2392386,42;5945221,43;396521,54;256196,82;291460,206;34960,238;12960,246;16399,250;38916,250;280981,250;53696,251;112441,258;
+8:216646,-4;216645,-1;216644,-1;5945727,6;123745,22;157007,22;135190,24;13369,24;396042,25;316850,25;437800,25;436570,25;396149,25;264176,25;159468,29;58768,32;216643,34;234036,34;260820,34;225847,34;65081,34;237445,34;63235,55;233133,55;112511,55;17559,55;71624,55;86640,55;2464206,55;152778,56;248081,56;330964,56;115304,62;110773,64;265839,64;264880,64;391009,64;391010,64;87789,64;27154,65;6912626,65;36294,66;317929,66;264908,66;91794,66;264881,66;265277,66;142602,66;101018,67;325741,67;329657,67;54794,68;325738,69;55823,71;267642,71;325736,73;325731,75;265220,76;325728,78;145246,103;38295,121;122787,121;
+9:36886,12;120157,12;
+73:150,29;213466,51;
+777:137390,7;107179,8;139065,9;83824,9;47643,9;152983,9;273168,10;273169,10;229363,10;104460,10;79400,10;38916,10;280981,10;69001,10;110160,10;78759,10;5945307,10;28088,10;173027,10;291460,10;106958,10;158679,10;173292,10;218227,10;136310,10;64090,10;233532,10;293772,10;13311,10;41493,10;297707,10;60856,10;77784,10;299204,10;299205,10;105533,10;106187,10;301546,10;154448,10;11529,10;137668,10;181494,10;306059,10;171067,10;238504,10;325703,10;339053,10;116045,10;567691,10;375067,10;568892,10;568893,10;398023,10;399506,10;570713,10;412879,10;414631,10;414630,10;420241,10;138412,10;89812,10;925611,10;925253,10;1761309,10;84753,10;55748,10;42188,10;59743,10;2354322,10;2354318,10;2354319,10;409716,10;2366627,10;2377548,10;2377546,10;264288,10;594059,10;2581542,10;2581543,10;2540094,10;2602446,10;2480570,10;2602447,10;2453851,10;2508002,10;1859218,10;1859219,10;1852895,10;317124,10;1810621,10;88498,10;102050,10;2863587,10;3298409,10;3298410,10;3298485,10;3313308,10;5679155,10;5679206,10;129166,10;5787563,10;2517517,10;5808048,10;5808049,10;5808414,10;5808415,10;5808416,10;5808417,10;5831774,10;5837346,10;5837350,10;5918770,10;5944297,10;403996,10;5944555,10;5944560,10;3759908,10;5944566,10;5944595,10;5944639,10;5944652,10;2358444,10;3872691,10;5944692,10;21480,10;5944772,10;5944773,10;5944785,10;5944786,10;5944787,10;102549,10;5944788,10;5944789,10;5944794,10;5944795,10;2568953,10;5944870,10;5944904,10;416700,10;5944924,10;5944925,10;5944926,10;5944930,10;412347,10;5944960,10;5944961,10;5944962,10;5944971,10;5944973,10;5944974,10;5944976,10;5944977,10;5944982,10;5944983,10;5944989,10;5945016,10;97135,10;1814805,10;64238,10;95539,10;5945068,10;5945069,10;5945070,10;5945072,10;5945073,10;5945075,10;72272,10;2480579,10;5831717,10;5945092,10;573968,10;5618625,10;5945103,10;5945109,10;5945115,10;5945129,10;5945130,10;5945131,10;5945181,10;5945182,10;5945189,10;5945209,10;5945210,10;5945211,10;5945212,10;5945221,10;434044,10;142671,10;30089,10;5945236,10;5945248,10;5945249,10;5945251,10;5945275,10;5945280,10;5945281,10;5945282,10;5945283,10;5945284,10;5945285,10;51676,10;5945287,10;5945288,10;140553,10;5945298,10;5945299,10;5945300,10;5945301,10;5945302,10;5945303,10;5945304,10;5945306,10;5945309,10;5945310,10;5945312,10;106613,10;2408449,10;5945315,10;5945316,10;20838,10;5945348,10;5945351,10;1814668,10;5945394,10;5945395,10;5945400,10;5945426,10;5945427,10;58535,10;5945453,10;5945462,10;5945463,10;5945464,10;94530,10;5945466,10;5945467,10;5945469,10;5945471,10;6065494,10;6065559,10;6065560,10;172941,10;6081963,10;6529071,10;5816230,10;2533651,10;3223718,10;235291,10;9052089,10;9052090,10;9052091,10;9453499,10;9601394,10;10056522,10;10546858,10;10546866,10;10546869,10;10546887,10;10601617,10;10761396,10;10761397,10;10761407,10;10831286,10;10831287,10;10832436,10;10846073,10;10908465,10;10908508,10;10908520,10;10908521,10;10908525,10;10908530,10;10925696,10;10989866,10;11027751,10;11082368,10;36682,10;11122150,10;11125415,10;11125593,10;11129269,10;11129270,10;11151765,10;11156379,10;11377791,10;11377792,10;10619665,10;69943,10;11410337,10;11492724,10;5945235,10;139872,10;106906,10;
+10:8990,4;77008,4;123350,4;144846,4;16110,4;71026,4;65257,4;60902,4;154115,4;233138,4;237765,4;159898,4;213644,4;213792,4;216283,4;152844,4;152386,4;151867,4;135631,4;135591,4;76046,4;118539,4;52119,4;110160,4;106252,5;214340,7;139578,7;96211,7;56280,7;58876,7;40184,8;47319,8;390927,8;74846,9;32735,10;39031,11;187620,12;77424,14;109785,14;116980,14;126285,14;219363,15;240720,15;187622,15;241352,16;126388,16;103311,17;83944,17;57875,17;6800353,17;23332,27;326146,27;225934,28;1636805,28;117584,30;108463,30;139779,35;16747,35;114327,35;95256,55;214602,125;141814,179;6797233,180;
+13:79364,13;124600,16;259820,17;251694,17;233198,30;130164,30;81477,30;65362,30;47918,30;43601,30;43253,30;4653,30;2442,30;224422,30;2525613,30;6681658,30;33882,31;109426,45;239264,65;91463,130;
+15:220046,5;146071,108;
+19:89801,57;420937,59;
+115:102345,1;14330,2;28453,2;91691,2;
+21:145246,120;
+23:330215,21;50889,21;21590,21;60723,21;55222,22;133424,22;122864,27;31046,27;128961,27;1384,29;141168,29;36294,30;52673,30;102760,30;110773,30;99220,59;10314012,60;
+666:2951721,1;
+27:17559,22;155779,27;71539,28;117095,32;152125,32;6947917,72;143669,74;
+28:214526,30;64698,30;95605,31;210148,34;234119,34;162417,38;121889,38;41066,39;33468,39;131370,39;58356,39;249912,39;104321,40;83208,40;135974,40;80589,40;29786,40;49989,40;9536,40;97335,118;
+
+// annotations 
+:r9899238;677180;10;1;89801;6;r_isa;38295;190
+:r14052071;677181;10;1;89801;6;r_isa;122787;189
+:r2554381;677182;10;1;89801;6;r_isa;63235;196
+:r10761160;677183;10;1;89801;6;r_isa;265839;180
+:r10766374;677184;10;1;89801;6;r_isa;110773;175
+:r2554383;677185;10;1;89801;6;r_isa;112511;174
+:r10790271;677186;10;1;89801;6;r_isa;101018;168
+:r10862675;677187;10;1;89801;6;r_isa;265277;166
+:r10778587;677188;10;1;89801;6;r_isa;91794;164
+:r2822578;677189;10;1;89801;6;r_isa;86640;160
+:r10767579;677190;10;1;89801;6;r_isa;264881;160
+:r1683985;677191;10;1;89801;15;r_lieu;97335;158
+:r10785043;677192;10;1;89801;6;r_isa;317929;156
+:r8942473;677193;10;1;89801;6;r_isa;36294;154
+:r2896373;677194;10;1;89801;6;r_isa;248081;153
+:r10922397;677195;10;1;89801;6;r_isa;142602;153
+:r1683986;677196;10;1;89801;15;r_lieu;121889;148
+:r12046073;677197;10;1;89801;6;r_isa;330964;148
+:r11254540;677198;10;1;89801;6;r_isa;265220;145
+:r10750643;677199;10;1;89801;6;r_isa;115304;142
+:r597733;677200;10;1;89801;6;r_isa;123745;140
+:r10755929;677201;10;1;89801;6;r_isa;264880;138
+:r2855691;677202;10;1;89801;6;r_isa;152778;137
+:r10779774;677203;10;1;89801;6;r_isa;264908;135
+:r630017;677204;10;1;89801;6;r_isa;135190;132
+:r2554432;677205;10;1;89801;6;r_isa;27154;135
+:r2554431;677206;10;1;89801;6;r_isa;17559;239
+:r9617020;677207;10;1;89801;6;r_isa;55823;126
+:r11124777;677208;10;1;89801;6;r_isa;325741;124
+:r2554382;677209;10;1;89801;6;r_isa;233133;122
+:r2236832;677210;10;1;89801;15;r_lieu;131370;128
+:r2044360;677211;10;1;89801;15;r_lieu;162417;118
+:r2236831;677213;10;1;89801;15;r_lieu;58356;118
+:r14419853;677214;10;1;89801;6;r_isa;329657;116
+:r11134248;677215;10;1;89801;6;r_isa;325738;110
+:r11140951;677216;10;1;89801;6;r_isa;325736;106
+:r10932731;677217;10;1;89801;6;r_isa;54794;102
+:r11147569;677218;10;1;89801;6;r_isa;325731;101
+:r11154190;677219;10;1;89801;6;r_isa;325728;102
+:r13979156;677220;10;1;89801;6;r_isa;260820;92
+:r13728524;677221;10;1;89801;6;r_isa;234036;91
+:r14027832;677222;10;1;89801;6;r_isa;237445;90
+:r13917945;677223;10;1;89801;6;r_isa;225847;88
+:r2785192;677224;10;1;89801;6;r_isa;71624;88
+:r13887033;677225;10;1;89801;6;r_isa;65081;83
+:r3132650;677226;10;1;89801;15;r_lieu;83208;89
+:r3132651;677227;10;1;89801;15;r_lieu;104321;89
+:r2307156;677228;10;1;89801;15;r_lieu;41066;63
+:r13027425;677229;10;1;89801;15;r_lieu;95605;70
+:r2554417;677230;10;1;89801;15;r_lieu;29786;53
+:r2554419;677231;10;1;89801;15;r_lieu;135974;53
+:r2554418;677232;10;1;89801;15;r_lieu;80589;53
+:r3104881;677233;10;1;89801;17;r_carac;50889;52
+:r3104882;677234;10;1;89801;17;r_carac;55222;51
+:r2554428;677235;10;1;89801;24;r_agent-1;109426;35
+:r2554429;677236;10;1;89801;24;r_agent-1;79364;35
+:r15795473;677237;10;1;89801;24;r_agent-1;224422;32
+:r2554426;677238;10;1;89801;24;r_agent-1;81477;30
+:r2925468;677239;10;1;89801;24;r_agent-1;259820;30
+:r2806370;677240;10;1;89801;24;r_agent-1;251694;30
+:r2697688;677241;10;1;89801;24;r_agent-1;124600;30
+:r2554430;677242;10;1;89801;24;r_agent-1;233198;30
+:r2554423;677243;10;1;89801;24;r_agent-1;43601;30
+:r2554420;677244;10;1;89801;24;r_agent-1;2442;30
+:r2554421;677245;10;1;89801;24;r_agent-1;4653;30
+:r2554422;677246;10;1;89801;24;r_agent-1;43253;30
+:r2554427;677247;10;1;89801;24;r_agent-1;130164;30
+:r2554424;677248;10;1;89801;24;r_agent-1;47918;30
+:r2554425;677249;10;1;89801;24;r_agent-1;65362;30
+:r2554392;677250;10;1;89801;9;r_has_part;237765;28
+:r2984524;677251;10;1;89801;9;r_has_part;108463;27
+:r11260399;677252;10;1;89801;9;r_has_part;326146;27
+:r2507946;677254;10;1;89801;9;r_has_part;123350;27
+:r13028329;677255;10;1;89801;17;r_carac;36294;27
+:r2960415;677256;10;1;89801;9;r_has_part;241352;26
+:r2507945;677257;10;1;89801;9;r_has_part;106252;26
+:r2940132;677258;10;1;89801;9;r_has_part;187622;26
+:r10773334;677259;10;1;89801;9;r_has_part;57875;26
+:r2875610;677260;10;1;89801;9;r_has_part;139779;26
+:r2971813;677261;10;1;89801;9;r_has_part;83944;26
+:r3039105;677262;10;1;89801;9;r_has_part;126388;26
+:r2966774;677263;10;1;89801;9;r_has_part;103311;26
+:r2929956;677264;10;1;89801;9;r_has_part;219363;26
+:r2935311;677265;10;1;89801;9;r_has_part;240720;26
+:r2884555;677266;10;1;89801;17;r_carac;122864;32
+:r2554410;677267;10;1;89801;9;r_has_part;52119;35
+:r2507947;677268;10;1;89801;9;r_has_part;144846;34
+:r2507948;677269;10;1;89801;9;r_has_part;214340;37
+:r2554384;677270;10;1;89801;9;r_has_part;23332;40
+:r2507943;677273;10;1;89801;9;r_has_part;77008;26
+:r2554413;677274;10;1;89801;17;r_carac;110773;34
+:r2554414;677275;10;1;89801;17;r_carac;133424;29
+:r11828141;677276;10;1;89801;17;r_carac;330215;28
+:r2507942;677277;10;1;89801;9;r_has_part;8990;28
+:r2706056;677278;10;1;89801;17;r_carac;1384;29
+:r2554385;677279;10;1;89801;9;r_has_part;16110;29
+:r2554387;677280;10;1;89801;9;r_has_part;71026;30
+:r2554388;677281;10;1;89801;9;r_has_part;65257;31
+:r2762254;677282;10;1;89801;9;r_has_part;109785;38
+:r2747163;677283;10;1;89801;9;r_has_part;32735;34
+:r2740249;677284;10;1;89801;9;r_has_part;47319;34
+:r2707111;677285;10;1;89801;9;r_has_part;40184;30
+:r2699235;677286;10;1;89801;9;r_has_part;225934;30
+:r2554412;677287;10;1;89801;9;r_has_part;110160;32
+:r2554399;677288;10;1;89801;9;r_has_part;151867;29
+:r2554409;677289;10;1;89801;9;r_has_part;58876;37
+:r2554408;677290;10;1;89801;9;r_has_part;77424;32
+:r2554407;677291;10;1;89801;9;r_has_part;74846;26
+:r2554406;677292;10;1;89801;9;r_has_part;118539;30
+:r2554405;677293;10;1;89801;9;r_has_part;76046;27
+:r2554404;677294;10;1;89801;9;r_has_part;56280;38
+:r2554403;677295;10;1;89801;9;r_has_part;96211;34
+:r2554402;677296;10;1;89801;9;r_has_part;135591;34
+:r2554401;677297;10;1;89801;9;r_has_part;135631;28
+:r2810095;677298;10;1;89801;9;r_has_part;187620;32
+:r2840803;677299;10;1;89801;9;r_has_part;116980;27
+:r2554389;677300;10;1;89801;9;r_has_part;60902;32
+:r2554390;677301;10;1;89801;9;r_has_part;154115;28
+:r2554391;677302;10;1;89801;9;r_has_part;233138;34
+:r2554394;677303;10;1;89801;9;r_has_part;213644;26
+:r2554395;677304;10;1;89801;9;r_has_part;213792;28
+:r2554396;677305;10;1;89801;9;r_has_part;216283;27
+:r2554397;677306;10;1;89801;9;r_has_part;152844;35
+:r2554398;677307;10;1;89801;9;r_has_part;152386;27
+:r2843421;677308;10;1;89801;10;r_holo;120157;28
+:r2641317;677309;10;1;89801;10;r_holo;36886;29
+:r15871757;677310;10;1;89801;9;r_has_part;114327;30
+:r14712638;677311;10;1;89801;9;r_has_part;16747;26
+:r13002948;677312;10;1;89801;9;r_has_part;390927;35
+:r11689393;677313;10;1;89801;9;r_has_part;39031;31
+:r2554393;677314;10;1;89801;9;r_has_part;159898;30
+:r2846391;677315;10;1;89801;9;r_has_part;126285;32
+:r2554400;677316;10;1;89801;9;r_has_part;139578;37
+:r1682203;2594636;10;1;216643;5;r_syn;89801;27
+:r12203209;2598971;10;1;89801;5;r_syn;216643;26
+:r563624;2591434;10;2;145246;5;r_syn;89801;38
+:r437160;11137226;10;2;145246;8;r_hypo;89801;103
+:r10046847;4566683;10;3;23332;10;r_holo;89801;27
+:r2236829;677212;10;3;89801;15;r_lieu;249912;118
+:r10257766;4640141;10;3;109785;10;r_holo;89801;14
+:r10046877;4648568;10;3;139578;10;r_holo;89801;7
+:r10046883;4648569;10;3;96211;10;r_holo;89801;7
+:r10046885;4648570;10;3;56280;10;r_holo;89801;7
+:r10046895;4648571;10;3;58876;10;r_holo;89801;7
+:r10011090;4649513;10;3;214340;10;r_holo;89801;7
+:r177332439;8757659;10;5;89801;9;r_has_part;6797233;11
+:r108107226;5607389;10;7;89801;9;r_has_part;214602;29
+:r213913454;9472609;10;7;89801;6;r_isa;264176;29
+:r2985799;677253;10;9;89801;9;r_has_part;141814;27
+:r2554411;677271;10;15;89801;9;r_has_part;117584;30
+:r2507944;677272;10;29;89801;9;r_has_part;95256;28
+:r108104016;7860802;10;103;214602;10;r_holo;89801;125
+:r10046899;8884240;10;407;117584;10;r_holo;89801;30

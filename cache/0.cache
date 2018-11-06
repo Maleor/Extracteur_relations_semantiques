@@ -1,16 +1,19 @@
 Le
 Le
-50.0
+140508
+1
+0
 <def>
-Pas de définition disponible ou définition répartie dans les raffinements sémantiques (voir relation "r_raff_sem").
+Pas de d�finition disponible ou d�finition r�partie dans les raffinements s�mantiques (voir relation "r_raff_sem").
 </def>
-sortant
-r_flpot;_FL:0,,23.0
-r_pos;Det:,,45.0;Det:Mas+SG,,45.0;Gender:Mas,,45.0;Number:Sing,,45.0;Nom:,,30.0
-r_locution;Le Prélude,,34.0
-r_data;Morpho:nospace,,30.0
-r_infopot;_POL-POS,,293.0;_POL-NEUTRE,,121.0;_POL-POS_PC,,71.0;_INFO-WIKI-NO,,30.0;_POL-NEUTRE_PC,,29.0;_POLIT_7NOPOL,,16.0
-r_associated;le,,200.0;article,,60.0;masculin,,60.0;Galate mourant,,33.0;lé,,32.0;Gladiateur mourant,,31.0;la kizomba,,31.0;kizomba,,27.0;dauphin d'Hector,,25.0;dauphin de Nouvelle-Zélande,,25.0
-entrant
-r_wiki;Ali Baddou,,10.0;Caussols,,10.0;Du XIe siècle au XVIe siècle,,10.0;Découvrez comment faire,,10.0;Garencières,,10.0;Gouvernement du pays de Galles,,10.0;Guy Crescent,,10.0;Hauterives,,10.0;Johann Ludwig Tieck,,10.0;Le Levron,,10.0;Maurice Baudoux,,10.0;Olivier Calmel,,10.0;Tieck,,10.0;Ulysse,,10.0;armonica de verre,,10.0;bionomie,,10.0;bioécologie,,10.0;carcharodon megalodon,,10.0;commerçants,,10.0;cycle de Krebs,,10.0;cycle de l'acide citrique,,10.0;droit canon,,10.0;droit canonique,,10.0;déficit,,10.0;déséquilibre écologique,,10.0;ecologie,,10.0;excédent,,10.0;fin du,,10.0;frasage,,10.0;glassharmonica,,10.0;groupes de langue Mandé,,10.0;mouvement écologique,,10.0;musée de l'Orangerie,,10.0;mégalodon,,10.0;nomades Fulbé,,10.0;néolithique,,10.0;patinage à roulettes,,10.0;poulain,,10.0;premier millénair,,10.0;roller,,10.0;science de l'environnement ou environnementale,,10.0;solde budgétaire de l'État,,10.0;stade océane,,10.0;Éloi Machoro,,10.0;écologie,,10.0;écologique,,10.0;écologiques,,10.0;écologue,,10.0;équilibre naturel,,10.0;équilibre écologique,,10.0
-r_associated;Galate mourant,,35.0;Sarthe,,34.0;kizomba,,34.0;lé,,34.0;la kizomba,,32.0;Gladiateur mourant,,27.0;dauphin d'Hector,,25.0;dauphin de Nouvelle-Zélande,,25.0;le,,23.0
+voisinage 
+140508;'Le';1;50
+
+// types relations (id,nom)
+// relations sortantes 
+
+
+// relations entrantes 
+
+
+// annotations 

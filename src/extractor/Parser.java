@@ -4,14 +4,14 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.net.MalformedURLException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Scanner;
 
-import RequeterRezo.Mot;
-import RequeterRezo.RequeterRezo;
-import RequeterRezo.Terme;
+import requeterRezo.Mot;
+import requeterRezo.RequeterRezoDump;
+import requeterRezo.Voisin;
+import requeterRezo.Filtre;
 import template.Template;
 import template.Template_matrix;
 
@@ -20,7 +20,7 @@ public class Parser {
 	public ArrayList<String> discovered_rel; // La liste des relations extraitent
 	public Template_matrix template_matrix; // La matrice de template
 
-	public RequeterRezo systeme;
+	public RequeterRezoDump systeme;
 
 	public ArrayList<String> words;
 
@@ -28,7 +28,7 @@ public class Parser {
 	/** CONSTRUCTOR **/
 	///////////////////
 	public Parser() throws IOException {
-		systeme = new RequeterRezo("12h", 10000);
+		systeme = new RequeterRezoDump("12h", "100mo");
 
 		discovered_rel = new ArrayList<>();
 		template_matrix = new Template_matrix("./data/templates");
@@ -95,19 +95,7 @@ public class Parser {
 	///////////////////////
 	/** PRIVATE METHODS **/
 	///////////////////////
-	private Mot requestWord(String word) {
-		try {
-			return systeme.requete(word, true);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		} catch (MalformedURLException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		System.out.println("failed");
-		return null;
-	}
+
 
 	private boolean t_match(Template t, String word) {
 		return t.get_eln().equals(word);
@@ -120,8 +108,10 @@ public class Parser {
 				return "";
 		
 		System.out.println("Le mot est : " + word);		
-		Mot m = requestWord(word);
-		return getClaGrammFromWord(m, 0);
+		Mot m = systeme.requete(word, 4, Filtre.FiltreRelationsSortantes);
+		if(estNom(m)) return "HO PUTAIN";
+		return "HA BAH NON";
+		//return getClaGrammFromWord(m, 0);
 	}
 
 	private void analyseStringForName(String str) {
@@ -164,13 +154,31 @@ public class Parser {
 	 */
 	private String getClaGrammFromWord(Mot m, int index) {
 
-		HashMap<String, ArrayList<Terme>> req = m.getRelations_sortantes();
-		ArrayList<Terme> termes = req.get("r_pos");
+		HashMap<Integer, ArrayList<Voisin>> req = m.getRelations_sortantes();
+		ArrayList<Voisin> termes = req.get("r_pos");
 
 		if (termes != null)
-			return termes.get(index).getTerme();
+			return termes.get(index).getNom();
 		else
 			return null;
 	}
+	
+	 static public boolean estNom(Mot cible)
+	    {
+	        // Pour obtenir cible:
+	        // 
+	        //   RequeterRezoDump rezo = new RequeterRezoDump("7j", "100mo"); 
+	        //   Mot cible = rezo.requete("chat", 4, Filtre.FiltreRelationsEntrantes);
+	                
+	        for (Voisin v : cible.getRelations_sortantes(4))
+	        {
+	            if (v.getNom().startsWith("Nom"))
+	            {
+	                return true;
+	            }
+	        }
+	        
+	        return false;
+	    }
 
 }

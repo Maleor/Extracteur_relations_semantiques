@@ -1,54 +1,1004 @@
 est
 est
-596.0
+144236
+1
+0
 <def>
-1. (GÃ©ographie) Point cardinal, Ã  droite quand on regarde l'horizon vers le nord. Direction d'oÃ¹ le soleil se lÃ¨ve.  Ils auraient alors passÃ© de l'Ouest Ã  l'Est, vers la fin du tertiaire, dans le sens contraire Ã  celui qu'on attribuait Ã  l'Ã©migration humaine.     (RenÃ© ThÃ©venin & Paul Coze, Moeurs et Histoire des Indiens Peaux-Rouges, Payot, 1929, 2e Ã©d., p. 15)    Pendant la premiÃ¨re semaine, la brise fut trÃ¨s lÃ©gÃ¨re et excessivement variable, tournant constamment du Nord au Suroit, en passant par l'Est.     (Alain Gerbault, Ã€ la poursuite du soleil ; tome 1 : De New-York Ã  Tahiti, 1929)    Quelques Ã©toiles Ã  prÃ©sent perÃ§aient la voÃ»te bleue, et dans l'est le disque de la lune apparut.     (H. G.Â Wells, La Guerre dans les airs, 1908, traduction d'Henry-D.Â Davray et B.Â Kozakiewicz, Mercure de France, Paris, 1910, p.Â 97 de l'Ã©d.Â deÂ 1921)    Quelques blancheurs commencent Ã  nuancer l'horizon vers l'est. Les nuages du zÃ©nith en reÃ§oivent une premiÃ¨re coloration.     (JulesÂ Verne, Claudius Bombarnac, Claudius_Bombarnac/4, J.Â Hetzel etÂ Cie, Paris, 1892)  2. L'est est un point cardinal, opposÃ© Ã  l'ouest. Il correspond au point moyen (exact Ã  l'Ã©quinoxe) de la direction du lever du soleil. On l'appelle aussi levant ou orient.3. Il servit de base Ã  XNU, le noyau de Darwin (la base de Mac OS X ? notez qu'il n'est pas un micro-noyau) et au projet Hurd (qui est un micro-noyau). Toutefois depuis 2004, Hurd s'est tournÃ© vers une nouvelle gÃ©nÃ©ration de micro-noyau : le micronoyau L4.4. La Baiyoke Tower II est aprÃ¨s MahaNakhon Avec ces 84 Ã©tages pour 328,4 mÃ¨tres le deuxiÃ¨me plus grand gratte-ciel de Bangkok, en ThaÃ¯lande. Elle est situÃ©e au 222 avenue Ratchaprarop dans le district de Ratchathewi.
+1. (Géographie) Point cardinal, à droite quand on regarde l'horizon vers le nord. Direction d'où le soleil se lève.  Ils auraient alors passé de l'Ouest à l'Est, vers la fin du tertiaire, dans le sens contraire à celui qu'on attribuait à l'émigration humaine.     (René Thévenin & Paul Coze, Moeurs et Histoire des Indiens Peaux-Rouges, Payot, 1929, 2e éd., p. 15)    Pendant la première semaine, la brise fut très légère et excessivement variable, tournant constamment du Nord au Suroit, en passant par l'Est.     (Alain Gerbault, À la poursuite du soleil ; tome 1 : De New-York à Tahiti, 1929)    Quelques étoiles à présent perçaient la voûte bleue, et dans l'est le disque de la lune apparut.     (H. G. Wells, La Guerre dans les airs, 1908, traduction d'Henry-D. Davray et B. Kozakiewicz, Mercure de France, Paris, 1910, p. 97 de l'éd. de 1921)    Quelques blancheurs commencent à nuancer l'horizon vers l'est. Les nuages du zénith en reçoivent une première coloration.     (Jules Verne, Claudius Bombarnac, Claudius_Bombarnac/4, J. Hetzel et Cie, Paris, 1892)  2. L'est est un point cardinal, opposé à l'ouest. Il correspond au point moyen (exact à l'équinoxe) de la direction du lever du soleil. On l'appelle aussi levant ou orient.3. Il servit de base à XNU, le noyau de Darwin (la base de Mac OS X ? notez qu'il n'est pas un micro-noyau) et au projet Hurd (qui est un micro-noyau). Toutefois depuis 2004, Hurd s'est tourné vers une nouvelle génération de micro-noyau : le micronoyau L4.4. La Baiyoke Tower II est après MahaNakhon Avec ces 84 étages pour 328,4 mètres le deuxième plus grand gratte-ciel de Bangkok, en Thaïlande. Elle est située au 222 avenue Ratchaprarop dans le district de Ratchathewi.
 </def>
-sortant
-r_carac-1;point cardinal,,26.0
-r_holo;planÃ¨te,,60.0;Asie,,46.0;terre,,45.0
-r_meaning;point cardinal,,360.0;direction,,290.0;Ãªtre,,285.0;direction (azimut),,140.0;orientation,,110.0;verbe,,109.0;orient,,103.0;levant,,70.0;verbe Ãªtre,,60.0
-r_raff_morpho;est (Adj),,40.0;est (Nom),,40.0
-r_lieu-1;sous-prÃ©fecture,,0.0;campagne,,-5.0
-r_syn;levant,,80.0;orient,,78.0;oriental,,76.0;aurore,,57.0;levanti,,44.0;Orient,,35.0;Ãªtre,,32.0;levantin,,31.0
-r_hypo;nord-est,,101.0;plein est,,101.0;point cardinal,,101.0;sud-est,,101.0;***,,56.0;=nord-est=,,25.0;communiste,,-16.0
-r_has_antimagn;nord-est,,80.0;sud-est,,80.0;nord est,,60.0;orient,,60.0;sud est,,60.0;levant,,51.0
-r_raff_sem;est (Ãªtre),,281.0;est (point cardinal),,60.0
-r_link;bn:02270184n,,35.0;bn:02978112n,,35.0;wiki:@,,34.0;bn:03675547n,,32.0;bn:00029050n,,30.0;bn:15102200n,,29.0;bn:00073013n,,27.0;bn:03382953n,,27.0;bn:20273713n,,26.0;dbnary:fra:__ws_1_est__nom__1,,1.0;dbnary:fra:__ws_2_est__nom__1,,1.0;dbnary:fra:__ws_3_est__adj__1,,1.0
-r_associated;ouest,,560.0;nord,,530.0;sud,,520.0;Ãªtre,,461.0;point cardinal,,360.0;direction,,293.0;verbe,,221.0;orient,,181.0;boussole,,180.0;cardinal,,180.0;rÃ©gion,,164.0;prÃ©sent,,160.0;nord-est,,151.0;sud-est,,151.0;Asie,,149.0;direction (azimut),,143.0;levant,,141.0;oriental,,140.0;URSS,,130.0;vent d'est,,130.0;orientation,,111.0;il,,70.0;orientation (points cardinaux),,62.0;verbe Ãªtre,,62.0;conjugaison,,60.0;mur,,60.0;sera,,60.0;Ã©tait,,60.0;avoir,,59.0;communiste,,59.0;pays,,51.0;rose des vents,,51.0;cardinal (point cardinal),,39.0;gÃ©ographie,,35.0;points cardinaux,,35.0;Orient,,30.0;aurore,,30.0;Est,,29.0;MIDI,,26.0;Baiyoke Tower II,,25.0;GÃ©ographie,,23.0;levanti,,23.0;cap,,22.0;fermentant,,22.0;levantin,,22.0;Ã©levant,,21.0;Ãªtre (exister),,21.0;plein est,,13.0;planÃ¨te,,10.0;terre,,10.0
-r_domain;orientation (points cardinaux),,59.0;points cardinaux,,35.0;gÃ©ographie,,31.0;GÃ©ographie,,-20.0
-r_isa;point cardinal,,89.0;cap,,81.0;direction,,79.0;rÃ©gion,,71.0;orientation,,13.0;lieu (poisson),,-25.0
-r_has_part;commune,,5.0
-r_lemma;est,,58.0;Ãªtre,,55.0
-r_color;sans couleur,,2.0;orange,,1.0
-r_telic_role;orienter,,53.0
-r_anto;ouest,,80.0;Ouest,,53.0;occident,,53.0;Occident,,52.0;couchant,,29.0;ponant,,29.0;orientation,,1.0
-r_data;Ver:Etat,,57.0;Adj:PositionRight,,40.0;Morpho:min,,34.0;Morpho:nospace,,34.0
-r_sentiment;joie,,48.0;surprise,,46.0;amour,,45.0;bonheur,,44.0;satisfaction,,42.0;colÃ¨re,,1.0
-r_infopot;_POL-POS,,364.0;_POL-NEUTRE,,133.0;_POL-POS_PC,,68.0;_INFO-NO-MORE-QUESTION,,59.0;_INFO-SEM-PLACE,,55.0;_INFO-SEM-THING-ABSTR,,54.0;_INFO-CNRTL-YES,,53.0;_INFO-VOC-COMMON,,49.0;_INFO-POLYSEMIC,,48.0;_INFO-POLYMORPHIC,,44.0;_POL-NEG,,42.0;_OCC-IGNORE,,38.0;_INFO-WIKI-YES,,25.0;_POL-NEUTRE_PC,,25.0;_POLIT_7NOPOL,,17.0;_POLIT_2PG,,16.0;_SEX_NO,,16.0;_POL-NEG_PC,,8.0
-r_wiki;ADN,,10.0;ARN,,10.0;ARN messager,,10.0;ARNm,,10.0;Abraj Al Bait Towers,,10.0;Al Ahly,,10.0;Al Ahly Sporting Club,,10.0;Al-Duhail Sports Club,,10.0;Alsace,,10.0;Arabe,,10.0;Asie du Sud-Est,,10.0;Austral,,10.0;Balkans,,10.0;Bangkok,,10.0;Blanc,,10.0;Burj Khalifa,,10.0;Burkina Faso,,10.0;Busan Lotte World Tower,,10.0;C,,10.0;C. Johan Masreliez,,10.0;Centre national de ressources textuelles et lexicales,,10.0;Championnat,,10.0;Chicago Spire,,10.0;China Zun,,10.0;Coupe,,10.0;Dalian Greenland Center,,10.0;Darwin,,10.0;Dubai Creek Tower,,10.0;Entisar Tower,,10.0;Est,,10.0;Estonie,,10.0;Estonien,,10.0;Euro,,10.0;Europe,,10.0;Europe centrale,,10.0;Football,,10.0;France,,10.0;Franche-ComtÃ©,,10.0;Gratte-ciel,,10.0;Gueldre,,10.0;Guerre froide,,10.0;Habib Bourguiba,,10.0;Hurd,,10.0;ISBN,,10.0;ISO 3166-1,,10.0;ISO 639,,10.0;International Standard Book Number,,10.0;Jaune,,10.0;Jazz,,10.0;Jeddah Tower,,10.0;KL118,,10.0;Lekhwiya Sports Club,,10.0;Levant,,10.0;Ligue des champions,,10.0;Ligue des champions de la CAF,,10.0;Ligue des champions de la CAF 2010,,10.0;Ligue des champions de la CAF 2011,,10.0;Ligue des champions de la CAF 2014,,10.0;Lorraine,,10.0;MBK Center,,10.0;Mac OS X,,10.0;Mach,,10.0;Malte,,10.0;Michael Eneramo,,10.0;Michel Decastel,,10.0;Midi,,10.0;Nord,,10.0;Occident,,10.0;Occidental,,10.0;One World Trade Center,,10.0;Open Software Foundation,,10.0;Orient,,10.0;Oriental,,10.0;Ouest,,10.0;Ouganda,,10.0;Pacte de Varsovie,,10.0;Pays-Bas,,10.0;Pearl of the North,,10.0;Peninsula,,10.0;Ping An Finance Centre,,10.0;Qatar,,10.0;Qatar National Bank Tower,,10.0;Rama IX Super Tower,,10.0;Red Bull Salzbourg,,10.0;Rouge,,10.0;Seconde Guerre mondiale,,10.0;Septentrion,,10.0;Septentrional,,10.0;Skyfame Center Landmark Tower,,10.0;Soleil,,10.0;Sud,,10.0;Suet,,10.0;Suisse,,10.0;Supercoupe,,10.0;Supercoupe de Tunisie de football,,10.0;Suzhou Zhongnan Center,,10.0;TCSEC,,10.0;Taipei 101,,10.0;Tarak Dhiab,,10.0;Tianjin Chow Tai Fook Binhai Center,,10.0;Tokyo Skytree,,10.0;Trusted Computer System Evaluation Criteria,,10.0;Tunis,,10.0;Tunisie,,10.0;Vert,,10.0;Willis Tower,,10.0;Wuhan Greenland Center,,10.0;Wydad de Casablanca,,10.0;Zine el-Abidine Ben Ali,,10.0;arabe,,10.0;blanc,,10.0;champion,,10.0;championnat,,10.0;championnats,,10.0;club omnisports,,10.0;coupe,,10.0;coupe afro-asiatique,,10.0;estonien,,10.0;euros,,10.0;football,,10.0;franÃ§ais,,10.0;gratte-ciel,,10.0;introns,,10.0;italiens,,10.0;janvier,,10.0;jaunes,,10.0;jazz,,10.0;langage C,,10.0;libre,,10.0;maltais,,10.0;mars,,10.0;micro-noyaux,,10.0;nÃ©erlandaise,,10.0;qatarien,,10.0;rouges,,10.0;saison 2012-2013,,10.0;saison 2014-2015,,10.0;soleil,,10.0;suisse,,10.0;tunisien,,10.0;vert,,10.0;Ã‰quinoxe,,10.0;Ã‰toile sportive du Sahel,,10.0;Ã©conomie socialiste,,10.0;Ã©pissage,,10.0;Ã©quinoxe,,10.0
-r_causatif;direction,,60.0;ouest,,56.0;=ouest=,,25.0
-r_carac;asiatique,,10.0;tombÃ©,,-25.0
-r_lieu;pays,,88.0;Asie,,78.0;boussole,,78.0;carte,,78.0
-r_flpot;_FL:0,,215.0;_FL:21,,130.0;_FL:20,,118.0;_FL:35,,55.0;_FL:11,,29.0;_FL:15,,27.0;_FL:7,,27.0;_FL:6,,26.0;_FL:10,,24.0;_FL:37,,24.0;_FL:42,,22.0;_FL:23,,21.0;_FL:8,,17.0;_FL:32,,15.0
-r_inhib;cardinal (essentiel),,18.0;cardinal (mathÃ©matiques),,18.0;cardinal (papillon),,3.0;cardinal (cÃ©page),,3.0;cardinal (colÃ©optÃ¨re),,3.0;cardinal (poisson),,3.0;cardinal (passereau),,3.0;cardinal (religion),,3.0
-r_pos;Ver:IPre+SG+P3,,117.0;Ver:,,102.0;Nom:,,90.0;Nom:Mas+SG,,56.0;Adj:InvGen+SG:InvGen+PL,,55.0;VerbalTime:Present,,55.0;Gender:Mas,,45.0;Number:Sing,,45.0;Ver:Conjug,,45.0;Adj:,,31.0;Conj:Coord,,-34.0
-r_locution;sud-est,,190.0;vent d'est,,103.0;nord-est,,80.0;Ã  l'est,,70.0;pays de l'Est,,57.0;longitude est,,55.0;il est temps de,,-1.0
-entrant
-r_aki;Orient,,2.0;Alpes,,1.0;Asie,,1.0;Berlin,,1.0;Bourgogne,,1.0;Danube,,1.0;Matsue,,1.0;Strasbourg,,1.0;bouÃ©e,,1.0;polonais,,1.0
-r_meaning;direction,,110.0
-r_anto;nord,,59.0;=nord=,,50.0;=ouest=,,37.0;ouest,,34.0;ponant,,34.0;occident,,30.0;couchant,,26.0;orient,,1.0
-r_lieu-1;Asie,,38.0;boussole,,38.0;carte,,38.0;pays,,38.0
-r_wiki;129e mÃ©ridien est,,10.0;132e mÃ©ridien est,,10.0;135e mÃ©ridien est,,10.0;139e mÃ©ridien est,,10.0;141e mÃ©ridien est,,10.0;180e mÃ©ridien,,10.0;279 av. J.-C,,10.0;44e mÃ©ridien est,,10.0;45e mÃ©ridien est,,10.0;4minute,,10.0;63e mÃ©ridien est,,10.0;A-20,,10.0;ALC,,10.0;Aarhus,,10.0;Abbadia Cerreto,,10.0;Acadie,,10.0;Alan Daniel Maman,,10.0;Aleksandrovka,,10.0;Aleksandrovsk-Sakhalinski,,10.0;Alger,,10.0;Amoursk,,10.0;AmÃ©rique du Nord,,10.0;AmÃ©rique du nord,,10.0;Andlau,,10.0;Andolsheim,,10.0;Angarsk,,10.0;ArmÃ©nie orientale,,10.0;Auby,,10.0;Austrasie,,10.0;Autobahn 1,,10.0;Autoroute A4,,10.0;Autrans,,10.0;Autruche de Somalie,,10.0;Azaq,,10.0;Azov,,10.0;Bahia,,10.0;Ballainvilliers,,10.0;Banteay Mean Chey,,10.0;Barnaoul,,10.0;Base sous-marine de La Pallice,,10.0;Batourine,,10.0;Batouryn,,10.0;Beaulieu-sur-Mer,,10.0;Beauzac,,10.0;Berezan,,10.0;Berkeley,,10.0;BesanÃ§on,,10.0;Bilad el-Cham,,10.0;Bitche,,10.0;Bolozon,,10.0;BouakÃ©,,10.0;Boulevard du crime,,10.0;Boussole,,10.0;Bragance,,10.0;Broadway,,10.0;Brossard,,10.0;BrÃ©nod,,10.0;Buissard,,10.0;Cal,,10.0;Cali,,10.0;Canada,,10.0;Cantabrie,,10.0;Cape Palmas,,10.0;Casbah,,10.0;CassiopÃ©e,,10.0;Champlan,,10.0;Charlevoix,,10.0;Chassey-lÃ¨s-Montbozon,,10.0;Chavannes-prÃ¨s-Renens,,10.0;Chufut Kale,,10.0;ChÃ¢tillon-sur-Chalaronne,,10.0;Ciel,,10.0;Claude II,,10.0;Claude II le Gothique,,10.0;Claude le Gothique,,10.0;Colaptes auratus,,10.0;CommunautÃ© autonome de Valence,,10.0;CommunautÃ© germanophone de Belgique,,10.0;CommunautÃ© valencienne,,10.0;CondÃ©-sur-Sarthe,,10.0;Cormaranche-en-Bugey,,10.0;Crespiatica,,10.0;Croix Rousse,,10.0;Crolles,,10.0;Dachava,,10.0;Danube,,10.0;Desa,,10.0;District de Bragance,,10.0;District de Guarda,,10.0;District de Vila Real,,10.0;District de Viseu,,10.0;Domicile,,10.0;Donetsk,,10.0;Dourdan,,10.0;Dunkerque,,10.0;Ensemble de lancement Vega,,10.0;Ercheu,,10.0;Europe,,10.0;ExtÃ©rieur,,10.0;Falster,,10.0;Fontaine,,10.0;Forcalquier,,10.0;Forum Julii,,10.0;FrÃ©jus,,10.0;FÃ©chain,,10.0;GapenÃ§ais,,10.0;Glazov,,10.0;Gliniany,,10.0;Golden Gate Bridge,,10.0;Goudermes,,10.0;Grand Junction,,10.0;Granville,,10.0;Grao,,10.0;GvardeÃ¯sk,,10.0;Hauteville-Lompnes,,10.0;Helianthus annuus,,10.0;Hlyniany,,10.0;Hollywood,,10.0;Homonymies,,10.0;HoyvÃ­kshÃ³lmur,,10.0;HyÃ¨res,,10.0;HyÃ¨res les Palmiers,,10.0;Iahotyn,,10.0;Ichim,,10.0;Ijevsk,,10.0;Indes nÃ©erlandaises,,10.0;Indes orientales nÃ©erlandaises,,10.0;Iochkar-Ola,,10.0;Iouzovka,,10.0;Jeleznodorojny,,10.0;Jia,,10.0;Jura,,10.0;Kalatchinsk,,10.0;Kamloops,,10.0;Kemerovo,,10.0;Kerjenets,,10.0;Koktebel,,10.0;KopeÃ¯sk,,10.0;Kourgan,,10.0;Kouznetsk,,10.0;Krasne,,10.0;KrasnoÃ¯e,,10.0;Kyzyl,,10.0;L'Acadie,,10.0;L'Europe est Ã©galement Ã  l'origine de plusieurs bouleversements historiques majeurs,,10.0;LFPN,,10.0;La Croix-Rousse,,10.0;La Rochette,,10.0;La Seyne-sur-Mer,,10.0;Laaland,,10.0;Landser,,10.0;LantigniÃ©,,10.0;Lauch,,10.0;Laurentides,,10.0;Le Tour du monde en quatre-vingts jours,,10.0;Les Banhs de RÃ¨nnas,,10.0;Les Contamines-Montjoie,,10.0;Les Mathes,,10.0;Les tunnels de la rÃ©gion de Bruxelles-Capitale,,10.0;Levant,,10.0;Lieuvin,,10.0;Lioubim,,10.0;Llangadwaladr,,10.0;Lolland,,10.0;Longmont,,10.0;Louan-Villegruis-Fontaine,,10.0;Lucknow,,10.0;Lysva,,10.0;LÃ©man,,10.0;Macropodus opercularis,,10.0;Magadan,,10.0;Maine-et-Loire,,10.0;Major League Soccer 2017,,10.0;Mangoup,,10.0;Mangoup Kale,,10.0;Mao,,10.0;Marcus Aurelius Claudius Gothicus,,10.0;Mariac,,10.0;Marliens,,10.0;Marseille,,10.0;Maryland,,10.0;Matanzas,,10.0;Maud Fontenoy,,10.0;Mawu,,10.0;Mayfair,,10.0;Mejdouretchensk,,10.0;Michigan,,10.0;MicronÃ©sie,,10.0;Minneapolis,,10.0;Mir,,10.0;Mise en garde mÃ©dicale,,10.0;Mizra'him,,10.0;Mogotcha,,10.0;Montbronn,,10.0;MontlhÃ©ry,,10.0;Moyen Ã‚ge,,10.0;Mtsensk,,10.0;Mulhouse,,10.0;MÃ¸n,,10.0;NNE,,10.0;NNO,,10.0;Naberejnye Tchelny,,10.0;Nay,,10.0;Nertchinsk,,10.0;Nesle,,10.0;Neudorf,,10.0;Nikolsk,,10.0;Nil Blanc,,10.0;Nil Bleu,,10.0;Noguinsk,,10.0;Nord-Est,,10.0;Norman,,10.0;Novossibirsk,,10.0;Novotcheboksarsk,,10.0;Obwald,,10.0;Ona,,10.0;Oriental,,10.0;Orsay,,10.0;Ostrog,,10.0;Ostroh,,10.0;Ouled Derradj,,10.0;Oussolie-SibirskoÃ¯e,,10.0;Oussouriisk,,10.0;Oustioujna,,10.0;Palaiseau,,10.0;Parpeville,,10.0;Pavlograd,,10.0;Pavlohrad,,10.0;Pays valencien,,10.0;Petites Antilles,,10.0;Petites CaraÃ¯bes,,10.0;Petropavlovsk-Kamtchatski,,10.0;PeyrepertusÃ¨s,,10.0;Phares de France,,10.0;Phileas Fogg,,10.0;Pinsk,,10.0;Plaine,,10.0;Pointe-aux-Trembles,,10.0;Pont-Euxin,,10.0;Prugny,,10.0;PrÃ©occupation mineure,,10.0;Puget-sur-Argens,,10.0;PÃ©roy-les-Gombries,,10.0;Queensland,,10.0;QuÃ©bec,,10.0;RD 400,,10.0;RN 4,,10.0;Realp,,10.0;Remich,,10.0;Reni,,10.0;Rennes-le-ChÃ¢teau,,10.0;Rennes-les-Bains,,10.0;Rhedae,,10.0;Royans,,10.0;Rudolfsheim-FÃ¼nfhaus,,10.0;Russie blanche,,10.0;RuthÃ©nie blanche,,10.0;RÃ©publique et Canton du Jura,,10.0;Saint-Aigulin,,10.0;Saint-AndÃ©ol-de-Berg,,10.0;Saint-Didier-sur-Beaujeu,,10.0;Saint-Gingolph,,10.0;Saint-Marcel,,10.0;Saint-Rambert-en-Bugey,,10.0;Saint-RÃ©my-aux-Bois,,10.0;Saint-Suliac,,10.0;Saint-Tropez,,10.0;Saint-Zacharie,,10.0;Samognat,,10.0;Santiago de Cali,,10.0;Saransk,,10.0;Sarapoul,,10.0;Sassenage,,10.0;Saulx-les-Chartreux,,10.0;SerriÃ¨res-sur-Ain,,10.0;Seyssinet-Pariset,,10.0;Slavoutitch,,10.0;Slavoutytch,,10.0;Sofala,,10.0;Soho,,10.0;Sonthonnax-la-Montagne,,10.0;Soudak,,10.0;Soumy,,10.0;Stalino,,10.0;Stillwater,,10.0;Stroganoff,,10.0;Stroganov,,10.0;Strogonov,,10.0;Struthio molybdophanes,,10.0;Sud,,10.0;Sud-Est,,10.0;Sunshine State,,10.0;Superga,,10.0;Suresnes,,10.0;Synagogue Reicher,,10.0;SÃ©rie mondiale 2010,,10.0;SÃ©rÃ©nissime,,10.0;SÃ©varÃ©,,10.0;TNF,,10.0;Tana,,10.0;TanaÃ¯s,,10.0;Tanzac,,10.0;Tcheboksary,,10.0;Tcheliabinsk,,10.0;Telestes souffia,,10.0;The Alchemist,,10.0;Thiers,,10.0;Thor,,10.0;Tioumen,,10.0;Tipasa de MaurÃ©tanie,,10.0;TiÃ¨rn,,10.0;Topeka,,10.0;Treignac,,10.0;Trump Tower,,10.0;TrÃ¡s-os-Montes e Alto Douro,,10.0;TÃ¯Ã©,,10.0;UC Berkeley,,10.0;UCB,,10.0;Valais,,10.0;Valence,,10.0;Vaux-Marquenneville,,10.0;Vieux Continent,,10.0;Villebon-sur-Yvette,,10.0;Villejust,,10.0;Vinniki,,10.0;Violay,,10.0;ViÃ±a del Mar,,10.0;Volgodonsk,,10.0;Volkhov,,10.0;VolkhovstroÃ¯,,10.0;Vourey,,10.0;VulnÃ©rable,,10.0;Vynnyky,,10.0;Whitecaps de Vancouver,,10.0;Yagotine,,10.0;Yavorov,,10.0;Zaretchny,,10.0;Zelenogorsk,,10.0;Zellwiller,,10.0;Zolotchev,,10.0;Zolotchiv,,10.0;aarhus,,10.0;abbaye territoriale de Saint-Maurice d'Agaune,,10.0;adriatique,,10.0;aire de vent,,10.0;alphabet syriaque,,10.0;amÃ©ricanophobie,,10.0;amÃ©rique du nord,,10.0;ancien royaume de Valence,,10.0;anti-amÃ©ricain,,10.0;anti-amÃ©ricanisme,,10.0;antiamÃ©ricanisme,,10.0;antimÃ©ridien,,10.0;architecture armÃ©nienne,,10.0;athamÃ©,,10.0;aube,,10.0;autoroute 20,,10.0;autoroute A1,,10.0;autruche de Somalie,,10.0;aÃ©roport de Toussus-le-Noble,,10.0;bahianais,,10.0;baroque sicilien,,10.0;base sous-marine de La Rochelle,,10.0;biscuit,,10.0;blageon,,10.0;branches terrestres,,10.0;canal Lachine,,10.0;canal de Lachine,,10.0;canton d'Obwald,,10.0;canton du Jura,,10.0;canton du Valais,,10.0;cap des Palmes,,10.0;casbah d'Alger,,10.0;cathÃ©drale de Magdebourg,,10.0;chÃ¢tain,,10.0;chÃ¢taine,,10.0;chÃ¢teau de Peyrepertuse,,10.0;chÃ¢teau du Grand-Arnsbourg,,10.0;ciel,,10.0;cinquiÃ¨me avenue,,10.0;continent europÃ©en,,10.0;coordonnÃ©es gÃ©ographiques,,10.0;couchant,,10.0;coucher de Soleil,,10.0;coucher de soleil,,10.0;coucher du soleil,,10.0;danse du soleil,,10.0;danubien,,10.0;desa,,10.0;donau,,10.0;dÃ©partement de Bermejo,,10.0;dÃ©partement de General GÃ¼emes,,10.0;dÃ©partement de Libertador General San MartÃ­n,,10.0;dÃ©partement de MaipÃº,,10.0;dÃ©partement de Sargento Cabral,,10.0;europÃ©en,,10.0;europÃ©enne,,10.0;europÃ©ennes,,10.0;facteur de nÃ©crose tumorale,,10.0;gamelan,,10.0;gapenÃ§ais,,10.0;gare de ChambÃ©ry - Challes-les-Eaux,,10.0;gong,,10.0;heure du mao,,10.0;histoire de la Sardaigne,,10.0;histoire du hongrois,,10.0;hiver nuclÃ©aire,,10.0;hogan,,10.0;hollywood,,10.0;hollywoodien,,10.0;homonyme,,10.0;homonymes,,10.0;homonymie,,10.0;homonymies,,10.0;hongrois,,10.0;hÃ©liotrope,,10.0;ilanski,,10.0;istro-roumains,,10.0;jet lag,,10.0;jetlag,,10.0;jia,,10.0;juifs mizrahim,,10.0;kanjis,,10.0;kia,,10.0;kontiolahti,,10.0;l'orientation,,10.0;lac LÃ©man,,10.0;lac Retba,,10.0;lac Rose,,10.0;lac de GenÃ¨ve,,10.0;langue hongroise,,10.0;langues orientales,,10.0;laurier-dorion,,10.0;les aurores,,10.0;lever de soleil,,10.0;lever du soleil,,10.0;ligne d'Ã©quinoxe,,10.0;ligne de changement de date,,10.0;ligne de vent,,10.0;ligne de Ã©quinoxe,,10.0;ligne Ã©quinoxiale,,10.0;longitude,,10.0;lumiÃ¨re zodiacale,,10.0;marteloire,,10.0;maurelle,,10.0;mer Adriatique,,10.0;mer Noire,,10.0;mer Rouge,,10.0;mer de l'Est,,10.0;mer des Indes,,10.0;mer du Japon,,10.0;mer orientale de CorÃ©e,,10.0;mois du mao,,10.0;monde arabe,,10.0;mont LozÃ¨re,,10.0;montagne Sainte-Victoire,,10.0;monts des Flandres,,10.0;mÃ©thode de Bigourdan,,10.0;nord est,,10.0;nord-amÃ©ricain,,10.0;nord-est,,10.0;occident,,10.0;ocÃ©an Oriental,,10.0;ocÃ©an indien,,10.0;oriental,,10.0;orientale,,10.0;orientaux,,10.0;panthÃ©on de la mythologie nordique,,10.0;panthÃ©on nordique,,10.0;panzhihua,,10.0;parc Montsouris,,10.0;parc naturel rÃ©gional de Lorraine,,10.0;partizansk,,10.0;pays arabe,,10.0;pays arabes,,10.0;pays d'Oz,,10.0;pays valencien,,10.0;pentes,,10.0;penza-19,,10.0;petit matin,,10.0;petites Antilles,,10.0;phare de Kerprigent,,10.0;philosophie analytique,,10.0;pic d'Arriel,,10.0;plan de l'Ã©cliptique,,10.0;point du jour,,10.0;point Ã©quinoxial,,10.0;pointe-aux-trembles,,10.0;poisson-paradis,,10.0;ponant,,10.0;pont du Golden Gate,,10.0;projection conique conforme de Lambert,,10.0;projection de Lambert,,10.0;province d'Imperia,,10.0;province de Gaza,,10.0;province de Manica,,10.0;province de Sofala,,10.0;provincia di Imperia,,10.0;prÃ©occupation mineure,,10.0;puits Arthur-de-Buyer,,10.0;puits no 11,,10.0;pÃ©ninsule de Delmarva,,10.0;pÃ©ninsule scandinave,,10.0;quart d'angle,,10.0;quart de vent,,10.0;quatre points cardinaux,,10.0;rameaux terrestres,,10.0;repÃ¨res gÃ©ographiques,,10.0;rhumb,,10.0;rock alternatif,,10.0;rotation de la Terre,,10.0;rotation terrestre,,10.0;route nationale 4,,10.0;royaume de,,10.0;rumb,,10.0;rÃ©fÃ©rentiel d'altitude et de coordonnÃ©es gÃ©ographiques,,10.0;rÃ©gion valencienne,,10.0;rÃ©publique maritime,,10.0;rÃ©publiques maritimes,,10.0;safrole,,10.0;shikimol,,10.0;sphÃ¨re armillaire,,10.0;stade Geoffroy-Guichard,,10.0;stroganoff,,10.0;sud est,,10.0;sud-est,,10.0;suet,,10.0;synagogue de Bayonne,,10.0;syndrome du dÃ©calage horaire,,10.0;temple de BÃªl,,10.0;thÃ©orÃ¨me de la boule chevelue,,10.0;tourisme en Lorraine,,10.0;tournesol,,10.0;tribord,,10.0;tunnel du Cinquantenaire,,10.0;universitÃ© de Californie Ã  Berkeley,,10.0;valais,,10.0;valaisan,,10.0;villa Malaparte,,10.0;yahotyn,,10.0;yavoriv,,10.0;Ã… i Lofoten,,10.0;Ã…rhus,,10.0;Ã‡ufut Qale,,10.0;Ã‰tampes,,10.0;Ã‰tat fÃ©dÃ©ral de BolÃ­var,,10.0;Ã‰tat souverain de BolÃ­var,,10.0;Ã‰tats fÃ©dÃ©rÃ©s de MicronÃ©sie,,10.0;Ã‰vry,,10.0;Ã©cliptique,,10.0;Ã©quinoxe,,10.0;Ã©quinoxe d'automne,,10.0;Ã©quinoxe de printemps,,10.0;Ã©quinoxe vernal,,10.0;Dijon,,9.0;boussole,,9.0;mer MÃ©diterranÃ©e,,9.0;plateau,,9.0;dÃ©troit de Gibraltar,,8.0;Tananarive,,2.0;OcÃ©an Indien,,1.0;ocÃ©an Indien,,1.0
-r_syn;levant,,83.0;oriental,,79.0;aurore,,65.0;levanti,,42.0;levantin,,42.0;Ãªtre,,42.0;Orient,,27.0;orient,,27.0
-r_hypo;orientation,,121.0;direction,,64.0;rÃ©gion,,64.0;cap,,22.0;point cardinal,,22.0
-r_carac;point cardinal,,54.0
-r_raff_sem-1;est (Ãªtre),,281.0;est (point cardinal),,60.0
-r_associated;nord,,510.0;ouest,,450.0;sud,,430.0;direction,,352.0;point cardinal,,290.0;Ã€ l'est,,206.0;Ã  l'est,,205.0;les quatre points cardinaux,,150.0;girouette,,120.0;Mur de Berlin,,110.0;cardinal,,110.0;mur de Berlin,,110.0;et,,106.0;nord ouest,,90.0;Ukraine,,80.0;boussole,,71.0;Slovaquie,,70.0;points cardinaux,,70.0;communiste,,63.0;direction du vent,,61.0;Kosovo,,60.0;Orient,,60.0;Ouest,,60.0;orient,,60.0;rose des vents,,60.0;Ãªtre,,60.0;russe,,59.0;Japon,,58.0;U.R.S.S,,58.0;U.R.S.S.,,58.0;URSS,,58.0;Union SoviÃ©tique,,58.0;Union des rÃ©publiques socialistes soviÃ©tiques,,58.0;Union soviÃ©tique,,58.0;mirabelle,,58.0;urss,,58.0;Petropavlovsk,,56.0;Russie,,56.0;Pologne,,54.0;prÃ©sent,,54.0;=sud=,,53.0;BiÃ©lorussie,,53.0;cap,,53.0;dÃ©sorientation,,53.0;nord-est,,51.0;plein est,,51.0;qu'est-ce que,,51.0;sud-est,,51.0;=nord-est=,,46.0;=nord=,,45.0;=ouest=,,45.0;cardinal (point cardinal),,42.0;rÃ©gime soviÃ©tique,,36.0;chute du mur de Berlin,,35.0;ests,,34.0;levanti,,32.0;levantin,,32.0;GÃ©ographie,,30.0;aurore,,29.0;gÃ©ographie,,29.0;rÃ©unification allemande,,29.0;Ã©levant,,29.0;MIDI,,28.0;=east=,,26.0;Est,,26.0;Vladivostok,,26.0;east,,26.0;oriental,,26.0;Baiyoke Tower II,,25.0;fermentant,,23.0;orientation (points cardinaux),,23.0;cardinal (Adj),,21.0;levant,,21.0;orientation,,13.0;rÃ©gion,,13.0
-r_isa;sud-est,,57.0;nord-est,,38.0;=nord-est=,,34.0;plein est,,13.0;point cardinal,,13.0;communiste,,-68.0
-r_has_part;Asie,,10.0;planÃ¨te,,10.0;terre,,10.0
-r_sentiment-1;amour,,1.0;bonheur,,1.0;joie,,1.0;plaisir,,1.0;satisfaction,,1.0;surprise,,1.0
-r_domain-1;orientation (points cardinaux),,32.0;gÃ©ographie,,24.0;points cardinaux,,23.0;orientation,,21.0;GÃ©ographie,,-23.0
-r_family;Ãªtre,,80.0
-r_lemma;ests,,60.0;est,,58.0
-r_conseq;=ouest=,,40.0;ouest,,39.0;direction,,27.0
+voisinage 
+63489;'Laurentides';1;50
+2385958;'hogan';1;0
+151553;'_FL:0';6;50
+3344432;'autoroute A1';1;0
+92167;'Iochkar-Ola';1;50
+241675;'orientation>153815';1;56;orientation>points cardinaux
+75785;'Pologne';1;208
+151566;'_FL:7';6;50
+405514;'Stroganoff';1;50
+2521142;'Bolozon';1;0
+151568;'_FL:11';6;50
+151576;'_FL:6';6;50
+151587;'_FL:10';6;50
+2586629;'Number:Sing';4;0
+10195128;'Mayfair';777;0
+2586627;'Gender:Mas';4;0
+151591;'***';0;6584
+3416088;'bn:00073013n';444;0
+2459669;'Andolsheim';1;0
+58;'micro-noyaux';1;50
+65595;'The Alchemist';1;50
+2498589;'Condé-sur-Sarthe';1;0
+2410527;'Montbronn';1;0
+161852;'jaunes';1;54
+3575927;'Morpho:min';18;50
+151616;'néerlandaise';1;50
+143431;'Suisse';1;286
+11233506;'Pavlograd';777;0
+11233505;'Pavlohrad';777;0
+2433129;'Buissard';1;0
+51280;'Nil Bleu';1;56
+170064;'philosophie analytique';1;18
+55378;'Soho';1;50
+11104506;'Jeddah Tower';777;0
+10137806;'Synagogue Reicher';777;0
+6006798;'méthode de Bigourdan';777;0
+30806;'Évry';1;50
+10327;'Maryland';1;52
+2420805;'équinoxe vernal';1;0
+2533442;'Châtillon-sur-Chalaronne';1;0
+6017085;'Phares de France';777;0
+589934;'plan de l'écliptique';777;0
+2392141;'Sévaré';1;0
+6068278;'Gratte-ciel';1;0
+8571113;'Vulnérable';777;0
+151663;'_FL:15';6;50
+75884;'mars';1;2870
+10461422;'canton du Jura';777;0
+73843;'rose des vents';1;52
+10461421;'République et Canton du Jura';777;0
+10741969;'histoire de la Sardaigne';777;0
+11104474;'Baiyoke Tower II';777;0
+10356;'hongrois';1;82
+131196;'carte';1;1706
+116863;'Moyen Âge';1;220
+5564459;'Goudermes';777;0
+8320;'écliptique';1;56
+241794;'_POL-NEUTRE';36;50
+63618;'Dunkerque';1;56
+11104303;'Ping An Finance Centre';777;0
+11364388;'Autoroute A4';777;0
+264334;'Burj Khalifa';666;50
+1007749;'cap des Palmes';777;0
+264335;'Willis Tower';666;50
+10844213;'coupe afro-asiatique';777;0
+11104313;'China Zun';777;0
+11104312;'Tianjin Chow Tai Fook Binhai Center';777;0
+2384054;'Autrans';1;2
+264336;'Tokyo Skytree';666;50
+131227;'Andlau';1;50
+10844223;'Al Ahly Sporting Club';777;0
+9201681;'péninsule de Delmarva';777;0
+22686;'maltais';1;54
+139421;'MIDI';1;50
+286884;'ISO 639';777;50
+577707;'kanjis';777;0
+2951305;'Adj:PositionRight';18;50
+98475;'Palaiseau';1;50
+125098;'Suresnes';1;56
+116908;'châtain';1;84
+6013173;'C. Johan Masreliez';777;0
+202924;'les quatre points cardinaux';1;50
+1157285;'est>171869';1;0;est>Adj:
+1157284;'est>171870';1;0;est>Nom:
+11104286;'Taipei 101';777;0
+6007008;'référentiel d'altitude et de coordonnées géographiques';777;0
+71875;'Orient';1;66
+24771;'Franche-Comté';1;174
+131274;'Queensland';1;52
+133321;'Saint-Rambert-en-Bugey';1;50
+2500841;'marteloire';1;0
+67795;'Hollywood';1;202
+35027;'mer Adriatique';1;54
+153815;'points cardinaux';1;76
+2449661;'Saint-Gingolph';1;0
+2410745;'Petites Antilles';1;0
+2554105;'Villejust';1;0
+661736;'facteur de nécrose tumorale';1;0
+47332;'Falster';1;50
+10844224;'Al Ahly';777;0
+2517187;'Zellwiller';1;0
+11442251;'pays d'Othe';777;0
+76007;'homonymie';1;52
+20713;'planète';1;2696
+153835;'_FL:32';6;50
+5679292;'règle dite des trois révocations';777;0
+2494664;'Les Mathes';1;0
+2935005;'VerbalTime:Present';4;0
+71922;'Helianthus annuus';1;50
+10903635;'Pointe-aux-Trembles';777;0
+5554339;'théorème de la boule chevelue';777;0
+98552;'Berkeley';1;54
+57596;'suet';1;70
+47360;'longitude';1;88
+65797;'gong';1;66
+11078063;'Gvardeïsk';777;0
+11061665;'kontiolahti';777;0
+2412846;'Violay';1;0
+252168;'régime soviétique';1;4
+274696;'Sunshine State';777;50
+145680;'verbe';1;886
+11104701;'KL118';1;0
+88341;'hollywoodien';1;58
+16662;'adriatique';1;50
+9773453;'juifs mizrahim';777;0
+53528;'Marseille';1;480
+9773454;'Mizra'him';777;0
+3576104;'Morpho:nospace';18;50
+121120;'Angarsk';1;50
+164134;'amérique du nord';1;50
+11301253;'Koktebel';777;0
+401706;'Coupe';1;50
+135477;'Tana';1;50
+588081;'Les Contamines-Montjoie';777;0
+11176342;'Base sous-marine de La Pallice';777;0
+45375;'équinoxe';1;80
+11176341;'base sous-marine de La Rochelle';777;0
+10777063;'Lioubim';777;0
+2406765;'qatarien';1;0
+10985961;'château du Grand-Arnsbourg';777;0
+1814858;'Berezan';1;0
+2543991;'Saint-Rémy-aux-Bois';1;0
+2509183;'Ercheu';1;0
+102748;'antiaméricanisme';1;50
+274779;'océan Oriental';777;50
+26976;'vert';1;2664
+11104713;'Chicago Spire';777;0
+11104712;'Suzhou Zhongnan Center';777;0
+11104715;'Entisar Tower';777;0
+9828855;'stade Geoffroy-Guichard';777;0
+11104714;'Busan Lotte World Tower';777;0
+11104717;'Qatar National Bank Tower';777;0
+10904003;'Ligue des champions de la CAF';777;0
+11104716;'Dalian Greenland Center';777;0
+4032858;'dbnary:fra:__ws_3_est__adj__1';444;0
+172389;'Tananarive';1;50
+84328;'sous-préfecture';1;98
+11104710;'Dubai Creek Tower';777;0
+115057;'Ukraine';1;90
+6017322;'villa Malaparte';777;0
+65906;'cardinal';1;201
+260464;'langage C';1;50
+301424;'Oussouriisk';777;50
+10832338;'Zelenogorsk';777;0
+139642;'aurore';1;174
+297343;'province de Sofala';777;50
+39293;'Mulhouse';1;50
+80252;'Plaine';1;50
+311684;'syndrome du décalage horaire';777;50
+311685;'jetlag';777;56
+1704350;'Stalino';777;0
+248198;'_SEX_NO';36;50
+86407;'Kourgan';1;50
+1704348;'Aleksandrovka';777;0
+1704349;'Iouzovka';777;0
+2441645;'Estonien';1;0
+2402733;'levanti';1;0
+43409;'Canada';1;442
+90516;'plateau';1;514
+47513;'Nay';1;50
+10426625;'Étoile sportive du Sahel';777;0
+11104521;'Wuhan Greenland Center';777;0
+280998;'Telestes souffia';777;50
+11104522;'Rama IX Super Tower';777;0
+11104525;'Skyfame Center Landmark Tower';777;0
+11104524;'Pearl of the North';777;0
+10864899;'TCSEC';777;0
+14759;'suisse';1;118
+10864898;'Trusted Computer System Evaluation Criteria';777;0
+3809683;'dbnary:fra:__ws_1_est__nom__1';444;0
+117162;'Estonie';1;56
+37298;'amour';1;6778
+100786;'Aleksandrovsk-Sakhalinski';1;50
+2554258;'Rennes-le-Château';1;0
+94651;'orienter';1;140
+98751;'Jura';1;156
+2443744;'anti-américain';1;0
+152011;'_FL:20';6;50
+182728;'hiver nucléaire';1;50
+51658;'Nil Blanc';1;52
+152012;'_FL:21';6;50
+203222;'lumière zodiacale';1;50
+301533;'azimuth';777;50
+6001025;'Mawu';777;0
+10852676;'Michael Eneramo';777;0
+2537925;'Saint-Suliac';1;0
+139752;'Blanc';1;54
+16875;'direction';1;952
+406004;'Sassenage';1;50
+2382291;'La Rochette';1;0
+11393370;'Ensemble de lancement Vega';777;0
+2527710;'Seyssinet-Pariset';1;0
+41466;'sud-est';1;154
+33274;'épissage';1;50
+2390495;'Vaux-Marquenneville';1;0
+125437;'tribord';1;72
+297467;'Barnaoul';777;52
+139779;'ADN';1;662
+135683;'Matsue';1;50
+11532970;'Steve Fossett';777;0
+11532969;'James Stephen Fossett';777;0
+11356837;'province de Gaza';777;0
+59914;'Ijevsk';1;50
+289288;'canal de Lachine';777;50
+238098;'Phileas Fogg';1;4
+238097;'Le Tour du monde en quatre-vingts jours';1;36
+76306;'Claude II le Gothique';1;50
+57876;'Ouganda';1;68
+274972;'Cape Palmas';777;50
+223768;'montagne Sainte-Victoire';666;12
+156190;'vent d'est';1;86
+540;'Midi';1;62
+266779;'One World Trade Center';666;50
+11057805;'Petites Caraïbes';777;0
+98863;'Marcus Aurelius Claudius Gothicus';1;50
+231980;'Croix Rousse';1;50
+6283881;'Ostrog';777;0
+2562590;'Realp';1;0
+2955799;'kia';777;0
+135737;'Tunisie';1;232
+195139;'_FL:42';6;50
+11162360;'141e méridien est';777;0
+11162361;'139e méridien est';777;0
+219734;'Ligue des champions';1;50
+6742;'Peninsula';1;50
+129623;'Thiers';1;58
+11162352;'129e méridien est';777;0
+11162358;'132e méridien est';777;0
+150118;'Ver:IPre+SG+P3';4;50
+209513;'Union soviétique';1;66
+303721;'Azaq';777;50
+10865365;'Gliniany';777;0
+10865364;'Hlyniany';777;0
+33394;'asiatique';1;428
+141936;'Ciel';1;52
+62067;'commune';1;1288
+410244;'Desa';1;50
+98948;'libre';1;620
+5833439;'jia';1;0
+205453;'petit matin';1;54
+2507447;'Cantabrie';1;0
+5901004;'Macropodus opercularis';777;0
+10903;'bouée';1;192
+5901005;'poisson-paradis';777;0
+39579;'valaisan';1;50
+119453;'Kouznetsk';1;50
+408230;'TNF';1;50
+141987;'Mach';1;50
+2511495;'Champlan';1;0
+438949;'_INFO-POLYMORPHIC';36;50
+299680;'canton d'Obwald';777;50
+1569459;'Naberejnye Tchelny';1;0
+33448;'Saransk';1;50
+10953230;'istro-roumains';777;0
+10674699;'Trás-os-Montes e Alto Douro';777;0
+148137;'fermentant';1;50
+45739;'Cali';1;52
+10674702;'District de Vila Real';777;0
+1569466;'Volgodonsk';1;0
+10674703;'District de Viseu';777;0
+180908;'ARN messager';1;54
+10674700;'District de Bragance';777;0
+10674701;'District de Guarda';777;0
+2464405;'Saint-Aigulin';1;0
+5941993;'république maritime';777;0
+5941996;'républiques maritimes';777;0
+176827;'Euro';1;4
+228026;'parc Montsouris';1;50
+142008;'Sud';1;156
+8966706;'département de Libertador General San Martín';777;0
+4800;'Qatar';1;52
+271044;'La Seyne-sur-Mer';1;50
+195264;'continent européen';1;56
+10742375;'Ligue des champions de la CAF 2011';777;0
+2476769;'bahianais';1;0
+10742373;'Ligue des champions de la CAF 2010';777;0
+10009168;'université de Californie à Berkeley';777;0
+160459;'sud est';1;60
+1569502;'Glazov';1;0
+10009169;'UCB';777;0
+402124;'Boussole';1;50
+9828959;'Bilad el-Cham';777;0
+10009170;'UC Berkeley';777;0
+1569500;'Mejdouretchensk';1;0
+6068881;'péninsule scandinave';777;0
+1569497;'Sarapoul';1;0
+1569496;'Jeleznodorojny';1;0
+1569478;'Novotcheboksarsk';1;0
+6017678;'Chufut Kale';777;0
+25302;'Burkina Faso';1;50
+6017677;'Çufut Qale';777;0
+728;'homonyme';1;82
+217817;'_INFO-POLYSEMIC';36;50
+391897;'projection conique conforme de Lambert';777;50
+1569483;'Noguinsk';1;0
+391896;'projection de Lambert';1;50
+2384634;'Remich';1;0
+119521;'Étampes';1;50
+183014;'ligne équinoxiale';1;50
+371437;'point équinoxial';1;50
+92907;'Petropavlovsk';1;50
+6068919;'mont Lozère';777;0
+5812904;'Jia';1;0
+166650;'nord est';1;60
+82682;'orientation';1;380
+11012692;'Lauch';777;0
+275204;'Centre national de ressources textuelles et lexicales';777;50
+76553;'Malte';1;72
+19217;'communiste';1;540
+10443658;'saison 2014-2015';777;0
+64278;'Balkans';1;64
+790;'Darwin';1;126
+148251;'gapençais';1;50
+160536;'pays de l'Est';1;58
+11039;'Saint-Tropez';1;52
+219939;'lever de soleil';1;52
+414503;'Mtsensk';1;50
+10931087;'temple de Bêl';777;0
+10988430;'180e méridien';777;0
+4911;'nord-est';1;168
+154417;'Mao';1;76
+308016;'mer de l'Est';777;50
+308017;'mer orientale de Corée';777;50
+6069098;'Møn';777;0
+10955678;'Rudolfsheim-Fünfhaus';777;0
+2872080;'Préoccupation mineure';777;0
+5389166;'économie socialiste';1;0
+2208611;'homonymies';2;0
+588612;'ligne de équinoxe';777;0
+10748905;'autoroute 20';777;0
+234317;'club omnisports';1;50
+2394993;'NNO';1;0
+392019;'petites Antilles';1;50
+90968;'Lorraine';1;160
+125787;'Tcheboksary';1;50
+10988540;'135e méridien est';777;0
+15196;'blanc';1;4284
+10988538;'45e méridien est';777;0
+119646;'orientale';1;50
+404322;'Championnat';1;50
+871;'ouest';1;594
+125798;'Forcalquier';1;56
+5565246;'Équinoxe';777;0
+56171;'Tanaïs';1;50
+285551;'Santiago de Cali';777;50
+320361;'athamé';1;50
+144236;'est';1;596
+2388820;'Prugny';1;0
+60274;'Mir';1;58
+39803;'Claude le Gothique';1;50
+10349536;'À l'est';777;0
+174973;'Guerre froide';1;2
+3228593;'wiki:@';444;0
+10435354;'L'Acadie';777;0
+97158;'Royans';1;56
+19339;'Kemerovo';1;50
+2386857;'Féchain';1;0
+2519977;'Beauzac';1;0
+27536;'Lucknow';1;50
+11406139;'cathédrale de Magdebourg';777;0
+31641;'avoir';1;687
+2515900;'Chassey-lès-Montbozon';1;0
+254878;'_POL-NEG_PC';36;50
+254877;'_POL-NEUTRE_PC';36;50
+254876;'_POL-POS_PC';36;50
+10865413;'Vinniki';777;0
+10865412;'Vynnyky';777;0
+10865415;'Yavorov';777;0
+10865414;'yavoriv';777;0
+5029;'mer Rouge';1;84
+10865421;'Dachava';777;0
+10435382;'laurier-dorion';777;0
+52142;'rumb';1;50
+10584847;'Ouled Derradj';777;0
+10865419;'Zolotchev';777;0
+10865418;'Zolotchiv';777;0
+31664;'Topeka';1;50
+10865429;'Krasnoïe';777;0
+10865428;'Krasne';777;0
+138160;'occident';1;78
+10830615;'route nationale 4';777;0
+9800483;'province de Manica';777;0
+2339738;'Conj:Coord';4;0
+10830617;'RD 400';777;0
+10830616;'RN 4';777;0
+86974;'héliotrope';1;54
+162759;'_INFO-SEM-PLACE';36;504
+2542574;'Chavannes-près-Renens';1;0
+170955;'blageon';1;54
+10435411;'pointe-aux-trembles';777;0
+144333;'Soleil';1;260
+435145;'Occidental';1;50
+293844;'Hyères les Palmiers';777;50
+13265;'Pinsk';1;50
+10822519;'Mangoup';777;0
+152535;'urss';1;60
+299986;'Ruthénie blanche';777;50
+5942146;'puits Arthur-de-Buyer';777;0
+5942147;'puits no 11';777;0
+10822520;'Mangoup Kale';777;0
+146396;'Japon';1;1124
+10851195;'gare de Chambéry - Challes-les-Eaux';777;0
+175075;'U.R.S.S.';1;50
+142307;'Fontaine';1;50
+2481095;'Landser';1;0
+2501573;'Auby';1;0
+199653;'équinoxe de printemps';1;52
+273388;'Domicile';777;50
+10136435;'Al-Duhail Sports Club';777;0
+273389;'Extérieur';777;50
+37867;'mirabelle';1;92
+10136437;'Lekhwiya Sports Club';777;0
+6527898;'Supercoupe de Tunisie de football';777;0
+1766369;'pays valencien';1;0
+17411;'désorientation';1;50
+113669;'Russie';1;1312
+2563106;'Vourey';1;0
+74760;'Pays-Bas';1;116
+10345620;'Les tunnels de la région de Bruxelles-Capitale';777;0
+19469;'Dourdan';1;52
+48143;'Kopeïsk';1;50
+10345618;'tunnel du Cinquantenaire';777;0
+99344;'Berlin';1;276
+27668;'Bahia';1;50
+10620090;'monts des Flandres';777;0
+10988735;'Amoursk';777;0
+8027235;'=east=';1;0
+10443907;'MBK Center';777;0
+56349;'Fréjus';1;50
+10988729;'Zaretchny';777;0
+2655241;'branches terrestres';777;0
+2655242;'rameaux terrestres';777;0
+146470;'Reni';1;50
+220196;'direction>106204';1;34;direction>azimut
+3183641;'château de Peyrepertuse';777;0
+3183642;'Peyrepertusès';777;0
+68655;'Michigan';1;52
+592959;'cardinal>171869';1;0;cardinal>Adj:
+2933787;'Boulevard du crime';777;0
+13369;'être';1;806
+99387;'Ichim';1;50
+281663;'quart de vent';777;50
+62524;'biscuit';1;558
+11574514;'île Laurie';777;0
+10743014;'279 av. J.-C';777;0
+5725215;'Open Software Foundation';777;0
+33867;'Kosovo';1;86
+10988785;'ilanski';777;0
+5983233;'4minute';777;0
+40027;'Matanzas';1;50
+138334;'Nord';1;142
+29789;'jazz';1;496
+10988792;'Kalatchinsk';777;0
+2458695;'Abbadia Cerreto';1;0
+1700989;'lac Retba';777;0
+1700988;'lac Rose';1;0
+140394;'Valence';1;50
+25705;'terre';1;4042
+76907;'Levant';1;52
+183411;'Océan Indien';1;12
+111728;'Donetsk';1;50
+1737832;':r147830';10;0
+152689;'euros';1;108
+5913641;'Batouryn';777;0
+58485;'Tunis';1;88
+10433768;'État fédéral de Bolívar';777;0
+10433767;'État souverain de Bolívar';777;0
+2489510;'Puget-sur-Argens';1;0
+7303;'oriental';1;120
+10607656;'Llangadwaladr';777;0
+236687;'Hurd';1;50
+2536619;'Crespiatica';1;0
+130188;'Québec';1;204
+10931241;'Forum Julii';777;0
+461972;'Russie blanche';777;50
+298128;'ALC';777;50
+2606259;'Longmont';1;0
+298129;'Alan Daniel Maman';777;50
+52377;'Kamloops';1;50
+124061;'point du jour';1;56
+191651;'Ver:Etat';18;50
+62628;'Alsace';1;312
+9968700;'pays d'Oz';777;0
+6067450;'Ostroh';1;0
+191666;'_FL:37';6;50
+52400;'États fédérés de Micronésie';1;50
+95408;'Lolland';1;50
+6069486;'pic d'Arriel';777;0
+66745;'Seconde Guerre mondiale';1;108
+11363349;'63e méridien est';777;0
+2417821;'Sonthonnax-la-Montagne';1;0
+11363348;'44e méridien est';777;0
+50364;'Europe centrale';1;68
+124093;'Orsay';1;90
+70844;'Est';1;88
+38078;'conjugaison';1;754
+23745;'championnat';1;200
+224450;'Mur de Berlin';1;50
+224449;'Golden Gate Bridge';1;50
+54468;'Broadway';1;60
+152775;'_FL:23';6;50
+173255;'mer des Indes';1;50
+163012;'_INFO-NO-MORE-QUESTION';36;6094
+402625;'Casbah';1;50
+70856;'champion';1;520
+173256;'mer du Japon';1;2
+173262;'mer Noire';1;16
+33998;'Asie du Sud-Est';1;114
+173260;'mer Méditerranée';1;40
+2497768;'Treignac';1;0
+105681;'point cardinal';1;242
+146642;'Alpes';1;304
+7376;'Norman';1;54
+89296;'Tcheliabinsk';1;50
+1703115;'pays arabes';1;0
+87252;'il';1;316
+414931;'Sérénissime';1;50
+2598129;'Rhedae';777;0
+2598128;'Les Banhs de Rènnas';777;0
+5534862;'Mise en garde médicale';777;0
+13531;'Hyères';1;50
+50396;'Minneapolis';1;54
+2389240;'région valencienne';1;0
+2600185;'Communauté autonome de Valence';1;0
+99552;'girouette';1;74
+195815;'aire de vent';1;50
+296161;'Volkhovstroï';777;50
+11493;'danubien';1;50
+2933961;'desa';777;0
+2514122;'Villebon-sur-Yvette';1;0
+5835945;'Maud Fontenoy';777;0
+283888;'introns';777;52
+81143;'Pont-Euxin';1;50
+66808;'présent';1;1090
+2383071;'Parpeville';1;0
+132350;'région';1;2060
+10437731;'Soudak';777;0
+68860;'levantin';1;50
+269561;'sans couleur';1;50
+236797;'danse du soleil';1;50
+191741;'_INFO-VOC-COMMON';36;50
+38149;'couchant';1;68
+212235;'Ver:';4;50
+173325;'océan Indien';1;48
+292126;'International Standard Book Number';777;54
+2522427;'Cormaranche-en-Bugey';1;0
+40221;'Micronésie';1;52
+152860;'coucher de soleil';1;120
+11552;'Strasbourg';1;72
+11384205;'heure du mao';777;0
+46369;'Slovaquie';1;78
+11384204;'mois du mao';777;0
+10988933;'penza-19';777;0
+4939119;'A-20';1;0
+6081914;'Supercoupe';1;0
+136490;'Stroganov';1;50
+5725566;'histoire du hongrois';777;0
+138536;'Jazz';1;52
+202024;'il est temps de';1;50
+263471;'réunification allemande';1;4
+5834102;'Batourine';1;0
+212275;'monde arabe';1;6
+10519958;'province d'Imperia';777;0
+10519959;'provincia di Imperia';777;0
+566578;'championnats';1;50
+2510108;'Tanzac';1;0
+1924385;'valais';1;0
+161085;'longitude est';1;50
+10505699;'Major League Soccer 2017';777;0
+3171700;'pont du Golden Gate';777;0
+42313;'Asie';1;1002
+11060706;'Oustioujna';777;0
+398666;'italiens';1;50
+11081213;'Trump Tower';1;0
+2520433;'NNE';1;0
+296285;'Claude II';777;50
+50522;'Tioumen';1;50
+10847737;'département de Bermejo';777;0
+144737;'orient';1;110
+11009474;'panthéon nordique';777;0
+10505670;'Wydad de Casablanca';777;0
+11009473;'panthéon de la mythologie nordique';777;0
+173413;'Sud-Est';1;50
+154984;'rouges';1;52
+48490;'antiméridien';1;50
+2551114;'Samognat';1;0
+9248225;'les aurores';777;0
+288106;'Communauté valencienne';777;50
+288107;'Pays valencien';777;50
+120176;'gamelan';1;56
+284024;'cinquième avenue';777;50
+247165;'Pacte de Varsovie';1;72
+142716;''C';1;1374
+132482;'ponant';1;54
+214400;'rotation de la Terre';1;2
+198023;'coucher du soleil';1;74
+38279;'Volkhov';1;50
+11003183;'Tièrn';777;0
+374153;'préoccupation mineure';1;50
+87436;'Biélorussie';1;52
+10597681;'Slavoutytch';777;0
+408980;'orientaux';1;50
+10597682;'Slavoutitch';777;0
+75157;'Brossard';1;50
+308626;'Struthio molybdophanes';777;50
+11003184;'Tïé';777;0
+85401;'sphère armillaire';1;50
+21915;'U.R.S.S';1;52
+10597693;'yahotyn';777;0
+10988859;'Oussolie-Sibirskoïe';777;0
+286105;'royaume de';777;50
+10597695;'Yagotine';777;0
+10597694;'Iahotyn';777;0
+8770854;'=sud=';1;0
+95653;'Superga';1;50
+421294;'east';1;50
+304556;'stroganoff';777;50
+93611;'Gueldre';1;50
+26026;'tournesol';1;220
+2585996;'_INFO-CNRTL-YES';36;50
+159148;'plein est';1;50
+64943;'détroit de Gibraltar';1;54
+304555;'Strogonov';777;50
+218551;'cardinal>124060';1;50;cardinal>essentiel
+2469265;'Gapençais';1;0
+218555;'cardinal>105681';1;2;cardinal>point cardinal
+218554;'cardinal>73890';1;10;cardinal>religion
+218553;'cardinal>72025';1;50;cardinal>passereau
+10988829;'Mogotcha';777;0
+218552;'cardinal>23255';1;50;cardinal>mathématiques
+6063585;'phare de Kerprigent';777;0
+212412;'ligne de changement de date';1;50
+105921;'Danube';1;90
+2534880;'Louan-Villegruis-Fontaine';1;0
+146885;'Nom:Mas+SG';4;50
+163274;'_INFO-SEM-THING-ABSTR';36;578
+146891;'Adj:InvGen+SG:InvGen+PL';4;50
+138699;'Nord-Est';1;50
+110026;'Besançon';1;52
+9991497;'Autobahn 1';777;0
+589275;'quatre points cardinaux';777;0
+5477770;'Colaptes auratus';777;0
+10851711;'synagogue de Bayonne';777;0
+161246;'océan indien';1;80
+275942;'ISO 3166-1';777;50
+10988868;'partizansk';777;0
+30183;'URSS';1;634
+251364;'chute du mur de Berlin';1;10
+26089;'nord';1;740
+19945;'et';1;110
+128497;'Azov';1;52
+433654;'Kyzyl';1;50
+77306;'ciel';1;2578
+2446887;'Ballainvilliers';1;0
+13832;'Maine-et-Loire';1;58
+302604;'châtaine';777;50
+36364;'canton du Valais';1;52
+433692;'Septentrional';1;50
+239128;'_COM';36;50
+267800;'coordonnées géographiques';1;50
+8853144;'Suet';1;0
+153117;'européenne';1;166
+10907265;'Ligue des champions de la CAF 2014';777;0
+144936;'mur';1;1674
+91691;'surprise';1;1064
+81451;'Bangkok';1;62
+75309;'Lieuvin';1;50
+179763;'Arabe';1;50
+101941;'lac Léman';1;84
+4062728;'dbnary:fra:__ws_2_est__nom__1';444;0
+77364;'Union des républiques socialistes soviétiques';1;56
+134712;'boussole';1;312
+273976;'langue hongroise';777;50
+310855;'La Croix-Rousse';777;50
+40516;'Novossibirsk';1;54
+10315480;'Kerjenets';777;0
+310856;'pentes';777;50
+233037;'est>13369';1;50;est>être
+138828;'Bourgogne';1;220
+233036;'est>105681';1;52;est>point cardinal
+398934;'homonymes';1;50
+81492;'tombé';1;84
+79444;'campagne';1;2790
+142939;'ISBN';1;60
+149083;'maurelle';1;56
+144991;'français';1;1910
+579157;'aarhus';777;0
+167522;'Union Soviétique';1;84
+2405953;'Mariac';1;0
+157284;'lieu>68467';1;56;lieu>poisson
+93798;'rhumb';1;50
+192106;'autruche de Somalie';1;50
+159342;'hollywood';1;62
+10903254;'Michel Decastel';777;0
+159346;'lac de Genève';1;50
+2385493;'ancien royaume de Valence';1;0
+32374;'Vladivostok';1;50
+10460904;'Tarak Dhiab';777;0
+5891617;'safrole';777;4
+5891618;'shikimol';777;0
+4290106;'Neudorf';1;0
+132734;'donau';1;50
+10370786;'Communauté germanophone de Belgique';777;0
+10315488;'Lysva';777;0
+155260;'mur de Berlin';1;118
+56959;'Hauteville-Lompnes';1;50
+276096;'_INFO-WIKI-YES';36;50
+11150894;'coucher de Soleil';777;0
+2195116;'ests';2;0
+54926;'canal Lachine';1;50
+1152641;'alphabet syriaque';1;0
+8771094;'=ouest=';1;0
+32403;'russe';1;1457
+300689;'Laaland';777;50
+263827;'rotation terrestre';1;12
+161435;'Amérique du nord';1;68
+2547387;'Brénod';1;0
+8769060;'=nord-est=';1;0
+167587;'Mac OS X';1;74
+10118715;'panzhihua';777;0
+10364477;'saison 2012-2013';777;0
+10847750;'département de General Güemes';777;0
+157350;'à l'est';1;54
+9894;'géographie';1;1622
+140964;'Thor';1;70
+44711;'Acadie';1;50
+54956;'football';1;1454
+10847754;'département de Maipú';777;0
+10847765;'département de Sargento Cabral';777;0
+10970645;'Arménie orientale';777;0
+18101;'Granville';1;50
+1496747;'Septentrion';1;0
+2483864;'ligne de vent';1;0
+95934;'tunisien';1;110
+11232788;'Å i Lofoten';777;0
+10851937;'tourisme en Lorraine';777;0
+28360;'Dijon';1;114
+9997910;'Grand Junction';777;0
+241366;'verbe être';1;50
+145113;'Rouge';1;58
+167646;'rock alternatif';1;62
+106204;'azimut';1;56
+263898;'direction du vent';1;50
+42719;'arabe';1;447
+11060809;'Nikolsk';777;0
+22243;'pays';1;4808
+10126973;'Stillwater';777;0
+3673808;'bn:03675547n';444;0
+3673809;'bn:02978112n';444;0
+3673810;'bn:02270184n';444;0
+3673811;'bn:15102200n';444;0
+3673812;'bn:03382953n';444;0
+44781;'Valais';1;56
+100079;'Bouaké';1;52
+233197;'Vieux Continent';1;50
+394998;'cardinal>39922';1;52;cardinal>cépage
+57073;'européen';1;316
+394996;'cardinal>68467';1;50;cardinal>poisson
+394997;'cardinal>18285';1;50;cardinal>papillon
+394995;'cardinal>45606';1;50;cardinal>coléoptère
+163572;'élevant';1;50
+3673807;'bn:00029050n';444;0
+10954320;'Nertchinsk';1;0
+22264;'colère';1;1838
+10903135;'Série mondiale 2010';777;0
+2451166;'Rennes-les-Bains';1;0
+130812;'ARN';1;198
+395001;'cardinal>113547';1;50;cardinal>boisson
+2563800;'Serrières-sur-Ain';1;0
+272132;'Indes néerlandaises';777;50
+11175850;'aéroport de Toussus-le-Noble';777;0
+9947030;'Red Bull Salzbourg';777;0
+2434852;'Saint-Zacharie';1;0
+11175851;'LFPN';777;0
+46850;'nord-américain';1;56
+2486055;'Péroy-les-Gombries';1;0
+100098;'Alger';1;64
+2434854;'Saint-Andéol-de-Berg';1;0
+26371;'Bitche';1;52
+104194;'aube';1;296
+145159;'Jaune';1;50
+272131;'Indes orientales néerlandaises';777;50
+284428;'repères géographiques';777;50
+5814098;'Aarhus';1;0
+89868;'Charlevoix';1;50
+2379562;'qu'est-ce que';1;0
+413461;'Homonymies';1;50
+65303;'Bragance';1;50
+5926723;'Tipasa de Maurétanie';777;0
+18203;'Nesle';1;50
+2459451;'Banteay Mean Chey';1;0
+46879;'sud';1;1068
+446233;':r147829';10;50
+10852282;'Whitecaps de Vancouver';777;0
+141091;'coupe';1;938
+407333;'Oriental';1;50
+28453;'bonheur';1;2094
+5953378;'langues orientales';777;0
+61242;'Montlhéry';1;50
+89916;'Cassiopée';1;66
+575287;'américanophobie';777;50
+210754;'équinoxe d'automne';1;52
+423748;'Austral';1;50
+155456;'Football';1;54
+69445;'Magadan';1;50
+36682;'estonien';1;52
+247631;'sera';1;52
+163660;'nord ouest';1;54
+247632;'était';1;52
+11501560;'orgone';777;0
+188250;'Zine el-Abidine Ben Ali';1;50
+61272;'Soumy';1;50
+8962001;'l'orientation';777;0
+171870;'Nom:';4;50
+171869;'Adj:';4;50
+2946892;'Ver:Conjug';4;0
+11071434;'Hoyvíkshólmur';777;0
+5979966;'parc naturel régional de Lorraine';777;0
+2559808;'Crolles';1;0
+124781;'lever du soleil';1;70
+96109;'Viña del Mar';1;50
+2961219;'Ona';1;0
+73588;'Amérique du Nord';1;112
+11104222;'Abraj Al Bait Towers';777;0
+272253;'ARNm';777;50
+3180363;'Autruche de Somalie';777;0
+38779;'Léman';1;64
+7298834;'=nord=';1;0
+237441;'être>85728';1;6;être>exister
+57221;'joie';1;3706
+83844;'Obwald';1;52
+30597;'Cal';1;50
+139144;'cap';1;74
+2482094;'Marliens';1;0
+9021191;'quart d'angle';777;0
+317323;'_POLIT_2PG';36;50
+30609;'Occident';1;62
+10063626;'abbaye territoriale de Saint-Maurice d'Agaune';777;0
+1251207;'ligne d'équinoxe';777;0
+317329;'_POLIT_7NOPOL';36;50
+22421;'Petropavlovsk-Kamtchatski';1;50
+147359;'anti-américanisme';1;50
+145309;'levant';1;80
+2506631;'Lantignié';1;0
+128933;'Austrasie';1;54
+188327;'Habib Bourguiba';1;50
+77735;'Europe';1;830
+102314;'polonais';1;116
+63406;'gratte-ciel';1;152
+96177;'Beaulieu-sur-Mer';1;50
+2736024;'L'Europe est également à l'origine de plusieurs bouleversements historiques majeurs';777;0
+87987;'France';1;2584
+231349;'pays arabe';1;2
+249780;'jet lag';1;22
+151487;'Ouest';1;82
+6080;'Århus';1;50
+5537684;'baroque sicilien';777;0
+157639;'_FL:35';6;50
+223173;'_POL-POS';36;50
+223172;'_POL-NEG';36;50
+102345;'plaisir';1;3198
+5834641;'Grao';1;0
+2928613;'casbah d'Alger';777;0
+24522;'soleil';1;4882
+401354;'européennes';1;50
+2404328;'Saulx-les-Chartreux';1;0
+1574871;'Saint-Marcel';1;0
+141272;'Géographie';1;256
+2355199;'_OCC-IGNORE';36;0
+28636;'janvier';1;2490
+5537672;'architecture arménienne';777;0
+145382;'orange';1;1754
+2471881;'Saint-Didier-sur-Beaujeu';1;0
+57325;'Sofala';1;50
+145395;'Vert';1;50
+5349287;':r421412';10;0
+5349286;'bn:20273713n';444;0
+5349288;':r146049';10;0
+14330;'satisfaction';1;516
+151550;'_FL:8';6;50
+
+// types relations (id,nom)
+0,r_associated
+128,r_node2relnode
+1,r_raff_sem
+2,r_raff_morpho
+3,r_domain
+4,r_pos
+5,r_syn
+6,r_isa
+7,r_anto
+8,r_hypo
+9,r_has_part
+777,r_wiki
+10,r_holo
+11,r_locution
+12,r_flpot
+15,r_lieu
+2000,r_raff_sem-1
+17,r_carac
+18,r_data
+19,r_lemma
+21,r_has_antimagn
+22,r_family
+23,r_carac-1
+666,r_aki
+27,r_domain-1
+28,r_lieu-1
+32,r_sentiment
+35,r_meaning
+36,r_infopot
+37,r_telic_role
+999,r_inhib
+41,r_conseq
+42,r_causatif
+106,r_color
+115,r_sentiment-1
+444,r_link
+// relations sortantes 
+
+0:25705,10;20713,10;159148,13;163572,21;237441,21;148137,22;139144,22;68860,22;141272,23;2402733,23;11104474,25;139421,26;70844,29;139642,30;71875,30;9894,35;153815,35;218555,39;22243,51;73843,51;31641,59;19217,59;38078,60;144936,60;247631,60;247632,60;241366,62;241675,62;87252,70;82682,111;156190,130;30183,130;7303,140;145309,141;220196,143;42313,149;41466,151;4911,151;66808,160;132350,164;134712,180;65906,180;144737,181;145680,221;16875,293;105681,360;13369,461;46879,520;26089,530;871,560;239128,1000000;
+1:233036,60;233037,281;
+2:1157284,40;1157285,40;
+3:141272,-20;82682,5;9894,31;153815,35;241675,59;
+4:2339738,-34;171869,31;2586627,45;2586629,45;2946892,45;146891,55;2935005,55;146885,56;171870,90;212235,102;150118,117;
+5:68860,31;13369,32;71875,35;2402733,44;139642,57;7303,76;144737,78;145309,80;
+6:157284,-25;82682,13;132350,71;16875,79;139144,81;105681,89;
+7:82682,1;38149,29;132482,29;30609,52;138160,53;151487,53;871,80;
+8:19217,-16;8769060,25;151591,56;159148,101;4911,101;41466,101;105681,101;
+9:62067,5;
+777:70844,10;151487,10;144333,10;24522,10;174973,10;77735,10;247165,10;50364,10;64278,10;87987,10;62628,10;90968,10;24771,10;138334,10;142008,10;433692,10;407333,10;76907,10;435145,10;423748,10;45375,10;1496747,10;71875,10;540,10;30609,10;141987,10;98948,10;142716,10;260464,10;58,10;790,10;167587,10;236687,10;139779,10;180908,10;272253,10;33274,10;283888,10;292126,10;142939,10;130812,10;5565246,10;5389166,10;275942,10;117162,10;286884,10;36682,10;2441645,10;29789,10;138536,10;95934,10;135737,10;234317,10;6013173,10;93611,10;151616,10;74760,10;57876,10;25302,10;275204,10;8853144,10;10844213,10;188327,10;404322,10;401706,10;6527898,10;6081914,10;179763,10;42719,10;155456,10;54956,10;58485,10;566578,10;10426625,10;28636,10;139752,10;15196,10;145395,10;26976,10;145113,10;154984,10;145159,10;161852,10;66745,10;144991,10;398666,10;76553,10;22686,10;70856,10;10460904,10;188250,10;10904003,10;23745,10;141091,10;10852676,10;9947030,10;176827,10;152689,10;10742373,10;10505670,10;10742375,10;10903254,10;143431,10;14759,10;10844223,10;10844224,10;4800,10;2406765,10;10136435,10;10136437,10;10364477,10;219734,10;10907265,10;10443658,10;75884,10;10864898,10;10864899,10;5725215,10;6068278,10;63406,10;81451,10;6742,10;10443907,10;33998,10;264334,10;11104222,10;11104303,10;266779,10;11104286,10;264335,10;264336,10;11104312,10;11104313,10;11104506,10;11104710,10;11104521,10;11104701,10;11104522,10;11104524,10;11104525,10;11104712,10;11104713,10;11104714,10;11104715,10;11104716,10;11104717,10;
+10:25705,45;42313,46;20713,60;
+11:202024,-1;161085,55;160536,57;157350,70;4911,80;156190,103;41466,190;
+12:153835,15;151550,17;152775,21;195139,22;151587,24;191666,24;151576,26;151663,27;151566,27;151568,29;157639,55;152011,118;152012,130;151553,215;
+15:42313,78;131196,78;134712,78;22243,88;
+17:81492,-25;33394,10;
+18:3575927,34;3576104,34;2951305,40;191651,57;
+19:13369,55;144236,58;
+21:145309,51;144737,60;166650,60;160459,60;41466,80;4911,80;
+23:105681,26;
+28:79444,-5;84328,0;
+32:22264,1;14330,42;28453,44;37298,45;91691,46;57221,48;
+35:241366,60;145309,70;144737,103;145680,109;82682,110;220196,140;13369,285;16875,290;105681,360;
+36:254878,8;317323,16;248198,16;317329,17;254877,25;276096,25;2355199,38;223172,42;438949,44;217817,48;191741,49;2585996,53;163274,54;162759,55;163012,59;254876,68;241794,133;223173,364;
+37:94651,53;
+999:395001,3;394998,3;394996,3;394995,3;394997,3;218553,3;218554,3;218551,18;218552,18;
+42:8771094,25;871,56;16875,60;
+106:145382,1;269561,2;
+444:3809683,1;4032858,1;4062728,1;5349286,26;3416088,27;3673812,27;3673811,29;3673807,30;3673808,32;3228593,34;3673809,35;3673810,35;
+
+// relations entrantes 
+
+0:132350,13;82682,13;145309,21;592959,21;148137,23;241675,23;11104474,25;32374,26;7303,26;70844,26;421294,26;8027235,26;139421,28;163572,29;263471,29;9894,29;139642,29;141272,30;68860,32;2402733,32;2195116,34;251364,35;252168,36;218555,42;8771094,45;7298834,45;8769060,46;41466,51;4911,51;159148,51;2379562,51;87436,53;17411,53;139144,53;8770854,53;75785,54;66808,54;113669,56;92907,56;30183,58;146396,58;37867,58;77364,58;175075,58;21915,58;167522,58;209513,58;152535,58;32403,59;71875,60;33867,60;144737,60;73843,60;13369,60;151487,60;263898,61;19217,63;46369,70;153815,70;134712,71;115057,80;163660,90;19945,106;65906,110;155260,110;224450,110;99552,120;202924,150;157350,210;10349536,211;105681,290;16875,352;46879,430;871,450;26089,510;
+35:16875,110;
+5:144737,27;71875,27;68860,42;2402733,42;13369,42;139642,65;7303,79;145309,83;
+6:19217,-68;159148,13;105681,13;8769060,34;4911,38;41466,57;
+7:144737,1;38149,26;138160,30;871,34;132482,34;8771094,37;7298834,50;26089,59;
+8:139144,22;105681,22;132350,64;16875,64;82682,121;
+9:42313,10;25705,10;20713,10;
+41:16875,27;871,39;8771094,40;
+777:173325,1;183411,1;172389,2;64943,8;173260,9;134712,9;28360,9;90516,9;73588,10;43409,10;272131,10;272132,10;77735,10;76007,10;111728,10;76907,10;224449,10;105921,10;100098,10;131274,10;274696,10;274779,10;173255,10;35027,10;142008,10;141936,10;13832,10;728,10;4911,10;5029,10;7303,10;125798,10;56349,10;8320,10;10327,10;89296,10;30806,10;223768,10;19469,10;170955,10;280998,10;110026,10;85401,10;93798,10;52142,10;281663,10;195815,10;152860,10;120176,10;57596,10;119646,10;119521,10;284024,10;219939,10;124781,10;267800,10;284428,10;50396,10;50522,10;173262,10;167646,10;52377,10;46850,10;36364,10;100079,10;288106,10;288107,10;170064,10;95653,10;125098,10;289288,10;54926,10;48143,10;96177,10;238097,10;27536,10;166650,10;13265,10;212275,10;231349,10;54468,10;100786,10;69445,10;164134,10;161435,10;13531,10;293844,10;16662,10;18101,10;19339,10;22421,10;27668,10;31664,10;33448,10;38279,10;296161,10;39579,10;296285,10;39803,10;40027,10;40516,10;173413,10;41466,10;44781,10;47332,10;47360,10;48490,10;56959,10;57073,10;297343,10;57325,10;297467,10;59914,10;61242,10;61272,10;65595,10;298128,10;298129,10;68655,10;76306,10;81143,10;299680,10;83844,10;86407,10;88341,10;89868,10;92167,10;95408,10;300689,10;96109,10;98475,10;98863,10;301424,10;116908,10;302604,10;153117,10;119453,10;121120,10;124093,10;125787,10;128497,10;56171,10;135477,10;303721,10;128933,10;286105,10;131227,10;132734,10;136490,10;304555,10;304556,10;138699,10;146470,10;159342,10;160459,10;161246,10;195264,10;173256,10;308016,10;308017,10;182728,10;308626,10;198023,10;236797,10;233197,10;310855,10;310856,10;231980,10;238098,10;212412,10;311684,10;311685,10;249780,10;320361,10;391897,10;391896,10;45739,10;285551,10;461972,10;299986,10;405514,10;398934,10;401354,10;402124,10;407333,10;408980,10;410244,10;413461,10;414503,10;433654,10;102748,10;147359,10;575287,10;39293,10;579157,10;6080,10;26026,10;86974,10;149083,10;71922,10;63618,10;588081,10;214400,10;589275,10;589934,10;45375,10;588612,10;199653,10;75309,10;183014,10;192106,10;1007749,10;1152641,10;11493,10;133321,10;1251207,10;263827,10;18203,10;374153,10;274972,10;11039,10;1569459,10;1569483,10;1569478,10;1569502,10;1569500,10;1569497,10;148251,10;1700988,10;1700989,10;1703115,10;1704348,10;1704349,10;1704350,10;1766369,10;210754,10;1814858,10;1569466,10;1924385,10;406004,10;2208611,10;577707,10;2383071,10;2384054,10;2384634,10;2385493,10;2386857,10;2388820,10;2389240,10;2394993,10;2404328,10;2405953,10;2412846,10;2417821,10;2420805,10;2451166,10;2598128,10;2598129,10;2434854,10;2600185,10;2443744,10;2446887,10;2458695,10;2459451,10;2459669,10;2464405,10;2469265,10;2476769,10;2481095,10;2482094,10;2655241,10;2655242,10;2483864,10;2486055,10;2489510,10;2736024,10;2494664,10;2497768,10;2498589,10;2500841,10;2501573,10;2507447,10;2510108,10;2509183,10;2511495,10;2514122,10;2522427,10;2520433,10;2519977,10;2521142,10;2517187,10;2515900,10;1569496,10;2928613,10;402625,10;2933961,10;65797,10;2872080,10;3180363,10;3183641,10;3183642,10;2534880,10;2527710,10;10356,10;273976,10;392019,10;2606259,10;203222,10;40221,10;52400,10;2562590,10;2563800,10;2551114,10;2543991,10;2536619,10;97158,10;38149,10;132482,10;138160,10;51658,10;2559808,10;2554105,10;2547387,10;2533442,10;2390495,10;2410527,10;62524,10;51280,10;130188,10;5477770,10;228026,10;5537672,10;5537684,10;5554339,10;5564459,10;5725566,10;67795,10;371437,10;5835945,10;5534862,10;5891617,10;5891618,10;5901004,10;5901005,10;5812904,10;2955799,10;5833439,10;5913641,10;5834102,10;5834641,10;5926723,10;5941993,10;5941996,10;5942146,10;5942147,10;5953378,10;5979966,10;5983233,10;6001025,10;89916,10;77306,10;6006798,10;6007008,10;140964,10;6017322,10;2385958,10;6017677,10;6017678,10;6063585,10;6017085,10;26371,10;6068881,10;6068919,10;6069098,10;6069486,10;2961219,10;6067450,10;6283881,10;9828959,10;9828855,10;8571113,10;8962001,10;60274,10;8966706,10;9021191,10;104194,10;205453,10;124061,10;9248225,10;2410745,10;9773453,10;9773454,10;9800483,10;9968700,10;2542574,10;3344432,10;9991497,10;3171700,10;9997910,10;10009168,10;10009169,10;30597,10;98552,10;10009170,10;75157,10;142307,10;125437,10;10063626,10;2537925,10;10118715,10;10137806,10;63489,10;53528,10;5814098,10;10195128,10;44711,10;10435354,10;55378,10;10433767,10;10433768,10;10435382,10;10437731,10;2563106,10;10315480,10;10955678,10;10953230,10;10370786,10;1574871,10;10345618,10;10345620,10;7376,10;10126973,10;10461421,10;10461422,10;98751,10;10519958,10;10519959,10;38779,10;101941,10;159346,10;10584847,10;10597681,10;10597682,10;10597693,10;10597694,10;10597695,10;10435411,10;10607656,10;10620090,10;4290106,10;10674699,10;10674700,10;10674701,10;10674702,10;10674703,10;140394,10;10741969,10;10743014,10;10748905,10;4939119,10;10315488,10;10777063,10;10822519,10;10822520,10;10830615,10;10830616,10;10830617,10;10847737,10;10847750,10;10847754,10;10847765,10;10851195,10;10851711,10;10851937,10;273388,10;273389,10;10505699,10;10852282,10;10865364,10;10865365,10;10865412,10;10865413,10;10865414,10;10865415,10;10865418,10;10865419,10;10865421,10;10865428,10;10865429,10;129623,10;47513,10;10903135,10;10903635,10;10931087,10;10931241,10;271044,10;65303,10;10970645,10;10985961,10;10988430,10;10988538,10;10988540,10;10832338,10;10988735,10;99387,10;10988785,10;10988792,10;10988829,10;10954320,10;10988859,10;10988868,10;10988729,10;10988933,10;11003183,10;11003184,10;11009473,10;11009474,10;11012692,10;80252,10;2434852,10;2433129,10;11057805,10;11060706,10;11060809,10;11061665,10;2392141,10;11071434,10;2506631,10;2471881,10;11078063,10;2382291,10;2554258,10;11081213,10;11150894,10;11162352,10;11162358,10;11162360,10;11162361,10;11175850,10;408230,10;11175851,10;661736,10;11176341,10;11176342,10;11232788,10;11233505,10;11233506,10;2933787,10;11301253,10;116863,10;2449661,10;11356837,10;9201681,10;11363348,10;11363349,10;11364388,10;414931,10;154417,10;11384204,10;11384205,10;11393370,10;11406139,10;106204,10;301533,10;5679292,10;11442251,10;11501560,10;11532969,10;11532970,10;11574514,10;
+2000:233036,60;233037,281;
+17:105681,54;
+19:144236,58;2195116,60;
+115:102345,1;28453,1;57221,1;37298,1;14330,1;91691,1;
+22:13369,80;
+666:99344,1;11552,1;146642,1;138828,1;42313,1;105921,1;102314,1;135683,1;10903,1;71875,2;
+27:141272,-23;82682,21;153815,23;9894,24;241675,32;
+28:134712,38;131196,38;22243,38;42313,38;
+
+// annotations 
+:r146049;5349288;10;1;144236;10;r_holo;25705;45
+:r421412;5349287;10;1;144236;6;r_isa;16875;79
+:r147830;1737832;10;3;144236;15;r_lieu;22243;88
+:r147829;446233;10;7;144236;15;r_lieu;42313;78
