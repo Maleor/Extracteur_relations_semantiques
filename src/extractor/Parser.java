@@ -73,10 +73,9 @@ public class Parser {
 				/*
 				 * On vérifie s'il y a un match entre la fenetre de string et un des templates
 				 */
-				
-				
+
 				analyseStringForName(tmpString);
-				
+
 				for (line = 0; line < number_of_line; line++) {
 					if (t_match(template_matrix.get_template(col, line), tmpString)) {
 						fw.write(template_matrix.get_template(col, line).get_template_under_string_shape() + "\n");
@@ -96,36 +95,36 @@ public class Parser {
 	/** PRIVATE METHODS **/
 	///////////////////////
 
-
 	private boolean t_match(Template t, String word) {
 		return t.get_eln().equals(word);
 	}
 
-	
-	
 	private String analyseWord(String word) {
-		if(word.equals(""))
-				return "";
-		
-		System.out.println("Le mot est : " + word);		
-		Mot m = systeme.requete(word, 4, Filtre.FiltreRelationsSortantes);
-		if(estNom(m)) return "HO PUTAIN";
-		return "HA BAH NON";
-		//return getClaGrammFromWord(m, 0);
+		if (word.equals(""))
+			return "";
+
+		System.out.println("Le mot est : " + word);
+		Mot m = systeme.requete(word, 4, Filtre.FiltreRelationsEntrantes);
+		if(m != null) 
+			if (estNom(m))
+				return "Un nom";
+			else
+				return "Pas un nom";
+		else
+			return "Non analysable";
+		// return getClaGrammFromWord(m, 0);
 	}
 
 	private void analyseStringForName(String str) {
 		String[] wd = str.split(" ");
-		
+
 		String cg;
-		for(String s : wd) {
+		for (String s : wd) {
 			cg = analyseWord(s);
 			System.out.println(cg);
 		}
 	}
-	
-	
-	
+
 	private void initWords() throws FileNotFoundException {
 		File data_file = new File("./data/wiki_sample.txt");
 
@@ -149,7 +148,7 @@ public class Parser {
 	 *            Le mot dont on recupere les classes grammaticales
 	 * @param index
 	 *            Rang dans la liste des cla. gram. pour savoir laquelle on retoune.
-	 *            
+	 * 
 	 * @return La classe grammaticale du mot m au rang index du mot / null sinon
 	 */
 	private String getClaGrammFromWord(Mot m, int index) {
@@ -162,23 +161,16 @@ public class Parser {
 		else
 			return null;
 	}
-	
-	 static public boolean estNom(Mot cible)
-	    {
-	        // Pour obtenir cible:
-	        // 
-	        //   RequeterRezoDump rezo = new RequeterRezoDump("7j", "100mo"); 
-	        //   Mot cible = rezo.requete("chat", 4, Filtre.FiltreRelationsEntrantes);
-	                
-	        for (Voisin v : cible.getRelations_sortantes(4))
-	        {
-	            if (v.getNom().startsWith("Nom"))
-	            {
-	                return true;
-	            }
-	        }
-	        
-	        return false;
-	    }
+
+	static public boolean estNom(Mot cible) {
+
+		for (Voisin v : cible.getRelations_sortantes(4)) {
+			if (v.getNom().startsWith("Nom")) {
+				return true;
+			}
+		}
+
+		return false;
+	}
 
 }

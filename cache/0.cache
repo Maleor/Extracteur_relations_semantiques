@@ -7,11 +7,18 @@ Le
 Pas de définition disponible ou définition répartie dans les raffinements sémantiques (voir relation "r_raff_sem").
 </def>
 voisinage 
+2586629;'Number:Sing';4;0
+2586627;'Gender:Mas';4;0
+146901;'Det:Mas+SG';4;50
+171870;'Nom:';4;50
 140508;'Le';1;50
+147628;'Det:';4;50
 
 // types relations (id,nom)
+4,r_pos
 // relations sortantes 
 
+4:171870,30;147628,45;146901,45;2586629,45;2586627,45;
 
 // relations entrantes 
 
