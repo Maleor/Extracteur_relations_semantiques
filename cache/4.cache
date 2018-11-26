@@ -1,27 +1,29 @@
-le
-le
-140509
+formidable
+formidable
+14462
 1
 0
 <def>
-1. (Le + nom commun + nom propre) Attribut du nom propre suivant.  Le vaisseau Soyuz décollera dans quelques minutes.  2. (Le + nom propre) Marquant un nom propre dont le noyau est issu d'un nom commun.  Le Royaume de Suède.  3. (Le + nom propre) Marquant une vaste région comme un pays, un continent, une province ou un État, ou un cours d'eau. Note : Absent sur les cartes. Le dans un nom de ville comme Le Havre est une partie du nom.  Le Rhône.     Le Canada.  4. (Sujet d'une proposition) Tout, sans exception.  Le lion est un mammifère carnivore.  5. Le seul. Déterminant marquant un nom masculin singulier, référant à une seule entité possible par définition.  Le chef-lieu de ce canton.     Le drapeau des États-Unis.  6. Pronom représentant celui (personne ou objet) dont on parle. Utilisé en tant que complément d'objet direct. Devant un son vocalique (voyelle ou h muet), le e est élidé et le pronom se transforme en l'.  Tu veux bien me le prêter ?     Je le dis toujours : rien ne sert de courir.     Je le veux bien.     Je l'aime.  7. Ce ? dont on parle maintenant. Déterminant marquant un nom masculin singulier, référant à une seule entité possible dans un contexte.  Le petit chat dort sur le canapé.  8. (Le premier, le + numéro de 2 à 31) Le jour du mois, sans jour de la semaine. Note d'usage : Peut fonctionner comme adverbe de temps.  Parti le 11, à midi ; arrivé le 21, à six heures du soir, seulement.     (Alexandre Dumas, Une Fille du Régent, 1844)  9. (Prénom + le + attribut) Surnom du prénom précédent.  Alexandre le Grand.  10. (Neutre) (Attribut du sujet) Pronom représentant l'attribut précédent, le plus souvent avec le verbe être. Peut être modifié par plus ou moins comme adjectif. Note d'usage : Ne s'accorde ni en genre ni en nombre.  Cette Poitevine est honnête ; mais elle l'est moins que la première, pour avoir voulu le paraître davantage.     (Anatole France, La Picarde, la Poitevine, la Tourangelle, la Lyonnaise et la Parisienne, dans Les Contes de Jacques Tournebroche, 1921)    Assurément, le mouvement n'était ni continu, ni général. Un soulèvement agraire ne l'est jamais.     (Pierre Kropotkine, La Grande Révolution, Chapitre XVI, 1909)    L'Italie tient à être l'amie de la France ; elle ne peut le rester qu'à la condition que sa position à Rome ne soit pas troublée, et, puisque le catholicisme joue un rôle si considérable en France, il importe que les hommes de bonne foi soient convaincus que leurs croyances ne courent aucun danger par le changement politique qui s'est fait à Rome.     (R. Bonghi, Le Gouvernement de l'Italie et la papauté, dans Revue des Deux Mondes, tome 105, 1873)    Donc, si l'année qui commence n'est pas bonne pour moi, elle le sera pour lui, et réciproquement.     (Jules Verne, Vingt mille lieues sous les mers, Partie I, Chapitre XX, 1870)    Je trouve les caprices de la mode, chez les Français, étonnants. Ils ont oublié comment ils étaient habillés cet été. Ils ignorent encore plus comment ils le seront cet hiver.     (Montesquieu, Lettre C. Rica au même, dans Lettres persanes, 1721)  
+1. Fantastique ; extraordinaire.  Mais comment y parvenir, ajoutent-ils, considérant l'apathie formidable et le fatalisme de nos classes dirigeantes ?     (Ludovic Naudeau, La France se regarde : Le problème de la natalité, Librairie Hachette, Paris, 1931)    ?les volutes de brume qui coiffaient les volcans furent alors éclairées en rouge, donnant à l'ensemble de l'île l'aspect d'une formidable éruption générale.     (Jean-Baptiste Charcot, Dans la mer du Groenland, 1928)    Un régiment d'ouvriers et pas mal de jeunes apprentis colorent les images au pochoir. Armés d'un formidable pinceau, de forme spéciale, ils trempent d'un mouvement rythmé dans un pot de couleur pour le passer sur le patron.     (Gustave Fraipont; Les Vosges, 1923)  2. Chope de bière contenant un litre.  Pour pouvoir avaler un formidable, il faut de l'estomac.  3. (Désuet) (Littéraire) Qui inspire ou qui est de nature à inspirer une très grande crainte.  Le bruit du bombardement au-dessus de l'abri devient formidable. Les obus tombent sur la Chancellerie avec une précision inquiétante.     (Georges Blond, L'Agonie de l'Allemagne 1944-1945, Fayard, 1952, p.319)    Un craquement formidable éveille d'un seul coup la nuit maléfique; quelque part, en face, un sérac a cédé d'un coup et est venu s'écraser en poussière sur le glacier     (Premier de cordée, Frison-Roche, ch. 12 p. 283-284 §2, J'ai Lu, 22 fév. 1941)    Cela ne constitue pas un armement bien formidable, mais au moins nous sommes à l'abri de la nécessité de nous rendre à la première sommation, si nous venions à être attaqués par un parti de flibustiers.     (Frédéric Weisgerber, Trois mois de campagne au Maroc : étude géographique de la région parcourue, Paris : Ernest Leroux, 1904, p. 46)    Des détonations retentissaient incessamment, comparables aux décharges continues d'une formidable artillerie.     (Jules Verne, Le Pays des fourrures, J. Hetzel et Cie, Paris, 1873)    N'est-il pas étrange, ou plutôt fatal, qu'une irrésistible attraction fasse toujours graviter ces criminels autour du formidable tribunal qui les condamne à la prison, au bagne, à l'échafaud !     (Eugène Sue, Les Mystères de Paris, §.1, 1842-1843)  
 </def>
 voisinage 
-147826;'Pro:';4;50
+146883;'Adj:InvGen+SG';4;50
 2586629;'Number:Sing';4;0
+2586628;'Gender:Fem';4;0
 2586627;'Gender:Mas';4;0
-148598;'Pro:3Mas+SG';4;50
-2356740;'Pro:Pers';4;0
-146901;'Det:Mas+SG';4;50
-2931520;'Pro:Pers:COD';4;0
-147628;'Det:';4;50
-140509;'le';1;72
+146885;'Nom:Mas+SG';4;50
+146888;'Adj:Mas+SG';4;50
+171870;'Nom:';4;50
+146894;'Adj:Fem+SG';4;50
+2586634;'Gender:Inv';4;0
+14462;'formidable';1;156
+171869;'Adj:';4;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:2356740,37;2586627,45;2586629,45;2931520,45;147826,53;148598,58;146901,64;147628,95;
+4:171870,26;146888,26;146885,30;146894,32;2586628,45;2586634,45;2586629,45;2586627,45;171869,47;146883,53;
 
 // relations entrantes 
 

@@ -1,21 +1,25 @@
-peu
-peu
-39409
+animal
+animal
+17559
 1
 0
 <def>
-1. Pas très.  Ce film est peu intéressant.  2. Peu de gens.  Beaucoup sont appelés mais peu sont élus.  3. Peu de chose.  Peu lui suffit.     Vivre de peu.     Se contenter de peu.  4. Petite quantité.  Excusez mon peu de mémoire. J'attribue cela au peu de soin que vous avez eu.     Le peu de cas qu'on en fait. Son peu de mérite. Il vit du peu qu'il a.     Le peu que j'ai fait pour vous ne mérite pas tant de remerciements, Le peu qui me reste à vivre.  5. (Avec de) Pas beaucoup. Presque aucun.  Il arrivera dans peu de jours.     Peu de gens le savent.  6. Pas beaucoup. Presque pas.  J'aime peu les proverbes.     J'ai peu mangé.  7. Presque pas. Pas très.  Ce film est peu intéressant.  8. (Avec de) Presque aucun. Pas beaucoup.  Il arrivera dans peu de jours.     Peu de gens le savent.  9. Presque pas. Pas beaucoup.  J'aime peu les proverbes.     J'ai peu mangé.  
+Un animal (du latin animalis « animé, vivant, animal ») est en biologie, selon la classification classique, un être vivant hétérotrophe, c'est-à-dire qu'il se nourrit de substances organiques. On réserve aujourd'hui le terme « animal » à des êtres complexes et multicellulaires (métazoaires), bien qu'on ait longtemps considéré les protozoaires comme des animaux unicellulaires. Comme les autres êtres vivants, tout animal a des semblables avec qui il forme un groupe homogène, appelé espèce.
 </def>
 voisinage 
-39409;'peu';1;478
-146889;'Adv:';4;50
+2586629;'Number:Sing';4;0
+2586627;'Gender:Mas';4;0
+17559;'animal';1;13293
+146885;'Nom:Mas+SG';4;50
+146888;'Adj:Mas+SG';4;50
 171870;'Nom:';4;50
+171869;'Adj:';4;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:171870,51;146889,64;
+4:2586627,45;2586629,45;146888,58;171869,60;146885,62;171870,106;
 
 // relations entrantes 
 

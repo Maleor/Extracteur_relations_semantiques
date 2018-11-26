@@ -1,20 +1,23 @@
-Comté
-Comté
-413047
+loup
+loup
+1125
 1
 0
 <def>
-1. (Archaïsme) Ancienne dénomination de la Franche-Comté.  Un renseignement, n'est-ce pas, c'est un renseignement et Longeverne, bon Dieu ?! ce n'est pas la Normandie, puisque c'est la Comté, la vieille Comté de Bourgogne, où l'on ne doit pas se permettre de jouer traîtreusement sur les mots.     (Louis Pergaud, Un renseignement précis, dans Les Rustiques, nouvelles villageoises, 1921)  2. Comté est l'appellation d'origine d'un fromage français principalement transformé en Franche-Comté et bénéficiant d'une AOC depuis 1958 et d'une AOP depuis 1996. Son aire de production s'étend dans les départements du Jura, du Doubs et l'est de l'Ain.
+Pas de définition disponible ou définition répartie dans les raffinements sémantiques (voir relation "r_raff_sem").
 </def>
 voisinage 
-413047;'Comté';1;50
+2586629;'Number:Sing';4;0
+2586627;'Gender:Mas';4;0
+1125;'loup';1;1144
+146885;'Nom:Mas+SG';4;50
 171870;'Nom:';4;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:171870,31;
+4:2586627,45;2586629,45;146885,55;171870,125;
 
 // relations entrantes 
 

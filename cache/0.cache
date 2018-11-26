@@ -1,22 +1,24 @@
-des
-des
-78302
+Le
+Le
+140508
 1
 0
 <def>
-1. Article indéfini du pluriel. C'est ainsi le pluriel de un ou une.  J'ai mangé des pommes.  2. En grammaire, un article indéfini est une sous-catégorie de déterminant indéfini, qui participe à l'actualisation du nom noyau en indiquant simplement que le représenté, le référent (la chose, l'animal, la personne dont il s'agit), existe bien, mais demeure inconnu des actants de l'énonciation : c'est l'outil type de la détermination incomplète. Il s'oppose ainsi à l'article défini, qui lui, présuppose que le référent soit connu des actants de l'énonciation.
+Pas de définition disponible ou définition répartie dans les raffinements sémantiques (voir relation "r_raff_sem").
 </def>
 voisinage 
-146906;'Det:InvGen+PL';4;50
+2586629;'Number:Sing';4;0
+2586627;'Gender:Mas';4;0
+146901;'Det:Mas+SG';4;50
 171870;'Nom:';4;50
+140508;'Le';1;50
 147628;'Det:';4;50
-78302;'des';1;52
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:171870,25;146906,52;147628,53;
+4:171870,30;147628,45;146901,45;2586629,45;2586627,45;
 
 // relations entrantes 
 

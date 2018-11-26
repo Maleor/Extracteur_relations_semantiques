@@ -1,28 +1,21 @@
-attaché
-attaché
-67515
+vraiment
+vraiment
+1
 1
 0
 <def>
-1. Fixé, lié.2. Désigne divers emploi de fonctionnaires.  Mon mari est attaché militaire à l'ambassade anglaise d'Ankara.     (Georges Simenon, Le Blanc à lunettes, ch. II, Gallimard, 1937)    Un attaché au cabinet d'un ministre.     Un attaché à la Bibliothèque nationale,     Un attaché d'ambassade  
+Marque la surprise, la déception ou l'accord avec l'interlocuteur (surtout dans les dialectes du français d'Afrique).  On ne s'en sortira jamais tant que notre pays sera dirigé par des voleurs et des anciens rebelles. ? Vraiment !     Le gouvernement a décrété une nouvelle hausse des impôts. ? Vraiment ! Mais pour quoi faire ça encore ! Comme si on n'avait pas déjà assez souffert ! Tchrouuu?     Eeeh vraiment ! Faut pas me faire ça Safi deh ! Toi aussi !  
 </def>
 voisinage 
-161699;'Ver:PPas+Mas+SG';4;50
-2586629;'Number:Sing';4;0
-161702;'Ver:PPas';4;50
-2586627;'Gender:Mas';4;0
-146885;'Nom:Mas+SG';4;50
-212235;'Ver:';4;50
-67515;'attaché';1;168
-146888;'Adj:Mas+SG';4;50
-171870;'Nom:';4;50
-171869;'Adj:';4;50
+146898;'Int:';4;50
+1;'vraiment';1;144
+146889;'Adv:';4;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:146888,34;161702,43;2586627,45;2586629,45;146885,58;212235,58;161699,59;171869,60;171870,60;
+4:146898,45;146889,54;
 
 // relations entrantes 
 
