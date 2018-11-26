@@ -1,34 +1,28 @@
-un
-un
-42271
+attaché
+attaché
+67515
 1
 0
 <def>
-1. (Par métonymie) Une chose portant le numéro 1.  Je vous ai réservé la une, votre place préférée.     Il habite au un.  2. Chiffre utilisé dans la numérotation décimale écrit 1.  Le nombre 11 est écrit avec deux uns.  3. Une personne ou une chose parmi plusieurs autres.  Un de mes amis.  4. Le nombre 1.  Le un de telle rue, La maison qui porte le numéro 1.     Un précède deux et suit zéro.  5. Marque l'unité, le fait qu'une personne ou une chose est seule, unique en son espèce.  Il est une heure.     N'être qu'un, ne faire qu'un : Se dit pour exprimer une étroite, une intime union entre deux ou même plusieurs personnes.     Un entre mille.     Une tonne.     Un mètre.     Quatre femmes et un homme.  6. S'emploie familièrement pour indiquer un très petit nombre indéterminé.  J'en ai pour une minute.     J'ai un mot à vous dire.  7. Ordinal pour premier.  Page une.     Chapitre un.  8. Où règne l'unité, dont les parties sont liées entre elles de manière à former un tout.  Il faut que dans une pièce l'action soit une.     L'église est une.  9. Unitaire, qui est seul, unique, qui n'admet point de pluralité.  (Familier) C'est tout un, Il n'importe, c'est la même chose, cela est égal : qu'il vienne ou qu'il ne vienne pas, c'est tout un.     La vérité est toujours une, elle n'est jamais contraire à elle-même.     Le moi est un.     Dieu est un.  10. Déterminant placé devant un nom représentant un objet animé ou inanimé que l'on ne connaît pas avec précision. L'article indéfini a souvent le sens de « un (1) parmi d'autres ».  C'est un César, un Cicéron, etc. : c'est un homme aussi intrépide que César, aussi éloquent que Cicéron, etc.     Je cherche un livre sur tel sujet.     Il y a un chien devant la maison.     Voici une nouvelle façon de procéder pour ce problème.  11. Tout.  Un honnête homme n'a qu'une parole.     Un chrétien doit faire cela.  12. (Par métonymie) Une chose portant le numéro 1.  Il habite au un.  
+1. Fixé, lié.2. Désigne divers emploi de fonctionnaires.  Mon mari est attaché militaire à l'ambassade anglaise d'Ankara.     (Georges Simenon, Le Blanc à lunettes, ch. II, Gallimard, 1937)    Un attaché au cabinet d'un ministre.     Un attaché à la Bibliothèque nationale,     Un attaché d'ambassade  
 </def>
 voisinage 
-2586630;'Number:Plur';4;0
+161699;'Ver:PPas+Mas+SG';4;50
 2586629;'Number:Sing';4;0
+161702;'Ver:PPas';4;50
 2586627;'Gender:Mas';4;0
-146886;'Nom:Mas+InvPL';4;50
-146887;'Nom:Mas+PL';4;50
-147812;'Adj:Card';4;50
 146885;'Nom:Mas+SG';4;50
-2586637;'Number:Inv';4;0
+212235;'Ver:';4;50
+67515;'attaché';1;168
 146888;'Adj:Mas+SG';4;50
-2356744;'Pro:Indef';4;0
-147628;'Det:';4;50
-147826;'Pro:';4;50
-146901;'Det:Mas+SG';4;50
 171870;'Nom:';4;50
-42271;'un';1;2374
 171869;'Adj:';4;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:146885,27;146887,35;2356744,42;147812,44;147826,45;2586627,45;2586629,45;2586637,45;2586630,45;146886,53;147628,55;146901,56;146888,58;171869,60;171870,60;
+4:146888,34;161702,43;2586627,45;2586629,45;146885,58;212235,58;161699,59;171869,60;171870,60;
 
 // relations entrantes 
 

@@ -1,25 +1,27 @@
-animal
-animal
-17559
+le
+le
+140509
 1
 0
 <def>
-Un animal (du latin animalis « animé, vivant, animal ») est en biologie, selon la classification classique, un être vivant hétérotrophe, c'est-à-dire qu'il se nourrit de substances organiques. On réserve aujourd'hui le terme « animal » à des êtres complexes et multicellulaires (métazoaires), bien qu'on ait longtemps considéré les protozoaires comme des animaux unicellulaires. Comme les autres êtres vivants, tout animal a des semblables avec qui il forme un groupe homogène, appelé espèce.
+1. (Le + nom commun + nom propre) Attribut du nom propre suivant.  Le vaisseau Soyuz décollera dans quelques minutes.  2. (Le + nom propre) Marquant un nom propre dont le noyau est issu d'un nom commun.  Le Royaume de Suède.  3. (Le + nom propre) Marquant une vaste région comme un pays, un continent, une province ou un État, ou un cours d'eau. Note : Absent sur les cartes. Le dans un nom de ville comme Le Havre est une partie du nom.  Le Rhône.     Le Canada.  4. (Sujet d'une proposition) Tout, sans exception.  Le lion est un mammifère carnivore.  5. Le seul. Déterminant marquant un nom masculin singulier, référant à une seule entité possible par définition.  Le chef-lieu de ce canton.     Le drapeau des États-Unis.  6. Pronom représentant celui (personne ou objet) dont on parle. Utilisé en tant que complément d'objet direct. Devant un son vocalique (voyelle ou h muet), le e est élidé et le pronom se transforme en l'.  Tu veux bien me le prêter ?     Je le dis toujours : rien ne sert de courir.     Je le veux bien.     Je l'aime.  7. Ce ? dont on parle maintenant. Déterminant marquant un nom masculin singulier, référant à une seule entité possible dans un contexte.  Le petit chat dort sur le canapé.  8. (Le premier, le + numéro de 2 à 31) Le jour du mois, sans jour de la semaine. Note d'usage : Peut fonctionner comme adverbe de temps.  Parti le 11, à midi ; arrivé le 21, à six heures du soir, seulement.     (Alexandre Dumas, Une Fille du Régent, 1844)  9. (Prénom + le + attribut) Surnom du prénom précédent.  Alexandre le Grand.  10. (Neutre) (Attribut du sujet) Pronom représentant l'attribut précédent, le plus souvent avec le verbe être. Peut être modifié par plus ou moins comme adjectif. Note d'usage : Ne s'accorde ni en genre ni en nombre.  Cette Poitevine est honnête ; mais elle l'est moins que la première, pour avoir voulu le paraître davantage.     (Anatole France, La Picarde, la Poitevine, la Tourangelle, la Lyonnaise et la Parisienne, dans Les Contes de Jacques Tournebroche, 1921)    Assurément, le mouvement n'était ni continu, ni général. Un soulèvement agraire ne l'est jamais.     (Pierre Kropotkine, La Grande Révolution, Chapitre XVI, 1909)    L'Italie tient à être l'amie de la France ; elle ne peut le rester qu'à la condition que sa position à Rome ne soit pas troublée, et, puisque le catholicisme joue un rôle si considérable en France, il importe que les hommes de bonne foi soient convaincus que leurs croyances ne courent aucun danger par le changement politique qui s'est fait à Rome.     (R. Bonghi, Le Gouvernement de l'Italie et la papauté, dans Revue des Deux Mondes, tome 105, 1873)    Donc, si l'année qui commence n'est pas bonne pour moi, elle le sera pour lui, et réciproquement.     (Jules Verne, Vingt mille lieues sous les mers, Partie I, Chapitre XX, 1870)    Je trouve les caprices de la mode, chez les Français, étonnants. Ils ont oublié comment ils étaient habillés cet été. Ils ignorent encore plus comment ils le seront cet hiver.     (Montesquieu, Lettre C. Rica au même, dans Lettres persanes, 1721)  
 </def>
 voisinage 
+147826;'Pro:';4;50
 2586629;'Number:Sing';4;0
 2586627;'Gender:Mas';4;0
-17559;'animal';1;13293
-146885;'Nom:Mas+SG';4;50
-146888;'Adj:Mas+SG';4;50
-171870;'Nom:';4;50
-171869;'Adj:';4;50
+148598;'Pro:3Mas+SG';4;50
+2356740;'Pro:Pers';4;0
+146901;'Det:Mas+SG';4;50
+2931520;'Pro:Pers:COD';4;0
+147628;'Det:';4;50
+140509;'le';1;72
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:2586627,45;2586629,45;146888,58;171869,60;146885,62;171870,106;
+4:2356740,37;2586627,45;2586629,45;2931520,45;147826,53;148598,58;146901,64;147628,95;
 
 // relations entrantes 
 
