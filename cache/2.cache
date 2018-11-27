@@ -1,25 +1,28 @@
-animal
-animal
-17559
+mais
+mais
+54228
 1
 0
 <def>
-Un animal (du latin animalis « animé, vivant, animal ») est en biologie, selon la classification classique, un être vivant hétérotrophe, c'est-à-dire qu'il se nourrit de substances organiques. On réserve aujourd'hui le terme « animal » à des êtres complexes et multicellulaires (métazoaires), bien qu'on ait longtemps considéré les protozoaires comme des animaux unicellulaires. Comme les autres êtres vivants, tout animal a des semblables avec qui il forme un groupe homogène, appelé espèce.
+1. S'emploie aussi pour rendre raison de quelque chose dont on veut s'excuser.  Il est vrai, je l'ai mal reçu, mais j'avais mes raisons pour cela.  2. Autrefois un adverbe qui signifiait « plus ». Il a encore ce sens dans l'expression n'en pouvoir mais.  Si le fils a fait une faute, le père n'en peut mais.  3. S'emploie aussi pour marquer l'augmentation ou la diminution.  Sa puissance n'est pas diminuée, mais accrue.  4. S'emploie aussi dans la conversation, au commencement d'une phrase qui a quelque rapport à ce qui a précédé.  Mais, qu'ai-je dit ?     Mais, qu'ai-je fait ?     Mais encore, mais enfin, que dites-vous de cela ?     Mais, pourquoi vous en prenez-vous à moi ?     Mais, dites-nous, quand nous donnerez-vous satisfaction ?  5. Conjonction qui sert généralement à marquer une opposition, une exception, une différence.  Elle n'est pas aussi jolie que sa soeur, mais elle est plus spirituelle.     La forme du participe nous est un témoignage évident qu'après le verbe aver le participe doit être mis au cas régime, mais après esser au cas sujet.     (Ernst Ludvig Edström, Étude sur l'emploi du participe passé en français, Goteborg, 1838, p. 19)  6. Substantivement, il signifie « objection, difficulté ».  Il y a toujours avec lui des si et des mais.  7. S'emploie encore comme adverbe pour insister.  Cet enfant est joli, mais très joli.     Il fut reçu très bien, mais très bien.  8. Sert quelquefois de transition pour revenir à un sujet qu'on avait laissé, ou simplement pour quitter le sujet dont on parle.  Mais encore faut-il s'entendre.     Mais il est temps de finir.     Mais c'est trop parler de moi.     Mais revenons à notre affaire.  9. Peut aussi introduire une restriction.  Je t'aime bien, mais tu ne peux pas venir avec moi.  10. S'emploie aussi en coordination avec non seulement pour renforcer ce qui vient d'être dit  Non seulement il a eu ce tort, mais bien plus, mais qui plus est, il s'en est vanté.     Non seulement il est pauvre, mais il est criblé de dettes.     Non seulement il est bon, mais encore il est généreux.  11. Peut aussi introduire une restriction.  Je t'aime bien, mais tu ne peux pas venir avec moi.     Les gazelles et les outardes ne manquent pas non plus, mais il faudrait organiser des battues pour s'en emparer.     (Frédéric Weisgerber, Trois mois de campagne au Maroc : étude géographique de la région parcourue, Paris : Ernest Leroux, 1904, p. 123)  12. Les conjonctions de coordination sont : mais, ou, et, donc, car, ni, or. Phrase mnémotechnique pour les retenir : 'Mais où est donc carnior?' ou, le plus populaire au Québec grâce à la chanson des Dale Hawerchuk, 'Mais où est donc Carnior?'.
 </def>
 voisinage 
-2586629;'Number:Sing';4;0
+146898;'Int:';4;50
+2586630;'Number:Plur';4;0
+146896;'Con:';4;50
+54228;'mais';1;142
 2586627;'Gender:Mas';4;0
-17559;'animal';1;13293
-146885;'Nom:Mas+SG';4;50
-146888;'Adj:Mas+SG';4;50
+146887;'Nom:Mas+PL';4;50
+2339738;'Conj:Coord';4;0
+150504;'Conj:';4;50
+146889;'Adv:';4;50
 171870;'Nom:';4;50
-171869;'Adj:';4;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:2586627,45;2586629,45;146888,58;171869,60;146885,62;171870,106;
+4:2586627,45;2586630,45;2339738,46;146889,51;146887,54;146896,56;146898,56;150504,56;171870,63;
 
 // relations entrantes 
 

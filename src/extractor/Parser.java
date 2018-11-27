@@ -7,17 +7,28 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 import org.apache.commons.collections4.trie.PatriciaTrie;
 
+import analyserMots.AnalyseurMotSeul;
+import analyserMots.AnalyseurMotsComposes;
+import pretraitement.PretraitementDocument;
 import requeterRezo.Mot;
 import requeterRezo.RequeterRezoDump;
 import requeterRezo.Voisin;
 import requeterRezo.Filtre;
 import template.Template;
+import template.TemplateUtils;
 import template.Template_matrix;
 
+/**
+ * 
+ * @author Mathieu Dodard
+ * @author Jordan Guillonneau
+ *
+ */
 public class Parser {
 
 	private ArrayList<String> discovered_rel; // La liste des relations extraites
@@ -26,10 +37,14 @@ public class Parser {
 	private Template_matrix template_matrix; // La matrice de template
 
 	private RequeterRezoDump systeme; // Instance du requeteur sur Jeux de Mots
-	
+
 	private PatriciaTrie<Integer> mots_composes;
-	
+
 	private FileWriter fw;
+
+	private AnalyseurMotsComposes analyMC;
+	private AnalyseurMotSeul analyMS;
+	private TemplateUtils tmpUtils;
 
 	///////////////////
 	/** CONSTRUCTOR **/
@@ -38,12 +53,18 @@ public class Parser {
 		systeme = new RequeterRezoDump("12h", "100mo");
 
 		discovered_rel = new ArrayList<>();
+		
 		template_matrix = new Template_matrix("./data/templates");
+		
 		fw = new FileWriter("data/extracted.txt");
+		
 		words = new ArrayList<>();
+		
+		analyMS = new AnalyseurMotSeul();
+		tmpUtils = new TemplateUtils();
 
 		mots_composes = new PatriciaTrie<>();
-		initMotComposes();
+
 	}
 
 	//////////////////////
@@ -51,7 +72,8 @@ public class Parser {
 	//////////////////////
 	public void run() throws IOException {
 
-		initWords();
+		initMotComposes();
+		initWords(false);
 
 		/*
 		 * Pour chaque template en partant du plus grand, on va parser le texte avec une
@@ -83,6 +105,7 @@ public class Parser {
 				tmpString = " ";
 				previous = " ";
 				following = " ";
+				ArrayList<String> tmpPrevious = new ArrayList<>();
 
 				/* On crée un string temporaire contenant la fenetre à analyser */
 				for (int index = begin; index < begin + window_size; index++)
@@ -93,45 +116,47 @@ public class Parser {
 				 */
 				for (line = 0; line < number_of_line; line++) {
 
-					if (t_match(template_matrix.get_template(col, line), tmpString)) {
+					if (tmpUtils.t_match(template_matrix.get_template(col, line), tmpString)) {
 
-						/* On recupere les 10 mots qui precedent le string temporaire */
-						for (int jndex = 10; jndex > 0; jndex--)
-							if (begin - jndex >= 0)
-								previous = previous + words.get(begin - jndex) + " ";
+						/*
+						 * On recupere les 10 mots qui precedent le string temporaire, on s'arrete si on
+						 * rencontre un point
+						 */
+						for (int jndex = 1; jndex < 6; jndex++)
+							if (begin - jndex >= 0) 
+								if (words.get(begin - jndex).contains("."))
+									break;
+								else
+									tmpPrevious.add(words.get(begin - jndex));			
+						
+						Collections.reverse(tmpPrevious);
+						
+						for (String str : tmpPrevious)
+							previous = previous + str + " ";
+						
 						previous = analyseStringForName(previous);
 
 						/*********************************/
 
-						/* On recupere les 10 mots qui suivent le string temporaire */
+						/*
+						 * On recupere les 10 mots qui suivent le string temporaire, on s'arrete si on
+						 * rencontre un point
+						 */
 						int start = begin + window_size - 1;
-						for (int kndex = 1; kndex <= 10; kndex++)
+						
+						for (int kndex = 1; kndex <= 5; kndex++)
 							if (start + kndex < words.size())
-								following = following + words.get(start + kndex) + " ";
+								if (words.get(start + kndex).contains(".")) 
+									break;
+								 else
+									following = following + words.get(start + kndex) + " ";
+						
 						following = analyseStringForName(following);
 
 						/*********************************/
 
-						/*
-						 * Si un template est trouvé, on fait en sorte que les mots à l'interieur ne
-						 * soient pas utilisés pour d'autres templates plus petits en collant chaque mot
-						 * avec "_"
-						 * 
-						 * Exemple : Si le template "est un" est trouvé, on supprime le mot "un" et on
-						 * remplace "est" par "est_un".
-						 */
+						tmpUtils.protectTemplate(words, begin, window_size);
 
-						String protectTemplate = "";
-
-						for (int index = begin; index < begin + window_size; index++)
-							protectTemplate = protectTemplate + "_" + words.get(index);
-
-						for (int index = begin + 1; index < begin + window_size; index++)
-							words.remove(index);
-
-						words.set(begin, protectTemplate.substring(1, protectTemplate.length()));
-
-						/* On ecrit en sortie le template avec ce qui precede et ce qui suit */
 						discovered_rel.add(previous + " --- " + template_matrix.get_template(col, line).get_relation()
 								+ " --- " + following);
 
@@ -155,21 +180,6 @@ public class Parser {
 	///////////////////////
 
 	/**
-	 * Vérifie si un chaine de caractère existe comme template
-	 * 
-	 * @param t
-	 *            Le template avec lequel on compare la chaine de caractères
-	 * 
-	 * @param word
-	 *            La chaine de caractère que l'on compare
-	 * 
-	 * @return True si la chaine de caractères est un template, false sinon.
-	 */
-	private boolean t_match(Template t, String word) {
-		return t.get_eln().equals(word);
-	}
-
-	/**
 	 * Crée un Mot à partir d'un string et vérifie si ca peut etre un nom
 	 * 
 	 * @param word
@@ -185,7 +195,7 @@ public class Parser {
 
 		Mot m = systeme.requete(word, 4, Filtre.FiltreRelationsEntrantes);
 
-		toRet = (m != null) ? estNom(m) : -1;
+		toRet = (m != null) ? analyMS.estNom(m) : -1;
 
 		return toRet;
 
@@ -198,12 +208,13 @@ public class Parser {
 	 * @param str
 	 *            La chaine de caractères que l'on analyse
 	 * 
-	 * @return La chaine de caractères finale qui accompagnera la template
+	 * @return La chaine de caractères finale qui accompagnera le template
 	 */
 	private String analyseStringForName(String str) {
+
 		String finalName = "";
 
-		finalName = nomCompose(str);
+		finalName = analyMC.nomCompose(str);
 
 		int maxPoids = 0;
 		int tmpValue;
@@ -213,7 +224,9 @@ public class Parser {
 			String[] wd = str.split(" ");
 
 			for (String s : wd) {
+				
 				tmpValue = analyseWord(s);
+				
 				if (tmpValue != -1) {
 
 					if (tmpValue > maxPoids) {
@@ -231,88 +244,54 @@ public class Parser {
 	 * Initialise la liste des mots qui sera utilisée pour créer des fenêtres de
 	 * String
 	 * 
-	 * @throws FileNotFoundException
+	 * @param avecPT
+	 *            Booleen qui indique si oui ou non on souhaite faire un
+	 *            pre-traitement sur le document.
+	 * 
+	 * @throws IOException
 	 */
-	private void initWords() throws FileNotFoundException {
-		File data_file = new File("./data/manual_file");
+	private void initWords(boolean avecPT) throws IOException {
+
+		String usedFile = "data/manual_file";
+		File data_file;
+
+		if (avecPT) {
+			PretraitementDocument ptd = new PretraitementDocument();
+			ptd.espacerPonctuation(usedFile);
+			data_file = new File("data/doc_pretraite.txt");
+		} else
+			data_file = new File(usedFile);
 
 		Scanner scanner = new Scanner(data_file);
 
 		while (scanner.hasNextLine()) {
 
 			String line = scanner.nextLine();
-			String[] tmpWords = line.split("[ .]+");
+			String[] tmpWords = line.split("[ ]+");
 
-			for (String string : tmpWords)
-				if(!string.equals(" "))
-					words.add(string);
-		}
+			for (String string : tmpWords) {
+				if (!string.equals(" ") && !string.equals("")) {
 
-		scanner.close();
-	}
+					/*
+					 * Les ',' ';' '.' sont tous remplacés par des ' . ', ce qui permet d'isoler la
+					 * ponctuation des mots. De plus nous considérons que virgules et
+					 * points-virgules ont le meme comportement que le point.
+					 */
+					if (string.contains(".") || string.contains(",") || string.contains(";")) {
 
-	/**
-	 * Analyse un Mot est vérifie s'il peut etre un nom
-	 * 
-	 * @param cible
-	 *            Le Mot que l'on analyse
-	 * 
-	 * @return Le poids de la relation si le Mot peut etre un nom, -1 sinon.
-	 */
-	private int estNom(Mot cible) {
+						String newStr = string.replaceAll("[;,.]+", " . ");
 
-		ArrayList<Voisin> voisins = new ArrayList<>();
-		voisins = cible.getRelations_sortantes(4);
+						String[] tmp = newStr.split("[ ]+");
 
-		if (voisins != null) {
-			for (Voisin v : voisins) {
-				if (v.getNom().startsWith("Nom")) {
-					return v.getPoids();
+						for (String str : tmp)
+							words.add(str);
+					} else
+						words.add(string);
 				}
 			}
 		}
 
-		return -1;
-	}
-
-	/**
-	 * Vérifie si un mot composé est présent dans une chaine de caractères
-	 * 
-	 * @param str
-	 *            Chaine de caracteres analysée
-	 * 
-	 * @return Le mot composé s'il y en a un, chaine de caractères vide sinon
-	 */
-	private String nomCompose(String str) {
-
-		String toRet = "";
-
-		String[] wd = str.split(" ");
-		String tmpString = "";
-
-		ArrayList<String> mots = new ArrayList<>();
-
-		for (String s : wd) {
-			if (!s.equals(""))
-				mots.add(s);
-		}
-
-		for (int index = mots.size(); index > 0; index--) {
-
-			tmpString = "";
-
-			for (int jndex = mots.size() - index; jndex < mots.size(); jndex++) {
-				tmpString = tmpString + " " + mots.get(jndex);
-			}
-
-			tmpString = tmpString.substring(1, tmpString.length());
-
-			if (mots_composes.containsKey(tmpString)) {
-				toRet = tmpString;
-				break;
-			}
-		}
-		return toRet;
+		scanner.close();
 	}
 
 	/**
@@ -330,10 +309,13 @@ public class Parser {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
+
+		analyMC = new AnalyseurMotsComposes(mots_composes);
 	}
 
+
 	/**
-	 * Exports les résultats dans le fichier de sortie
+	 * Exporte les résultats dans le fichier de sortie
 	 */
 	private void export() {
 

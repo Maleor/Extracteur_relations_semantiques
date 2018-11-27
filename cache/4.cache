@@ -1,29 +1,29 @@
-formidable
-formidable
-14462
+peluche
+peluche
+142275
 1
 0
 <def>
-1. Fantastique ; extraordinaire.  Mais comment y parvenir, ajoutent-ils, considérant l'apathie formidable et le fatalisme de nos classes dirigeantes ?     (Ludovic Naudeau, La France se regarde : Le problème de la natalité, Librairie Hachette, Paris, 1931)    ?les volutes de brume qui coiffaient les volcans furent alors éclairées en rouge, donnant à l'ensemble de l'île l'aspect d'une formidable éruption générale.     (Jean-Baptiste Charcot, Dans la mer du Groenland, 1928)    Un régiment d'ouvriers et pas mal de jeunes apprentis colorent les images au pochoir. Armés d'un formidable pinceau, de forme spéciale, ils trempent d'un mouvement rythmé dans un pot de couleur pour le passer sur le patron.     (Gustave Fraipont; Les Vosges, 1923)  2. Chope de bière contenant un litre.  Pour pouvoir avaler un formidable, il faut de l'estomac.  3. (Désuet) (Littéraire) Qui inspire ou qui est de nature à inspirer une très grande crainte.  Le bruit du bombardement au-dessus de l'abri devient formidable. Les obus tombent sur la Chancellerie avec une précision inquiétante.     (Georges Blond, L'Agonie de l'Allemagne 1944-1945, Fayard, 1952, p.319)    Un craquement formidable éveille d'un seul coup la nuit maléfique; quelque part, en face, un sérac a cédé d'un coup et est venu s'écraser en poussière sur le glacier     (Premier de cordée, Frison-Roche, ch. 12 p. 283-284 §2, J'ai Lu, 22 fév. 1941)    Cela ne constitue pas un armement bien formidable, mais au moins nous sommes à l'abri de la nécessité de nous rendre à la première sommation, si nous venions à être attaqués par un parti de flibustiers.     (Frédéric Weisgerber, Trois mois de campagne au Maroc : étude géographique de la région parcourue, Paris : Ernest Leroux, 1904, p. 46)    Des détonations retentissaient incessamment, comparables aux décharges continues d'une formidable artillerie.     (Jules Verne, Le Pays des fourrures, J. Hetzel et Cie, Paris, 1873)    N'est-il pas étrange, ou plutôt fatal, qu'une irrésistible attraction fasse toujours graviter ces criminels autour du formidable tribunal qui les condamne à la prison, au bagne, à l'échafaud !     (Eugène Sue, Les Mystères de Paris, §.1, 1842-1843)  
+1. (Textile) Étoffe de laine, de soie, de fil, analogue au velours, mais dont le poil est long, couché et brillant.  Les fils de mohair seuls ou mélangés [?], servent à la production d'étoffes très jolies [?]; mais c'est surtout dans les tissus zibelinés et satinés, dans la peluche, le velours d'Utrecht, l'astrakan, l'alpaga, les articles moirés, que se révèlent les qualités de brillant et de soyeux de cette fibre textile.     (D. de Prat, Nouveau manuel complet de filature; 1re partie: Fibres animales & minérales, Encyclopédie Roret, 1914)  2. (Par extension) Poupée ou jouet recouvert de ce type de fibres.  J'ai gagné une peluche à la foire.  3. Fibres textiles arrachées à un tissu par usure ou par frottement.  Ce pull est plein de peluches.  4. (Familier) Sobriquet que l'on peut attribuer à un être aimé.5. (Par extension) Poupée ou jouet recouvert de ce type de fibres.  Puis débarquèrent les Tortues Ninja en de multiples exemplaires, ainsi que des poupées de toutes sortes et des peluches... des peluches à n'en plus finir, depuis le Snoopy miniature jusqu'au Roi Lion grand modèle. ?     (Sarah Cohen-Scali, Meurtres au pays des peluches, illustré par Christophe Besse, E-book éditions, 2014)  6. Une peluche est un textile ayant un toucher semblable à du duvet ou de la fourrure. Il s'agit d'une étoffe présentant, sur une face, des poils soyeux et brillants, plus longs et moins serrés que ceux du velours auquel elle s'apparente. Elle est utilisée dans l'ameublement, dans la confection et surtout dans la fabrication des jouets d'enfants en forme d'animaux.
 </def>
 voisinage 
-146883;'Adj:InvGen+SG';4;50
+161698;'Ver:IPre+SG+P1:IPre+SG+P3:SPre+SG+P1:SPre+SG+P3:ImPre+SG+P2';4;50
+2946892;'Ver:Conjug';4;0
+142275;'peluche';1;262
+2935005;'VerbalTime:Present';4;0
 2586629;'Number:Sing';4;0
 2586628;'Gender:Fem';4;0
-2586627;'Gender:Mas';4;0
-146885;'Nom:Mas+SG';4;50
-146888;'Adj:Mas+SG';4;50
+146881;'Nom:Fem+SG';4;50
+3093591;'VerbalMode:Subjonctif';4;0
+212235;'Ver:';4;50
+3093590;'VerbalMode:Indicatif';4;0
 171870;'Nom:';4;50
-146894;'Adj:Fem+SG';4;50
-2586634;'Gender:Inv';4;0
-14462;'formidable';1;156
-171869;'Adj:';4;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:171870,26;146888,26;146885,30;146894,32;2586628,45;2586634,45;2586629,45;2586627,45;171869,47;146883,53;
+4:161698,45;2586628,45;2586629,45;2935005,45;2946892,45;3093590,45;3093591,45;212235,51;146881,53;171870,60;
 
 // relations entrantes 
 

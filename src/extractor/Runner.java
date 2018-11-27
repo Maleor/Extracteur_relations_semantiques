@@ -2,6 +2,12 @@ package extractor;
 
 import java.io.IOException;
 
+/**
+ * 
+ * @author Mathieu Dodard
+ * @author Jordan Guillonneau
+ *
+ */
 public class Runner {
 
 	

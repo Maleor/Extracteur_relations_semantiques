@@ -1,23 +1,29 @@
-loup
-loup
-1125
+table
+table
+89591
 1
 0
 <def>
-Pas de définition disponible ou définition répartie dans les raffinements sémantiques (voir relation "r_raff_sem").
+1. (Par analogie) Masse de quelque chose qui est d'une épaisseur notablement moindre à ses autres dimensions.  Quant aux « mises », ce sont de grandes caisses qui donnent au savon la forme d'un bloc ; au moyen d'un fil, on découpe ce bloc en tables, puis ces tables sont elles-mêmes découpées en « pains » ou morceaux.     (Marcel Hégelbacher; La Parfumerie et la Savonnerie. - 1924, p.167)  2. (En particulier) (Billard) Châssis de madriers bien joints sur lesquels on applique le tapis.3. Partie d'une machine à papier destinée à étaler la pâte à papier et l'égoutter pour former la feuille de papier, composée d'une toile métallique ou de plastique, d'une caisse de tête, de pontuseaux d'égouttage, d'un rouleau vergeur, de caisses aspirantes, d'un dispositif de recoupe de feuille par jets d'eau, d'un cylindre aspirant et de dispositifs de lavage constitués de rinceurs.4. Dans les bases de données relationnelles, une table est un ensemble de données organisées sous forme d'un tableau où les colonnes correspondent à des catégories d'information (une colonne peut stocker des numéros de téléphone, une autre des noms...) et les lignes à des enregistrements, également appelés entrées.
 </def>
 voisinage 
+2946892;'Ver:Conjug';4;0
+161698;'Ver:IPre+SG+P1:IPre+SG+P3:SPre+SG+P1:SPre+SG+P3:ImPre+SG+P2';4;50
+2935005;'VerbalTime:Present';4;0
 2586629;'Number:Sing';4;0
-2586627;'Gender:Mas';4;0
-1125;'loup';1;1144
-146885;'Nom:Mas+SG';4;50
+2586628;'Gender:Fem';4;0
+146881;'Nom:Fem+SG';4;50
+89591;'table';1;3548
+3093591;'VerbalMode:Subjonctif';4;0
+212235;'Ver:';4;50
+3093590;'VerbalMode:Indicatif';4;0
 171870;'Nom:';4;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:2586627,45;2586629,45;146885,55;171870,125;
+4:2586628,45;2586629,45;2935005,45;2946892,45;3093590,45;3093591,45;161698,51;146881,55;212235,59;171870,85;
 
 // relations entrantes 
 

@@ -1,3 +1,8 @@
+grand --- r_lieu  --- table
 poney --- r_isa  --- animal
-animal --- r_isa  --- animal
-animal --- r_carac  --- animal
+est --- r_isa  --- animal
+tes --- r_isa  --- cheval
+loup --- r_carac  --- loup
+Maman --- r_carac  --- maison
+monde --- r_carac  --- grand
+Le --- r_can_eat  --- tes

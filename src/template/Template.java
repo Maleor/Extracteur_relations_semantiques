@@ -1,10 +1,16 @@
 package template;
 
+/**
+ * 
+ * @author Mathieu Dodard
+ * @author Jordan Guillonneau
+ *
+ */
 public class Template {
-	/* Un template contient une relation cible et une expression en langages naturel */
+	/* Un template contient une relation cible et une expression en langage naturel */
 	private String relation; // exemple : r_isa
 	private String eln; // exemple : est un
-	private int t_length; // la longueur du template : le nombre de mots dans son expression en langages naturel
+	private int t_length; // la longueur du template : le nombre de mots dans son expression en langage naturel
 	
 	public Template(String relation, String eln){
 		this.relation = relation;
@@ -24,7 +30,8 @@ public class Template {
 		return this.t_length;
 	}
 	
-	/* Retroune le nombres de mots dans une phrase ou les mots sont séparé par un ou plusieurs espaces */
+	
+	/* Retroune le nombre de mots dans une phrase ou les mots sont séparés par un ou plusieurs espaces */
 	public static int wordCount(String s){
 	    return s.trim().split("\\s+").length;
 	}
@@ -33,4 +40,6 @@ public class Template {
 	public String get_template_under_string_shape() {
 		return (this.get_eln() + " --> " + this.get_relation() + " : " + this.get_t_length());
 	}
+	
+	
 }

@@ -1,21 +1,34 @@
-vraiment
-vraiment
-1
+la
+la
+142265
 1
 0
 <def>
-Marque la surprise, la déception ou l'accord avec l'interlocuteur (surtout dans les dialectes du français d'Afrique).  On ne s'en sortira jamais tant que notre pays sera dirigé par des voleurs et des anciens rebelles. ? Vraiment !     Le gouvernement a décrété une nouvelle hausse des impôts. ? Vraiment ! Mais pour quoi faire ça encore ! Comme si on n'avait pas déjà assez souffert ! Tchrouuu?     Eeeh vraiment ! Faut pas me faire ça Safi deh ! Toi aussi !  
+Première lettre de l'alphabet santâlî : ?.
 </def>
 voisinage 
-146898;'Int:';4;50
-1;'vraiment';1;144
-146889;'Adv:';4;50
+2586630;'Number:Plur';4;0
+2586629;'Number:Sing';4;0
+2586628;'Gender:Fem';4;0
+2586627;'Gender:Mas';4;0
+146886;'Nom:Mas+InvPL';4;50
+146887;'Nom:Mas+PL';4;50
+146885;'Nom:Mas+SG';4;50
+2356740;'Pro:Pers';4;0
+2586637;'Number:Inv';4;0
+2931520;'Pro:Pers:COD';4;0
+147628;'Det:';4;50
+147826;'Pro:';4;50
+147920;'Pro:3Fem+SG';4;50
+161751;'Det:Fem+SG';4;50
+142265;'la';1;322
+171870;'Nom:';4;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:146898,45;146889,54;
+4:146885,28;2356740,31;146887,35;2586627,45;2586637,45;2586630,45;2586629,45;2586628,45;2931520,48;146886,53;147920,53;161751,53;147826,53;171870,78;147628,127;
 
 // relations entrantes 
 

@@ -1,24 +1,30 @@
-Le
-Le
-140508
+est
+est
+144236
 1
 0
 <def>
-Pas de définition disponible ou définition répartie dans les raffinements sémantiques (voir relation "r_raff_sem").
+1. (Géographie) Point cardinal, à droite quand on regarde l'horizon vers le nord. Direction d'où le soleil se lève.  Ils auraient alors passé de l'Ouest à l'Est, vers la fin du tertiaire, dans le sens contraire à celui qu'on attribuait à l'émigration humaine.     (René Thévenin & Paul Coze, Moeurs et Histoire des Indiens Peaux-Rouges, Payot, 1929, 2e éd., p. 15)    Pendant la première semaine, la brise fut très légère et excessivement variable, tournant constamment du Nord au Suroit, en passant par l'Est.     (Alain Gerbault, À la poursuite du soleil ; tome 1 : De New-York à Tahiti, 1929)    Quelques étoiles à présent perçaient la voûte bleue, et dans l'est le disque de la lune apparut.     (H. G. Wells, La Guerre dans les airs, 1908, traduction d'Henry-D. Davray et B. Kozakiewicz, Mercure de France, Paris, 1910, p. 97 de l'éd. de 1921)    Quelques blancheurs commencent à nuancer l'horizon vers l'est. Les nuages du zénith en reçoivent une première coloration.     (Jules Verne, Claudius Bombarnac, Claudius_Bombarnac/4, J. Hetzel et Cie, Paris, 1892)  2. L'est est un point cardinal, opposé à l'ouest. Il correspond au point moyen (exact à l'équinoxe) de la direction du lever du soleil. On l'appelle aussi levant ou orient.3. Il servit de base à XNU, le noyau de Darwin (la base de Mac OS X ? notez qu'il n'est pas un micro-noyau) et au projet Hurd (qui est un micro-noyau). Toutefois depuis 2004, Hurd s'est tourné vers une nouvelle génération de micro-noyau : le micronoyau L4.4. La Baiyoke Tower II est après MahaNakhon Avec ces 84 étages pour 328,4 mètres le deuxième plus grand gratte-ciel de Bangkok, en Thaïlande. Elle est située au 222 avenue Ratchaprarop dans le district de Ratchathewi.
 </def>
 voisinage 
+2946892;'Ver:Conjug';4;0
+2935005;'VerbalTime:Present';4;0
 2586629;'Number:Sing';4;0
 2586627;'Gender:Mas';4;0
-146901;'Det:Mas+SG';4;50
+150118;'Ver:IPre+SG+P3';4;50
+146885;'Nom:Mas+SG';4;50
+212235;'Ver:';4;50
+2339738;'Conj:Coord';4;0
+146891;'Adj:InvGen+SG:InvGen+PL';4;50
 171870;'Nom:';4;50
-140508;'Le';1;50
-147628;'Det:';4;50
+144236;'est';1;596
+171869;'Adj:';4;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:171870,30;147628,45;146901,45;2586629,45;2586627,45;
+4:2339738,-34;171869,31;2586627,45;2586629,45;2946892,45;146891,55;2935005,55;146885,56;171870,90;212235,102;150118,117;
 
 // relations entrantes 
 
