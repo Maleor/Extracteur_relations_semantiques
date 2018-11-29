@@ -6,6 +6,8 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.time.Duration;
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
@@ -53,13 +55,13 @@ public class Parser {
 		systeme = new RequeterRezoDump("12h", "100mo");
 
 		discovered_rel = new ArrayList<>();
-		
+
 		template_matrix = new Template_matrix("./data/templates");
-		
+
 		fw = new FileWriter("data/extracted.txt");
-		
+
 		words = new ArrayList<>();
-		
+
 		analyMS = new AnalyseurMotSeul();
 		tmpUtils = new TemplateUtils();
 
@@ -82,6 +84,7 @@ public class Parser {
 
 		int window_size, col, line, number_of_line, begin = 0;
 		int number_of_col = template_matrix.get_size();
+
 		String tmpString = "";
 		String previous = "";
 		String following = "";
@@ -105,6 +108,7 @@ public class Parser {
 				tmpString = " ";
 				previous = " ";
 				following = " ";
+
 				ArrayList<String> tmpPrevious = new ArrayList<>();
 
 				/* On crée un string temporaire contenant la fenetre à analyser */
@@ -116,25 +120,26 @@ public class Parser {
 				 */
 				for (line = 0; line < number_of_line; line++) {
 
+					/* S'il y a un match, on analyse ce qui precede et ce qui suit le template */
 					if (tmpUtils.t_match(template_matrix.get_template(col, line), tmpString)) {
 
 						/*
 						 * On recupere les 10 mots qui precedent le string temporaire, on s'arrete si on
 						 * rencontre un point
 						 */
-						for (int jndex = 1; jndex < 6; jndex++)
-							if (begin - jndex >= 0) 
+						for (int jndex = 1; jndex < 10; jndex++)
+							if (begin - jndex >= 0)
 								if (words.get(begin - jndex).contains("."))
 									break;
 								else
-									tmpPrevious.add(words.get(begin - jndex));			
-						
+									tmpPrevious.add(words.get(begin - jndex));
+
 						Collections.reverse(tmpPrevious);
-						
+
 						for (String str : tmpPrevious)
 							previous = previous + str + " ";
-						
-						previous = analyseStringForName(previous);
+
+						previous = analyseStringForName(previous, template_matrix.get_template(col, line).getContrainteAnte());
 
 						/*********************************/
 
@@ -143,15 +148,15 @@ public class Parser {
 						 * rencontre un point
 						 */
 						int start = begin + window_size - 1;
-						
-						for (int kndex = 1; kndex <= 5; kndex++)
+
+						for (int kndex = 1; kndex <= 10; kndex++)
 							if (start + kndex < words.size())
-								if (words.get(start + kndex).contains(".")) 
+								if (words.get(start + kndex).contains("."))
 									break;
-								 else
+								else
 									following = following + words.get(start + kndex) + " ";
-						
-						following = analyseStringForName(following);
+
+						following = analyseStringForName(following, template_matrix.get_template(col, line).getContraintePost());
 
 						/*********************************/
 
@@ -187,7 +192,7 @@ public class Parser {
 	 * 
 	 * @return Le poids de la relation si le Mot peut etre un nom, -1 sinon.
 	 */
-	private int analyseWord(String word) {
+	private int analyseWord(String word, String contrainte) {
 		if (word.equals(""))
 			return -1;
 
@@ -195,7 +200,30 @@ public class Parser {
 
 		Mot m = systeme.requete(word, 4, Filtre.FiltreRelationsEntrantes);
 
-		toRet = (m != null) ? analyMS.estNom(m) : -1;
+		if(contrainte.equals("") || contrainte.equals(" "))
+			contrainte = "Nom";
+		
+		switch(contrainte) {
+		
+		case " Adj " :
+		case " adj " :
+		case "Adj " :
+		case "adj " :
+		case "Adj" :
+		case "adj" :
+		case " Adj" :
+		case " adj" :
+			contrainte = "Adj";
+			break;
+			
+		case "":
+		case " ":
+		default :
+			contrainte = "Nom";
+			break;
+			
+		}
+		toRet = (m != null) ? analyMS.respecteContrainte(m, contrainte) : -1;
 
 		return toRet;
 
@@ -210,7 +238,7 @@ public class Parser {
 	 * 
 	 * @return La chaine de caractères finale qui accompagnera le template
 	 */
-	private String analyseStringForName(String str) {
+	private String analyseStringForName(String str, String contrainte) {
 
 		String finalName = "";
 
@@ -224,9 +252,9 @@ public class Parser {
 			String[] wd = str.split(" ");
 
 			for (String s : wd) {
-				
-				tmpValue = analyseWord(s);
-				
+
+				tmpValue = analyseWord(s, contrainte);
+
 				if (tmpValue != -1) {
 
 					if (tmpValue > maxPoids) {
@@ -252,7 +280,10 @@ public class Parser {
 	 */
 	private void initWords(boolean avecPT) throws IOException {
 
-		String usedFile = "data/manual_file";
+		System.out.print("Initialisation des mots à analyser ---> ");
+		Instant begloc = Instant.now();
+
+		String usedFile = "data/wiki_sample.txt";
 		File data_file;
 
 		if (avecPT) {
@@ -292,12 +323,17 @@ public class Parser {
 		}
 
 		scanner.close();
+
+		System.out.println(Duration.between(begloc, Instant.now()).toMillis() + " ms");
 	}
 
 	/**
 	 * Initialise la liste de mots composés à partir d'un fichier donné
 	 */
 	private void initMotComposes() {
+
+		System.out.print("Initialisation des mots composés -----> ");
+		Instant begloc = Instant.now();
 
 		String line1;
 		try {
@@ -311,8 +347,9 @@ public class Parser {
 		}
 
 		analyMC = new AnalyseurMotsComposes(mots_composes);
-	}
 
+		System.out.println(Duration.between(begloc, Instant.now()).toMillis() + " ms");
+	}
 
 	/**
 	 * Exporte les résultats dans le fichier de sortie

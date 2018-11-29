@@ -10,11 +10,15 @@ public class Template {
 	/* Un template contient une relation cible et une expression en langage naturel */
 	private String relation; // exemple : r_isa
 	private String eln; // exemple : est un
+	private String contraintePost; //contrainte sur ce qui suit, exemple : adj
+	private String contrainteAnte; //contrainte sur ce qui precede, exemple : nom
 	private int t_length; // la longueur du template : le nombre de mots dans son expression en langage naturel
 	
-	public Template(String relation, String eln){
+	public Template(String relation, String eln, String contrainteAnte, String contraintePost){
 		this.relation = relation;
 		this.eln = eln;
+		this.contraintePost = contraintePost;
+		this.contrainteAnte = contrainteAnte;
 		this.t_length = wordCount(eln);
 	}
 
@@ -28,6 +32,14 @@ public class Template {
 	
 	public int get_t_length() {
 		return this.t_length;
+	}
+	
+	public String getContraintePost() {
+		return this.contraintePost;
+	}
+	
+	public String getContrainteAnte() {
+		return this.contrainteAnte;
 	}
 	
 	

@@ -25,20 +25,27 @@ public class AnalyseurMotSeul {
 	 * 
 	 * @return Le poids de la relation si le Mot peut etre un nom, -1 sinon.
 	 */
-	public int estNom(Mot cible) {
+	public int respecteContrainte(Mot cible, String contrainte) {
 
 		ArrayList<Voisin> voisins = new ArrayList<>();
 		voisins = cible.getRelations_sortantes(4);
-
+		int toRet = -1;
+		
 		if (voisins != null) {
 			for (Voisin v : voisins) {
-				if (v.getNom().startsWith("Nom")) {
-					return v.getPoids();
+				
+				if(v.getNom().contains("Det"))
+					return -1;
+				
+				if (v.getNom().contains(contrainte)) {
+					if(v.getPoids() > toRet) {
+						toRet = v.getPoids();
+					}
 				}
 			}
 		}
 
-		return -1;
+		return toRet;
 	}
 
 }

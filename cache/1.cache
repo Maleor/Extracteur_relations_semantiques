@@ -1,26 +1,20 @@
-grand
-grand
-23178
+Severodvinsk
+Severodvinsk
+18003
 1
 0
 <def>
-1. Utilisé pour former des locutions honorifiques.  Grand vizir, grand secrétaire.  2. (En particulier) En parlant d'un enfant, d'un adolescent dont la taille se développe.  Une grande personne se dit d'un adulte, par opposition aux enfants.     Vous n'êtes pas encore assez grand pour sortir seul.     On vous donnera cela quand vous serez plus grand, quand vous serez grand.  3. Chose de taille, volume, etc. importante. Par comparaison des petites choses aux grandes.  Du petit au grand.  4. Extrême ; lointain.  Il y avait déjà deux jours que le bateau filait vers le grand Nord, à la vitesse maintenue de vingt noeuds.     (Jean Lhassa, Dernières nouvelles d'ailleurs, Éditions Publibook, 2009, p.209)  5. (En particulier) Surnom de personnages illustres, héroïques, méritants. Dans ce sens, il est précédé de l'article.  Alexandre le Grand.  6. En grande quantité.  Il n'y avait pas grand monde à ce spectacle.     C'est ainsi que la quasi-totalité des prix des grands produits industriels connaissent au XIXe siècle un trend orienté à la baisse. Dans la sidérurgie française par exemple, les « fers et aciers ouvrés » passent de l'indice 100 en 1850 à l'indice 72 en 1911.     (Jean-Pierre Rioux, La révolution industrielle : 1780-1880, Éditions du Seuil, 1971, p.84)  7. Qui a grandi.  Les blés sont déjà grands.     Ce bois commence à devenir grand.  8. Vaste plan, vue générale et complète.  Fabriquer en grand.     Travailler, opérer en grand.  9. (Par extension) (Familier) Beaucoup de. S'emploie notamment avec chose, monde et intérêt.  Ce livre n'ayant pas grand intérêt, il ne passionnait pas grand monde avant que son auteur ne soit victime d'un accident spectaculaire.     Il n'y a pas grand-chose à voir dans cette région.  10. (Figuré) Célèbre, doté d'une réputation positive, qui mérite l'admiration.  « Je suis plus grand que vous, Sire ». « Dites plus long » répliqua l'Empereur [1].     Un grand homme.  11. Personne plus âgée.  Jouer dans la cour des grands.  12. Personne qui appartient à une élite, par sa naissance, son pouvoir ou sa dignité.  L'enfant-roi dont nobles et bourgeois avaient admiré le courage sur la place du marché de Smithfield et que l'armée des paysans révoltés avait suivi avec un religieux respect, devint un adolescent velléitaire et finit par mourir en prison, méprisé par les grands et oublié de son peuple.     (André Maurois, Histoire de l'Angleterre, Fayard & Cie, 1937, p. 259)    Sur ces entrefaites ladite dame comtesse d'Artois supplia la reine Clémence de lui accorder l'honneur de présenter elle-même l'enfant-roi aux grands et au peuple, et cette grâce lui fut accordée.     (Louis Monmerqué, Dissertation historique sur Jean 1er, roi de France et de Navarre, Tabary, Paris, 1844, p. 44)  13. De hauteur importante.  Personne de vraiment grand, sentait-on, n'aurait eu une expression si virulente et si agressive, bien qu'en réalité Butteridge eût une taille de six pieds deux pouces (1m88) et un poids exactement proportionnel.     (H. G. Wells, La Guerre dans les airs, 1908, traduction d'Henry-D. Davray et B. Kozakiewicz, Mercure de France, Paris, 1910, p. 34 de l'éd. de 1921)  14. Grandement, largement.  Certes, la célébrité ouvre grand ses portes aux passions contrariées, nous aurons notre place dans ce panthéon.     (Christine Orban, Quel effet bizarre faites-vous sur mon coeur, Albin Michel, 2014, p. 78)    Voir grand, avoir des vues larges, excessives.  15. (Par analogie) De taille, longueur, volume, durée, etc., important, qui dépasse la mesure moyenne ou ordinaire.  Et enfin, vous voudriez que Dieu fît courir le soleil, qui est quatre cent et trente-quatre fois plus grand que la terre, rien que pour pommer nos choux ?     (Umberto Eco, L'île du jour d'avant, Grasset & Fasquelle, 1996)    Le bourreau chef jeta un coup d'oeil sur la besogne et parut mécontent : la découpure n'était pas assez grande.     (Ivan Tourgueniev, L'Exécution de Troppmann, avril 1870, traduction française d'Isaac Pavlovsky, publiée dans ses Souvenirs sur Tourguéneff, Savine, 1887)  
+Severodvinsk (en russe : ????????????) est une ville de l'oblast d'Arkhangelsk, en Russie. Fondée en 1936, la ville s'est d'abord appelée Soudostroï (1936-1938), puis Molotovsk (1938-1957). Sa population s'élevait à 183 996 habitants en 2017.
 </def>
 voisinage 
-2586629;'Number:Sing';4;0
-2586627;'Gender:Mas';4;0
-146885;'Nom:Mas+SG';4;50
-23178;'grand';1;2108
-146888;'Adj:Mas+SG';4;50
-146889;'Adv:';4;50
+18003;'Severodvinsk';1;50
 171870;'Nom:';4;50
-171869;'Adj:';4;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:2586627,45;2586629,45;146889,57;146888,58;146885,58;171870,60;171869,68;
+4:171870,27;
 
 // relations entrantes 
 
