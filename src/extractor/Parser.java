@@ -2,7 +2,6 @@ package extractor;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -17,11 +16,7 @@ import org.apache.commons.collections4.trie.PatriciaTrie;
 import analyserMots.AnalyseurMotSeul;
 import analyserMots.AnalyseurMotsComposes;
 import pretraitement.PretraitementDocument;
-import requeterRezo.Mot;
 import requeterRezo.RequeterRezoDump;
-import requeterRezo.Voisin;
-import requeterRezo.Filtre;
-import template.Template;
 import template.TemplateUtils;
 import template.Template_matrix;
 
@@ -33,6 +28,12 @@ import template.Template_matrix;
  */
 public class Parser {
 
+	public String fichierCible;
+	public String fichierRegles;
+	public String dossierSortie;
+	public boolean verbose;
+	public boolean export_stats;
+
 	private ArrayList<String> discovered_rel; // La liste des relations extraites
 	private ArrayList<String> words;
 
@@ -42,7 +43,8 @@ public class Parser {
 
 	private PatriciaTrie<Integer> mots_composes; // Ensemble des mots composés
 
-	private FileWriter fw; // Fichier de sortie
+	private FileWriter fichierResultats; // Fichier de sortie pour les résultats
+	private FileWriter fichierStats; // Fichier de sortie pour les stats
 
 	private AnalyseurMotsComposes analyMC;
 	private AnalyseurMotSeul analyMS;
@@ -51,14 +53,24 @@ public class Parser {
 	///////////////////
 	/** CONSTRUCTOR **/
 	///////////////////
-	public Parser() throws IOException {
+	public Parser(String[] args) throws IOException {
+
+		fichierRegles = args[0];
+		fichierCible = args[1];
+		dossierSortie = args[2];
+		verbose = args[3].equals("1") ? true : false;
+		export_stats = args[4].equals("1") ? true : false;
+
 		systeme = new RequeterRezoDump("12h", "100mo");
 
 		discovered_rel = new ArrayList<>();
 
-		template_matrix = new Template_matrix("./data/templates");
+		template_matrix = new Template_matrix(fichierRegles);
 
-		fw = new FileWriter("data/extracted.txt");
+		fichierResultats = new FileWriter(dossierSortie + "/relations_extraites.txt");
+
+		if (export_stats)
+			fichierStats = new FileWriter(dossierSortie + "/statistiques_execution.txt");
 
 		words = new ArrayList<>();
 
@@ -75,7 +87,22 @@ public class Parser {
 	public void run() throws IOException {
 
 		initMotComposes();
-		initWords(false);
+
+		initWords(true);
+
+		recherchePattern();
+
+		export();
+
+	}
+
+	///////////////////////
+	/** PRIVATE METHODS **/
+	///////////////////////
+
+	private void recherchePattern() throws IOException {
+
+		Instant begloc = Instant.now();
 
 		/*
 		 * Pour chaque template en partant du plus grand, on va parser le texte avec une
@@ -122,10 +149,13 @@ public class Parser {
 
 					/* S'il y a un match, on analyse ce qui precede et ce qui suit le template */
 					if (tmpUtils.t_match(template_matrix.get_template(col, line), tmpString)) {
-						
-						System.out.println("\nPattern trouvé : " + tmpString + " --> " + template_matrix.get_template(col, line).get_relation());
-						System.out.println("\tAnalyse de l'entourage du pattern en cours...");
-						
+
+						if (verbose) {
+							System.out.println("\nPattern trouvé : " + tmpString + " --> "
+									+ template_matrix.get_template(col, line).get_relation());
+							System.out.println("\tAnalyse de l'entourage du pattern en cours...");
+						}
+
 						/*
 						 * On recupere les 10 mots qui precedent le string temporaire, on s'arrete si on
 						 * rencontre un point
@@ -141,12 +171,15 @@ public class Parser {
 
 						for (String str : tmpPrevious)
 							previous = previous + str + " ";
-						
-						System.out.println("\n\t\tEnsemble de mots analysés avant : " + previous);
 
-						previous = analyseStringForName(previous, template_matrix.get_template(col, line).getContrainteAnte());
-						
-						System.out.println("\t\t\tMot(s) gardé(s) avant : " + previous);
+						if (verbose)
+							System.out.println("\n\t\tEnsemble de mots analysés avant : " + previous);
+
+						previous = analyseStringForName(previous,
+								template_matrix.get_template(col, line).getContrainteAnte());
+
+						if (verbose)
+							System.out.println("\t\t\tMot(s) gardé(s) avant : " + previous);
 
 						/*********************************/
 
@@ -162,19 +195,23 @@ public class Parser {
 									break;
 								else
 									following = following + words.get(start + kndex) + " ";
-						
-						System.out.println("\n\t\tEnsemble de mots analysés apres : " + following);
 
-						following = analyseStringForName(following, template_matrix.get_template(col, line).getContraintePost());
-						
-						System.out.println("\t\t\tMot(s) gardé(s) apres : " + following);
+						if (verbose)
+							System.out.println("\n\t\tEnsemble de mots analysés apres : " + following);
+
+						following = analyseStringForName(following,
+								template_matrix.get_template(col, line).getContraintePost());
+
+						if (verbose)
+							System.out.println("\t\t\tMot(s) gardé(s) apres : " + following);
 
 						/*********************************/
 
 						tmpUtils.protectTemplate(words, begin, window_size);
 
-						discovered_rel.add(previous + " --- " + template_matrix.get_template(col, line).get_relation()
-								+ " --- " + following);
+						if (previous.length() > 0 && following.length() > 0)
+							discovered_rel.add(previous + " --- "
+									+ template_matrix.get_template(col, line).get_relation() + " --- " + following);
 
 						/*********************************/
 
@@ -187,61 +224,17 @@ public class Parser {
 			begin = 0;
 		}
 
-		export();
+		Instant endloc = Instant.now();
 
-	}
+		System.out.println("\nRecherche des relations : " + Duration.between(begloc, endloc).toMillis() + " ms");
 
-	///////////////////////
-	/** PRIVATE METHODS **/
-	///////////////////////
-
-	/**
-	 * Crée un Mot à partir d'un string et vérifie si ca peut etre un nom
-	 * 
-	 * @param word
-	 *            Le string à partir duquel on crée un Mot
-	 * 
-	 * @return Le poids de la relation si le Mot peut etre un nom, -1 sinon.
-	 */
-	private int analyseWord(String word, String contrainte) {
-		if (word.equals(""))
-			return -1;
-
-		int toRet;
-
-		Mot m = systeme.requete(word, 4, Filtre.FiltreRelationsEntrantes);
-
-		if(contrainte.equals("") || contrainte.equals(" "))
-			contrainte = "Nom";
-		
-		switch(contrainte) {
-		
-		case " Adj " :
-		case " adj " :
-		case "Adj " :
-		case "adj " :
-		case "Adj" :
-		case "adj" :
-		case " Adj" :
-		case " adj" :
-			contrainte = "Adj";
-			break;
-			
-		case "":
-		case " ":
-		default :
-			contrainte = "Nom";
-			break;
-			
-		}
-		toRet = (m != null) ? analyMS.respecteContrainte(m, contrainte) : -1;
-
-		return toRet;
-
+		if (export_stats)
+			fichierResultats
+					.write("\nRecherche des relations : " + Duration.between(begloc, endloc).toMillis() + " ms\n");
 	}
 
 	/**
-	 * Analyse un chaine de caractères pour vérifier si elle peut être utilisée
+	 * Analyse une chaine de caractères pour vérifier si elle peut être utilisée
 	 * comme un nom ou un nom composé
 	 * 
 	 * @param str
@@ -264,7 +257,7 @@ public class Parser {
 
 			for (String s : wd) {
 
-				tmpValue = analyseWord(s, contrainte);
+				tmpValue = analyMS.analyseWord(s, contrainte, systeme);
 
 				if (tmpValue != -1) {
 
@@ -294,7 +287,7 @@ public class Parser {
 		System.out.print("Initialisation des mots à analyser ---> ");
 		Instant begloc = Instant.now();
 
-		String usedFile = "data/wiki_sample.txt";
+		String usedFile = fichierCible;
 		File data_file;
 
 		if (avecPT) {
@@ -312,39 +305,49 @@ public class Parser {
 			String[] tmpWords = line.split("[ ]+");
 
 			for (String string : tmpWords) {
-				if (!string.equals(" ") && !string.equals("")) {
-
-					/*
-					 * Les ',' ';' '.' sont tous remplacés par des ' . ', ce qui permet d'isoler la
-					 * ponctuation des mots. De plus nous considérons que virgules et
-					 * points-virgules ont le meme comportement que le point.
-					 */
-					if (string.contains(".") || string.contains(",") || string.contains(";")) {
-
-						String newStr = string.replaceAll("[;,.]+", " . ");
-
-						String[] tmp = newStr.split("[ ]+");
-
-						for (String str : tmp)
-							words.add(str);
-					} else
-						words.add(string);
-				}
+				words.add(string);
+//				if (!string.equals(" ") && !string.equals("")) {
+//
+//					/*
+//					 * Les ',' ';' '.' sont tous remplacés par des ' . ', ce qui permet d'isoler la
+//					 * ponctuation des mots. De plus nous considérons que virgules et
+//					 * points-virgules ont le meme comportement que le point.
+//					 */
+//					if (string.contains(".") || string.contains(",") || string.contains(";")) {
+//
+//						String newStr = string.replaceAll("[;,.]+", " . ");
+//
+//						String[] tmp = newStr.split("[ ]+");
+//
+//						for (String str : tmp)
+//							words.add(str);
+//					} else if (!string.contains("="))
+//						words.add(string);
+//				}
 			}
 		}
 
 		scanner.close();
 
-		System.out.println(Duration.between(begloc, Instant.now()).toMillis() + " ms");
+		Instant endloc = Instant.now();
+
+		System.out.println(Duration.between(begloc, endloc).toMillis() + " ms");
+
+		if (export_stats)
+			fichierStats.write(
+					"Initialisation des mots à analyser ---> " + Duration.between(begloc, endloc).toMillis() + " ms\n");
 	}
 
 	/**
 	 * Initialise la liste de mots composés à partir d'un fichier donné
+	 * 
+	 * @throws IOException
 	 */
-	private void initMotComposes() {
+	private void initMotComposes() throws IOException {
 
 		System.out.print("Initialisation des mots composés -----> ");
 		Instant begloc = Instant.now();
+		Instant endloc;
 
 		String line1;
 		try {
@@ -358,8 +361,13 @@ public class Parser {
 		}
 
 		analyMC = new AnalyseurMotsComposes(mots_composes);
+		endloc = Instant.now();
 
-		System.out.println(Duration.between(begloc, Instant.now()).toMillis() + " ms");
+		System.out.println(Duration.between(begloc, endloc).toMillis() + " ms");
+
+		if (export_stats)
+			fichierStats.write(
+					"Initialisation des mots composés -----> " + Duration.between(begloc, endloc).toMillis() + " ms\n");
 	}
 
 	/**
@@ -369,9 +377,13 @@ public class Parser {
 
 		try {
 			for (String str : discovered_rel) {
-				fw.write(str + "\n");
+				fichierResultats.write(str + "\n");
 			}
-			fw.close();
+			fichierResultats.close();
+
+			if (export_stats)
+				fichierStats.close();
+
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
