@@ -5,6 +5,13 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
+/**
+ * 
+ * @author Mathieu Dodard
+ * @Author Jordan Guillonneau
+ *
+ * Cette classe n'est pas utilisée dans notre gestion des documents.
+ */
 public class PretraitementDocument {
 	
 	public PretraitementDocument() {

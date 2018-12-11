@@ -36,13 +36,13 @@ public class Parser {
 	private ArrayList<String> discovered_rel; // La liste des relations extraites
 	private ArrayList<String> words;
 
-	private Template_matrix template_matrix; // La matrice de template
+	private Template_matrix template_matrix; // La matrice de templates
 
 	private RequeterRezoDump systeme; // Instance du requeteur sur Jeux de Mots
 
-	private PatriciaTrie<Integer> mots_composes;
+	private PatriciaTrie<Integer> mots_composes; // Ensemble des mots composés
 
-	private FileWriter fw;
+	private FileWriter fw; // Fichier de sortie
 
 	private AnalyseurMotsComposes analyMC;
 	private AnalyseurMotSeul analyMS;
@@ -122,7 +122,10 @@ public class Parser {
 
 					/* S'il y a un match, on analyse ce qui precede et ce qui suit le template */
 					if (tmpUtils.t_match(template_matrix.get_template(col, line), tmpString)) {
-
+						
+						System.out.println("\nPattern trouvé : " + tmpString + " --> " + template_matrix.get_template(col, line).get_relation());
+						System.out.println("\tAnalyse de l'entourage du pattern en cours...");
+						
 						/*
 						 * On recupere les 10 mots qui precedent le string temporaire, on s'arrete si on
 						 * rencontre un point
@@ -138,8 +141,12 @@ public class Parser {
 
 						for (String str : tmpPrevious)
 							previous = previous + str + " ";
+						
+						System.out.println("\n\t\tEnsemble de mots analysés avant : " + previous);
 
 						previous = analyseStringForName(previous, template_matrix.get_template(col, line).getContrainteAnte());
+						
+						System.out.println("\t\t\tMot(s) gardé(s) avant : " + previous);
 
 						/*********************************/
 
@@ -155,8 +162,12 @@ public class Parser {
 									break;
 								else
 									following = following + words.get(start + kndex) + " ";
+						
+						System.out.println("\n\t\tEnsemble de mots analysés apres : " + following);
 
 						following = analyseStringForName(following, template_matrix.get_template(col, line).getContraintePost());
+						
+						System.out.println("\t\t\tMot(s) gardé(s) apres : " + following);
 
 						/*********************************/
 
