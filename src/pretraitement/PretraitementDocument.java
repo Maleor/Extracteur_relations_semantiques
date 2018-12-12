@@ -10,7 +10,6 @@ import java.util.Scanner;
  * @author Mathieu Dodard
  * @Author Jordan Guillonneau
  *
- *         Cette classe n'est pas utilisée dans notre gestion des documents.
  */
 public class PretraitementDocument {
 
@@ -18,7 +17,18 @@ public class PretraitementDocument {
 
 	}
 
-	public void espacerPonctuation(String file) throws IOException {
+	/**
+	 * Pré-traite un document en remplaçant les virgules et points-virgules par des
+	 * points, de plus tous les points sont entourés par des espaces pour éviter
+	 * qu'ils soient collés à un mot. Le reste de la ponctuation est supprimé sauf
+	 * les - et _
+	 * 
+	 * @param file
+	 *            Le fichier à traiter
+	 * 
+	 * @throws IOException
+	 */
+	public void nettoyerPonctuation(String file) throws IOException {
 
 		FileWriter fwloc = new FileWriter("data/doc_pretraite.txt");
 
@@ -30,9 +40,10 @@ public class PretraitementDocument {
 
 			String line = scanner.nextLine();
 
-			String[] tmpWords = line.split("[ ]+");
+			if (!line.equals("") && !line.equals(" ")) {
+				String[] tmpWords = line.split("[ ]+");
 
-			if (tmpWords.length > 0) {
+			
 				String newStr;
 
 				for (String string : tmpWords) {
@@ -43,7 +54,7 @@ public class PretraitementDocument {
 					String[] tmp = newStr.split("[ ]+");
 
 					for (String st : tmp)
-						if(!st.equals("") && !st.equals(" "))
+						if (!st.equals("") && !st.equals(" "))
 							fwloc.write(st + " ");
 				}
 				fwloc.write("\n");

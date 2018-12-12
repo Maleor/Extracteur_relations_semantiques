@@ -292,7 +292,7 @@ public class Parser {
 
 		if (avecPT) {
 			PretraitementDocument ptd = new PretraitementDocument();
-			ptd.espacerPonctuation(usedFile);
+			ptd.nettoyerPonctuation(usedFile);
 			data_file = new File("data/doc_pretraite.txt");
 		} else
 			data_file = new File(usedFile);
@@ -304,27 +304,8 @@ public class Parser {
 			String line = scanner.nextLine();
 			String[] tmpWords = line.split("[ ]+");
 
-			for (String string : tmpWords) {
+			for (String string : tmpWords)
 				words.add(string);
-//				if (!string.equals(" ") && !string.equals("")) {
-//
-//					/*
-//					 * Les ',' ';' '.' sont tous remplacés par des ' . ', ce qui permet d'isoler la
-//					 * ponctuation des mots. De plus nous considérons que virgules et
-//					 * points-virgules ont le meme comportement que le point.
-//					 */
-//					if (string.contains(".") || string.contains(",") || string.contains(";")) {
-//
-//						String newStr = string.replaceAll("[;,.]+", " . ");
-//
-//						String[] tmp = newStr.split("[ ]+");
-//
-//						for (String str : tmp)
-//							words.add(str);
-//					} else if (!string.contains("="))
-//						words.add(string);
-//				}
-			}
 		}
 
 		scanner.close();

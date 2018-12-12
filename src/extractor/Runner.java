@@ -18,7 +18,7 @@ public class Runner {
 			System.err.println("Fichier de regles : Chemin vers le fichier qui contient les règles");
 			System.err.println("Document à analyser : Le chemin vers le document texte à analyser");
 			System.err.println("Fichier de sortie : Le chemin vers le dossier qui contient les fichiers d'export");
-			System.err.println("Verbose (Optionnel) : Afficher dans le terminal le déroulement de l'éxecution");
+			System.err.println("Verbose (Optionnel) : Afficher dans le terminal le déroulement de l'exécution");
 			System.err.println("Export_stats (Optionnel) : Exporter les statistiques de l'exécution");
 			return;
 		}
