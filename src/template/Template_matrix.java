@@ -35,7 +35,7 @@ public class Template_matrix {
 
 		templates_matrix = new Vector<Vector<Template>>(); // Construit la matrice de template
 
-		tmp_templates = get_All_Templates(); // recuperer les templates
+		tmp_templates = get_All_Templates(path_to_template_file); // recuperer les templates
 
 		max_TemplateSize = find_Max_TemplateSize(tmp_templates); // trouver la taille max de template
 
@@ -58,11 +58,11 @@ public class Template_matrix {
 	 * 
 	 * @throws IOException
 	 */
-	private Vector<Template> get_All_Templates() throws IOException {
+	private Vector<Template> get_All_Templates(String path_to_template_file) throws IOException {
 
 		Vector<Template> templates = new Vector<>();
 		
-		BufferedReader br = new BufferedReader(new FileReader("./data/templates"));
+		BufferedReader br = new BufferedReader(new FileReader(path_to_template_file));
 
 		String line;
 

@@ -240,8 +240,8 @@ public class Parser {
 			System.out.println(Duration.between(begloc, endloc).toMillis() + " ms");
 
 		if (export_stats)
-			fichierResultats
-					.write("\nRecherche des relations : " + Duration.between(begloc, endloc).toMillis() + " ms\n");
+			fichierStats
+					.write("Recherche des relations --------------> " + Duration.between(begloc, endloc).toMillis() + " ms\n");
 	}
 
 	/**
@@ -344,7 +344,7 @@ public class Parser {
 
 		String line1;
 		try {
-			BufferedReader br = new BufferedReader(new FileReader("data/mots_composes.txt"));
+			BufferedReader br = new BufferedReader(new FileReader(fichierMotsComp));
 			while ((line1 = br.readLine()) != null) {
 				mots_composes.put(line1, 0);
 			}
