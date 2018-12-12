@@ -1,0 +1,96 @@
+
+*** These modified files were found in JOE when it aborted on Wed Dec 12 17:31:41 2018
+*** JOE was aborted because the terminal closed
+
+*** Fichier '(Sans nom)'
+/auto_home/mdodard/workspace/extracteurRelationsSemantiques/.git/rebase-merge/git-rebase-todo
+
+*** Fichier '* Startup Log *'
+Traitement de '/etc/joe/editorrc'...Traitement de '/etc/joe/ftyperc'...Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Wed Dec 12 17:35:50 2018
+*** JOE was aborted because the terminal closed
+
+*** Fichier '(Sans nom)'
+/auto_home/mdodard/workspace/extracteurRelationsSemantiques/.git/rebase-merge/git-rebase-todo
+
+*** Fichier '/auto_home/mdodard/workspace/extracteurRelationsSemantiques/.git/rebase-merge/git-rebase-todo'
+drop b83b4ce connexion à ce fdp de jdm
+pick 3f15966 nouveau requeter
+pick 51a93cc analyse de tous les mots
+pick 00b7875 analyse des mots pour chercher les noms + debut noms composes
+pick e8d05aa recherche des mots composes + split avec points + utilisation poids relations
+pick 0ea611e gestion de la ponctuation optimale, reparation du template protecteur, nouvelles classe...
+pick 2237022 gestion des contraintes
+pick bb8595c Update README
+pick 064a8c9 fix de bugs
+pick 3a4eefe pre traitement + respect genre et nombre + execute avec respect d'arguments
+pick 68c3dc3 Update README.md
+pick 81fc861 suppression des lignes vides
+
+# Rebasage de f3b2305..81fc861 sur f3b2305 (12 commandes)
+#
+# Commandes :
+#  p, pick = utiliser le commit
+#  r, reword = utiliser le commit, mais reformuler son message
+#  e, edit = utiliser le commit, mais s'arrêter pour le modifier
+#  s, squash = utiliser le commit, mais le fusionner avec le précédent
+#  f, fixup = comme "squash", mais en éliminant son message
+#  x, exec = lancer la commande (reste de la ligne) dans un shell
+#  d, drop = supprimer le commit
+#
+# Vous pouvez réordonner ces lignes ; elles sont exécutées de haut en bas.
+#
+# Si vous éliminez une ligne ici, LE COMMIT CORRESPONDANT SERA PERDU.
+#
+# Cependant, si vous effacez tout, le rebasage sera annulé.
+#
+# Veuillez noter que les commits vides sont en commentaire
+
+*** Fichier '* Startup Log *'
+Traitement de '/etc/joe/editorrc'...Traitement de '/etc/joe/ftyperc'...Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
+
+*** These modified files were found in JOE when it aborted on Wed Dec 12 17:37:17 2018
+*** JOE was aborted because the terminal closed
+
+*** Fichier '(Sans nom)'
+/auto_home/mdodard/workspace/extracteurRelationsSemantiques/.git/rebase-merge/git-rebase-todo
+
+*** Fichier '/auto_home/mdodard/workspace/extracteurRelationsSemantiques/.git/rebase-merge/git-rebase-todo'
+drop b83b4ce connexion à ce fdp de jdm
+pick 3f15966 nouveau requeter
+pick 51a93cc analyse de tous les mots
+pick 00b7875 analyse des mots pour chercher les noms + debut noms composes
+pick e8d05aa recherche des mots composes + split avec points + utilisation poids relations
+pick 0ea611e gestion de la ponctuation optimale, reparation du template protecteur, nouvelles classe...
+pick 2237022 gestion des contraintes
+pick bb8595c Update README
+pick 064a8c9 fix de bugs
+pick 3a4eefe pre traitement + respect genre et nombre + execute avec respect d'arguments
+pick 68c3dc3 Update README.md
+pick 81fc861 suppression des lignes vides
+
+# Rebasage de f3b2305..81fc861 sur f3b2305 (12 commandes)
+#
+# Commandes :
+#  p, pick = utiliser le commit
+#  r, reword = utiliser le commit, mais reformuler son message
+#  e, edit = utiliser le commit, mais s'arrêter pour le modifier
+#  s, squash = utiliser le commit, mais le fusionner avec le précédent
+#  f, fixup = comme "squash", mais en éliminant son message
+#  x, exec = lancer la commande (reste de la ligne) dans un shell
+#  d, drop = supprimer le commit
+#
+# Vous pouvez réordonner ces lignes ; elles sont exécutées de haut en bas.
+#
+# Si vous éliminez une ligne ici, LE COMMIT CORRESPONDANT SERA PERDU.
+#
+# Cependant, si vous effacez tout, le rebasage sera annulé.
+#
+# Veuillez noter que les commits vides sont en commentaire
+
+*** Fichier '* Startup Log *'
+Traitement de '/etc/joe/editorrc'...Traitement de '/etc/joe/ftyperc'...Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
