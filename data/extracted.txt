@@ -1,8 +1,0 @@
-fraises ---  r_carac-1  --- perceuse
-est --- r_lieu  --- table
-poney --- r_isa  --- animal
-loup --- r_isa  --- animal
-loup ---  r_carac  --- méchant
-Maman ---  r_carac  --- 
-monde ---  r_carac  --- grand
-singe --- r_can_eat  --- fraises

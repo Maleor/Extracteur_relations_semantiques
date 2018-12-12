@@ -1,20 +1,27 @@
-Severodvinsk
-Severodvinsk
-18003
+singe
+singe
+73893
 1
 0
 <def>
-Severodvinsk (en russe : ????????????) est une ville de l'oblast d'Arkhangelsk, en Russie. Fondée en 1936, la ville s'est d'abord appelée Soudostroï (1936-1938), puis Molotovsk (1938-1957). Sa population s'élevait à 183 996 habitants en 2017.
+1. L'art martial du singe (en chinois Hou quan) imite du singe[réf. incomplète]: adresse, agilité, ruse, souplesse.2. Le singe (?) est le neuvième animal dans l'ordre d'arrivée qui apparaît dans le zodiaque chinois, lié au calendrier chinois.
 </def>
 voisinage 
-18003;'Severodvinsk';1;50
+2946892;'Ver:Conjug';4;0
+161698;'Ver:IPre+SG+P1:IPre+SG+P3:SPre+SG+P1:SPre+SG+P3:ImPre+SG+P2';4;50
+2935005;'VerbalTime:Present';4;0
+2586629;'Number:Sing';4;0
+73893;'singe';1;864
+2586627;'Gender:Mas';4;0
+146885;'Nom:Mas+SG';4;50
+212235;'Ver:';4;50
 171870;'Nom:';4;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:171870,27;
+4:2586627,45;2586629,45;2935005,45;2946892,45;212235,51;146885,55;161698,60;171870,115;
 
 // relations entrantes 
 

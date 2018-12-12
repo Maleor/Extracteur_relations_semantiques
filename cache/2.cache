@@ -1,22 +1,23 @@
-L
-'L
-138915
+mange
+mange
+421145
 1
 0
 <def>
-1. (Argot scolaire) Étudiant, élève de la section littéraire.  J'ai un peu de mal avec les L, ils sont dans leur monde.     Cette fille là-bas, je suis presque certaine que c'est une L.     Un L s'est fait viré du bahu la semaine dernière, il a avait foutu le feu aux poubelles.  2. Abréviation de Littéraire.  Terminale L, filière L, bac L.  3. (Anatomie) Abréviation de lombaire, dans la désignation des vertèbres et nerfs lombaires.4. (Argot scolaire) Section littéraire ; branche scolaire spécialisée dans l'étude des lettres et des langues.  La L c'est pas aussi simple que ce l'on croit.     Je suis en L, donc je peux me permettre de faire l'impasse sur les maths.  
+Pas de définition disponible ou définition répartie dans les raffinements sémantiques (voir relation "r_raff_sem").
 </def>
 voisinage 
-138915;''L';1;780
-233601;'Card:';4;50
-171870;'Nom:';4;50
-171869;'Adj:';4;50
+2946892;'Ver:Conjug';4;0
+161698;'Ver:IPre+SG+P1:IPre+SG+P3:SPre+SG+P1:SPre+SG+P3:ImPre+SG+P2';4;50
+2935005;'VerbalTime:Present';4;0
+212235;'Ver:';4;50
+421145;'mange';1;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:171869,30;171870,40;233601,41;
+4:2935005,45;2946892,45;161698,57;212235,59;
 
 // relations entrantes 
 

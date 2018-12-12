@@ -1,23 +1,24 @@
-Géographie
-Géographie
-141272
+Le
+Le
+140508
 1
 0
 <def>
-1. La Géographie (du grec ancien ????????? ? geographia , composé de « ? ?? » (hê gê) la Terre et « ??????? » (graphein) décrire, qui signifie littéralement « décrire ou écrire sur la Terre ») est une science qui a pour objet la description de la Terre et en particulier l'étude des phénomènes physiques, biologiques et humains qui se produisent sur le globe terrestre.2. La Géographie est une science qui a pour objet la description de la Terre et en particulier l'étude des phénomènes physiques, biologiques et humains qui se produisent sur le globe terrestre.3. La Géographie (du grec ancien ????????? ? geographia, composé de « ? ?? » (hê gê) (la Terre) et « ??????? » (graphein) décrire, puis du latin geographia, littéralement traduit par « dessin de la Terre ») est une science qui a pour objet la description de la Terre et en particulier l'étude des phénomènes physiques, biologiques et humains qui se produisent sur le globe terrestre. Le portail de l'information géographique du gouvernement du Québec définit la géographie comme « une science de la connaissance de l'aspect actuel, naturel et humain de la surface terrestre. Elle permet de comprendre l'organisation spatiale de phénomènes (physiques ou humains) qui se manifestent dans notre environnement et façonnent notre monde ».4. Le Geographica (en grec ancien ?????????? / Ge?graphiká), ou Géographie, est une encyclopédie géographique écrite en grec ancien par Strabon entre 20 av. J.-C. et 23 apr. J.-C. Elle contient 17 livres décrivant l'ensemble du monde connu à son époque.5. La Géographie ou Manuel de géographie (en grec ancien ?????????? ????????, latinisé en Geographike Hyphegesis, en latin Geographia ou anciennement Cosmographia) est un traité rédigé par Ptolémée vers l'an 150. Cette Introduction géographique à la cartographie est une compilation des connaissances sur la géographie du monde à l'époque de l'Empire romain, et dont la redécouverte en Europe au XVe siècle permit de relancer l'étude de la géographie mathématique et de la cartographie.
+Pas de définition disponible ou définition répartie dans les raffinements sémantiques (voir relation "r_raff_sem").
 </def>
 voisinage 
 2586629;'Number:Sing';4;0
-146881;'Nom:Fem+SG';4;50
-2586628;'Gender:Fem';4;0
-141272;'Géographie';1;256
+2586627;'Gender:Mas';4;0
+146901;'Det:Mas+SG';4;50
 171870;'Nom:';4;50
+140508;'Le';1;50
+147628;'Det:';4;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:2586629,32;171870,35;146881,35;2586628,39;
+4:171870,30;147628,45;146901,45;2586629,45;2586627,45;
 
 // relations entrantes 
 

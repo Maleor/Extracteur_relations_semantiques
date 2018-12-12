@@ -1,34 +1,26 @@
-la
-la
-142265
+car
+car
+40380
 1
 0
 <def>
-Première lettre de l'alphabet santâlî : ?.
+1. Langue nicobar parlée dans les îles Nicobar.2. (Transport) Grand véhicule automobile utilisé pour le transport en commun de voyageurs, en particulier pour les transports interurbains ou les transports exceptionnels (pour les lignes régulières urbaines, on préfère généralement employer le mot bus ou autobus).3. Introduit une explication, une raison, une cause à une proposition.  Vous ne le trouverez pas chez lui, car je viens de le voir dans la rue.     Il ne faut pas faire telle chose, car Dieu le défend.  4. (Programmation informatique) La première partie du doublet en LISP, qui est le premier élément dans une liste.  [?] principe de base :? chaque élément de la liste est représenté dans un doublet ;? le car du doublet contient l'élément lui-même ;? le cdr du doublet pointe sur le doublet suivant dans la liste ;? le cdr du dernier doublet signale la fin de la liste par le marqueur de fin de liste, '().     (Laurent Bloch et Jacques Arsac, Initiation à la programmation avec Scheme, 2000, p. 84)    Il nous faut donc être capable de s'electionner tous les cars et tous les cdrs d'un ensemble de listes : [?]     (Jean-Jacques Girardot, Introduction à la programmation fonctionnelle par Scheme, L'École Nationale Supérieure des Mines de Saint-Étienne, 1993)  5. Le car, ou pu, est une langue parlée dans les îles Nicobar en Inde, au sud du golfe du Bengale. Ses locuteurs, les Car, sont au nombre de 30 000 (1997) et habitent l'île de Car Nicobar. Ils sont classés comme « Scheduled Tribe » par le gouvernement indien.6. Un autocar, aussi appelé car en Europe et autobus voyageur en Amérique du Nord, est un moyen de transport routier pouvant accueillir confortablement plusieurs voyageurs pour de moyennes et longues distances, notamment pour des liaisons interurbaines (dessertes régulières), les voyages touristiques (autocar de tourisme), et les transports scolaires.
 </def>
 voisinage 
-2586630;'Number:Plur';4;0
 2586629;'Number:Sing';4;0
-2586628;'Gender:Fem';4;0
+146896;'Con:';4;50
 2586627;'Gender:Mas';4;0
-146886;'Nom:Mas+InvPL';4;50
-146887;'Nom:Mas+PL';4;50
 146885;'Nom:Mas+SG';4;50
-2356740;'Pro:Pers';4;0
-2586637;'Number:Inv';4;0
-2931520;'Pro:Pers:COD';4;0
-147628;'Det:';4;50
-147826;'Pro:';4;50
-147920;'Pro:3Fem+SG';4;50
-161751;'Det:Fem+SG';4;50
-142265;'la';1;322
+2339738;'Conj:Coord';4;0
+150504;'Conj:';4;50
+40380;'car';1;950
 171870;'Nom:';4;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:146885,28;2356740,31;146887,35;2586627,45;2586637,45;2586630,45;2586629,45;2586628,45;2931520,48;146886,53;147920,53;161751,53;147826,53;171870,78;147628,127;
+4:2586627,45;2586629,45;2339738,48;146885,56;150504,57;146896,61;171870,121;
 
 // relations entrantes 
 

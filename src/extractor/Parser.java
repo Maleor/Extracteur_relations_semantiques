@@ -30,8 +30,11 @@ public class Parser {
 
 	public String fichierCible;
 	public String fichierRegles;
+	public String fichierMotsComp;
 	public String dossierSortie;
+	public boolean avecMotsComp;
 	public boolean verbose;
+	public boolean verbose2;
 	public boolean export_stats;
 
 	private ArrayList<String> discovered_rel; // La liste des relations extraites
@@ -57,9 +60,12 @@ public class Parser {
 
 		fichierRegles = args[0];
 		fichierCible = args[1];
-		dossierSortie = args[2];
-		verbose = args[3].equals("1") ? true : false;
-		export_stats = args[4].equals("1") ? true : false;
+		fichierMotsComp = args[2];
+		dossierSortie = args[3];
+		avecMotsComp = args[7].equals("1") ? true : false;
+		verbose = args[4].equals("1") ? true : false;
+		verbose2 = args[5].equals("1") ? true : false;
+		export_stats = args[6].equals("1") ? true : false;
 
 		systeme = new RequeterRezoDump("12h", "100mo");
 
@@ -86,7 +92,8 @@ public class Parser {
 	//////////////////////
 	public void run() throws IOException {
 
-		initMotComposes();
+		if (avecMotsComp)
+			initMotComposes();
 
 		initWords(true);
 
@@ -103,14 +110,16 @@ public class Parser {
 	private void recherchePattern() throws IOException {
 
 		Instant begloc = Instant.now();
+		if(!verbose2)
+			System.out.print("Recherche des relations --------------> ");
 
 		/*
 		 * Pour chaque template en partant du plus grand, on va parser le texte avec une
 		 * fenetre de mots équivalente a la taille du template
 		 */
 
-		int window_size, col, line, number_of_line, begin = 0;
-		int number_of_col = template_matrix.get_size();
+		int taille_fenetre, col, ligne, nombre_de_lignes, begin = 0;
+		int id_colonne = template_matrix.get_size();
 
 		String tmpString = "";
 		String previous = "";
@@ -120,17 +129,16 @@ public class Parser {
 		 * On parcourt chaque colonne qui représente une taille de template à commencer
 		 * par la plus grande
 		 */
-		for (col = 0; col < number_of_col; col++) {
+		for (col = 0; col < id_colonne; col++) {
 
-			window_size = template_matrix.get_template_size_at_column(col); // La taille d'une fenetre correspond à la
-																			// taille du template utilisé
-			number_of_line = template_matrix.get_column_size(col);
+			taille_fenetre = template_matrix.get_template_size_at_column(col); // La taille d'une fenetre correspond à
+			nombre_de_lignes = template_matrix.get_column_size(col); // la taille du template utilisé
 
 			/*
 			 * Tant que la taille du template n'est pas supérieure au nombre de mots
 			 * restants dans le texte
 			 */
-			while (begin <= words.size() - window_size) {
+			while (begin <= words.size() - taille_fenetre) {
 
 				tmpString = " ";
 				previous = " ";
@@ -139,20 +147,20 @@ public class Parser {
 				ArrayList<String> tmpPrevious = new ArrayList<>();
 
 				/* On crée un string temporaire contenant la fenetre à analyser */
-				for (int index = begin; index < begin + window_size; index++)
+				for (int index = begin; index < begin + taille_fenetre; index++)
 					tmpString = tmpString + words.get(index) + " ";
 
 				/*
 				 * On vérifie s'il y a un match entre la fenetre de string et un des templates
 				 */
-				for (line = 0; line < number_of_line; line++) {
+				for (ligne = 0; ligne < nombre_de_lignes; ligne++) {
 
 					/* S'il y a un match, on analyse ce qui precede et ce qui suit le template */
-					if (tmpUtils.t_match(template_matrix.get_template(col, line), tmpString)) {
+					if (tmpUtils.t_match(template_matrix.get_template(col, ligne), tmpString)) {
 
-						if (verbose) {
+						if (verbose2) {
 							System.out.println("\nPattern trouvé : " + tmpString + " --> "
-									+ template_matrix.get_template(col, line).get_relation());
+									+ template_matrix.get_template(col, ligne).get_relation());
 							System.out.println("\tAnalyse de l'entourage du pattern en cours...");
 						}
 
@@ -172,13 +180,13 @@ public class Parser {
 						for (String str : tmpPrevious)
 							previous = previous + str + " ";
 
-						if (verbose)
+						if (verbose2)
 							System.out.println("\n\t\tEnsemble de mots analysés avant : " + previous);
 
 						previous = analyseStringForName(previous,
-								template_matrix.get_template(col, line).getContrainteAnte());
+								template_matrix.get_template(col, ligne).getContrainteAnte());
 
-						if (verbose)
+						if (verbose2)
 							System.out.println("\t\t\tMot(s) gardé(s) avant : " + previous);
 
 						/*********************************/
@@ -187,7 +195,7 @@ public class Parser {
 						 * On recupere les 10 mots qui suivent le string temporaire, on s'arrete si on
 						 * rencontre un point
 						 */
-						int start = begin + window_size - 1;
+						int start = begin + taille_fenetre - 1;
 
 						for (int kndex = 1; kndex <= 10; kndex++)
 							if (start + kndex < words.size())
@@ -196,22 +204,22 @@ public class Parser {
 								else
 									following = following + words.get(start + kndex) + " ";
 
-						if (verbose)
+						if (verbose2)
 							System.out.println("\n\t\tEnsemble de mots analysés apres : " + following);
 
 						following = analyseStringForName(following,
-								template_matrix.get_template(col, line).getContraintePost());
+								template_matrix.get_template(col, ligne).getContraintePost());
 
-						if (verbose)
+						if (verbose2)
 							System.out.println("\t\t\tMot(s) gardé(s) apres : " + following);
 
 						/*********************************/
 
-						tmpUtils.protectTemplate(words, begin, window_size);
+						tmpUtils.protectTemplate(words, begin, taille_fenetre);
 
 						if (previous.length() > 0 && following.length() > 0)
 							discovered_rel.add(previous + " --- "
-									+ template_matrix.get_template(col, line).get_relation() + " --- " + following);
+									+ template_matrix.get_template(col, ligne).get_relation() + " --- " + following);
 
 						/*********************************/
 
@@ -226,7 +234,10 @@ public class Parser {
 
 		Instant endloc = Instant.now();
 
-		System.out.println("\nRecherche des relations : " + Duration.between(begloc, endloc).toMillis() + " ms");
+		if (verbose2)
+			System.out.println("\nRecherche des relations : " + Duration.between(begloc, endloc).toMillis() + " ms");
+		else
+			System.out.println(Duration.between(begloc, endloc).toMillis() + " ms");
 
 		if (export_stats)
 			fichierResultats
@@ -246,7 +257,8 @@ public class Parser {
 
 		String finalName = "";
 
-		finalName = analyMC.nomCompose(str);
+		if (avecMotsComp)
+			finalName = analyMC.nomCompose(str);
 
 		int maxPoids = 0;
 		int tmpValue;
@@ -292,8 +304,8 @@ public class Parser {
 
 		if (avecPT) {
 			PretraitementDocument ptd = new PretraitementDocument();
-			ptd.nettoyerPonctuation(usedFile);
-			data_file = new File("data/doc_pretraite.txt");
+			ptd.nettoyerPonctuation(usedFile, dossierSortie);
+			data_file = new File(dossierSortie + "/document_intermediaire_pretraite.txt");
 		} else
 			data_file = new File(usedFile);
 

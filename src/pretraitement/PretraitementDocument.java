@@ -28,9 +28,9 @@ public class PretraitementDocument {
 	 * 
 	 * @throws IOException
 	 */
-	public void nettoyerPonctuation(String file) throws IOException {
+	public void nettoyerPonctuation(String file, String dossierExport) throws IOException {
 
-		FileWriter fwloc = new FileWriter("data/doc_pretraite.txt");
+		FileWriter fwloc = new FileWriter(dossierExport + "/document_intermediaire_pretraite.txt");
 
 		File data_file = new File(file);
 

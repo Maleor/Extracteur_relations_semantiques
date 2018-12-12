@@ -1,25 +1,24 @@
-essentiel
-essentiel
-124060
+tes
+tes
+160191
 1
 0
 <def>
-1. Qui appartient à l'essence, qui est de l'essence.  La raison est essentielle à l'homme.     La généralité des Américains s'imaginaient la guerre d'après les campagnes limitées, avantageuses et pittoresques, qui avaient eu lieu autrefois. Ils la voyaient comme ils voyaient l'histoire, à travers une brume iridescente, désodorisée, parfumée même, qui en dissimulait discrètement les cruautés essentielles.     (H. G. Wells, La Guerre dans les airs, 1908, traduction d'Henry-D. Davray et B. Kozakiewicz, Mercure de France, Paris, 1910, p. 211 de l'éd. de 1921)  2. (Histoire naturelle) Qualifie les caractères les plus saillants qui distinguent les espèces, les genres.3. Qui est la partie la plus importante d'une chose, qui en est un élément nécessaire, indispensable.  Avoir à quelqu'un des obligations essentielles, pour avoir précédemment reçu des services très importants.     Le domaine médio-européen est caractérisé par quelques arbres qui y trouvent leur aire essentielle : le Charme, l'Érable plane, le Mélèze.     (Henri Gaussen, Géographie des Plantes, Armand Colin, 1933, p. 90)    Malheureusement, il n'existait aucun attachement philosophique au laïcisme et à ses valeurs de scepticisme, d'expérimentation et de tolérance, si essentielles au pluralisme politique.     (Panayiotis Jerasimof Vatikiotis, L'Islam et l'État, 1987, traduction d'Odette Guitard, 1992)    Une étude plus large et plus scientifique des dialectes locaux établira que, par son origine et par ses caractères essentiels, le slovaque appartient au groupe yougoslave.     (Ernest Denis, La Question d'Autriche ; Les Slovaques, Paris, Delagrave, 1917, in-6, p.97)    Les gens qui se piquaient d'orthodoxie marxiste n'ont voulu ajouter rien d'essen­tiel à ce qu'avait écrit leur maître [?].     (Georges Sorel, Réflexions sur la violence, Chap. V, La grève générale politique, 1908, p. 246)  4. Les projets ont pour but d'enrichir le contenu de Wikipédia en aidant à la coordination du travail des contributeurs. Vous pouvez modifier directement cet article ou visiter les pages de projets pour prendre conseil ou consulter la liste des tâches et des objectifs.
+Pas de définition disponible ou définition répartie dans les raffinements sémantiques (voir relation "r_raff_sem").
 </def>
 voisinage 
-2586629;'Number:Sing';4;0
-2586627;'Gender:Mas';4;0
-146885;'Nom:Mas+SG';4;50
-146888;'Adj:Mas+SG';4;50
+212241;'Adj:Pos';4;50
+146906;'Det:InvGen+PL';4;50
 171870;'Nom:';4;50
-124060;'essentiel';1;120
+160191;'tes';1;64
+147628;'Det:';4;50
 171869;'Adj:';4;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:2586627,45;2586629,45;171870,49;146885,53;146888,57;171869,74;
+4:171869,35;212241,35;147628,57;146906,59;171870,80;
 
 // relations entrantes 
 
