@@ -1,7 +1,7 @@
 # Extracteur de relations sémantiques
 
 Projet de Master informatique dans le domaine du traitement automatique du langage naturel.
-L'objectif de ce programme est de rechercher les relations sémantique présentes dans un texte.
+L'objectif de ce programme est de rechercher les relations sémantiques présentes dans un texte.
 
 Le programme utilise les données du système JeuxDeMots.org.
 
@@ -12,17 +12,22 @@ Le programme utilise les données du système JeuxDeMots.org.
 	java -jar extracteur.jar
 		-regles fichier/de/regles
 		-cible document/à/analyser
+		-comp fichier/mots/composes [optionnel]
 		-output dossier/de/sortie
-		-verbose [optionnel] : Afficher dans le terminal le déroulement de l'exécution
+		-verbose(2) [optionnel] : Afficher dans le terminal le déroulement de l'exécution,
+						verbose2 pour plus de détails
 		-export_stats [optionnel] : Exporter les statistiques de l'exécution
     
 ### Les données
 
-Concernant les règles, elles doivent respecter le format suivant :
+<p>*** Le document cible peut être écrit de n'importe quelle manière, cependant, les mots étant analysés via une base de données linguistique, il est nécessaire que ces mots soient écrits sans fautes.</p>
+<p>*** Le fichier de mots composés n'est pas obligatoire, si vous le donnez en argument, le programme le gérera automatiquement. Dans le fichier, un seul mot composés doit être écrit par ligne.</p>
 
-contrainte sur ce qui précède ; relation sémantique ; ensemble de mots déclencheurs ; contrainte sur ce qui suit
+*** Concernant les règles, elles doivent respecter le format suivant :
 
-Les contraintes sont optionnelles est portent sur les éléments qui entourent une relation. Elles peuvent imposer le genre, le nombre et la classe grammaticale. Toutes les contraintes doivent être séparées par un point, par exemple : Masc.Plu.Adj
+contrainte sur ce qui précède ; relation sémantique ; ensemble de mots déclencheur ; contrainte sur ce qui suit
+
+<p>Les contraintes sont optionnelles et portent sur les éléments qui entourent une relation. Elles peuvent imposer le genre, le nombre et la classe grammaticale. Toutes les contraintes doivent être séparées par un point, par exemple : Masc.Plu.Adj </p>
 
 Exemples de règles : 
 
