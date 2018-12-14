@@ -85,7 +85,7 @@ public class Template_matrix {
 	}
 
 	/**
-	 * Cherche la taille de template maximale
+	 * Cherche la taille maximale de template 
 	 * 
 	 * @param tmp_templates
 	 *            La liste des template
@@ -143,19 +143,14 @@ public class Template_matrix {
 		return templates_matrix.get(i).get(j);
 	}
 
-	/* Affiche la matrice de template */
+	/**
+	 * Affiche la matrice de template
+	 */
 	public void show_templates_matrix() {
-
-		int number_of_line;
-		int number_of_col = templates_matrix.size();
 		
-		for (int i = 0; i < number_of_col; i++) {
-			
-			number_of_line = templates_matrix.get(i).size();
-			
-			for (int j = 0; j < number_of_line; j++) 
-				System.out.println(templates_matrix.get(i).get(j).get_template_under_string_shape());		
-		}
+		for (int index = 0; index < templates_matrix.size(); index++) 		
+			for (int jndex = 0; jndex < templates_matrix.get(index).size(); jndex++) 
+				System.out.println(templates_matrix.get(index).get(jndex).get_template_under_string_shape());				
 	}
 
 }

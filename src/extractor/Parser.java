@@ -28,14 +28,15 @@ import template.Template_matrix;
  */
 public class Parser {
 
-	public String fichierCible;
-	public String fichierRegles;
-	public String fichierMotsComp;
-	public String dossierSortie;
-	public boolean avecMotsComp;
-	public boolean verbose;
-	public boolean verbose2;
-	public boolean export_stats;
+	private String fichierCible;
+	private String fichierRegles;
+	private String fichierMotsComp;
+	private String dossierSortie;
+	
+	private boolean avecMotsComp;
+	private boolean verbose;
+	private boolean verbose2;
+	private boolean export_stats;
 
 	private ArrayList<String> discovered_rel; // La liste des relations extraites
 	private ArrayList<String> words;
@@ -110,7 +111,7 @@ public class Parser {
 	private void recherchePattern() throws IOException {
 
 		Instant begloc = Instant.now();
-		if(!verbose2)
+		if(!verbose2 && verbose)
 			System.out.print("Recherche des relations --------------> ");
 
 		/*
@@ -236,7 +237,7 @@ public class Parser {
 
 		if (verbose2)
 			System.out.println("\nRecherche des relations : " + Duration.between(begloc, endloc).toMillis() + " ms");
-		else
+		else if(verbose)
 			System.out.println(Duration.between(begloc, endloc).toMillis() + " ms");
 
 		if (export_stats)
@@ -296,7 +297,9 @@ public class Parser {
 	 */
 	private void initWords(boolean avecPT) throws IOException {
 
-		System.out.print("Initialisation des mots à analyser ---> ");
+		if(verbose || verbose2)
+			System.out.print("Initialisation des mots à analyser ---> ");
+		
 		Instant begloc = Instant.now();
 
 		String usedFile = fichierCible;
@@ -323,8 +326,9 @@ public class Parser {
 		scanner.close();
 
 		Instant endloc = Instant.now();
-
-		System.out.println(Duration.between(begloc, endloc).toMillis() + " ms");
+		
+		if(verbose || verbose2)
+			System.out.println(Duration.between(begloc, endloc).toMillis() + " ms");
 
 		if (export_stats)
 			fichierStats.write(
@@ -338,7 +342,9 @@ public class Parser {
 	 */
 	private void initMotComposes() throws IOException {
 
-		System.out.print("Initialisation des mots composés -----> ");
+		if(verbose || verbose2)
+			System.out.print("Initialisation des mots composés -----> ");
+		
 		Instant begloc = Instant.now();
 		Instant endloc;
 
@@ -356,7 +362,8 @@ public class Parser {
 		analyMC = new AnalyseurMotsComposes(mots_composes);
 		endloc = Instant.now();
 
-		System.out.println(Duration.between(begloc, endloc).toMillis() + " ms");
+		if(verbose || verbose2)
+			System.out.println(Duration.between(begloc, endloc).toMillis() + " ms");
 
 		if (export_stats)
 			fichierStats.write(
