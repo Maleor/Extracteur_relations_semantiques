@@ -272,13 +272,12 @@ public class Parser {
 
 				tmpValue = analyMS.analyseWord(s, contrainte, systeme);
 
-				if (tmpValue != -1) {
-
+				if (tmpValue != -1) 
 					if (tmpValue > maxPoids) {
 						finalName = s;
 						maxPoids = tmpValue;
 					}
-				}
+				
 			}
 		}
 
@@ -351,10 +350,12 @@ public class Parser {
 		String line1;
 		try {
 			BufferedReader br = new BufferedReader(new FileReader(fichierMotsComp));
-			while ((line1 = br.readLine()) != null) {
+			
+			while ((line1 = br.readLine()) != null) 
 				mots_composes.put(line1, 0);
-			}
+			
 			br.close();
+			
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -376,9 +377,10 @@ public class Parser {
 	private void export() {
 
 		try {
-			for (String str : discovered_rel) {
+			
+			for (String str : discovered_rel) 
 				fichierResultats.write(str + "\n");
-			}
+			
 			fichierResultats.close();
 
 			if (export_stats)

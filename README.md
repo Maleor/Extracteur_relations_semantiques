@@ -27,7 +27,7 @@ Le programme utilise les données du système JeuxDeMots.org.
 
 contrainte sur ce qui précède ; relation sémantique ; ensemble de mots déclencheur ; contrainte sur ce qui suit
 
-<p>Les contraintes sont optionnelles et portent sur les éléments qui entourent une relation. Elles peuvent imposer le genre, le nombre et la classe grammaticale. Toutes les contraintes doivent être séparées par un point, par exemple : Masc.Plu.Adj </p>
+<p>Les contraintes sont optionnelles et portent sur les éléments qui entourent une relation. Elles peuvent imposer le genre, le nombre et la classe grammaticale. Toutes les contraintes doivent être séparées par un point, par exemple : Masc.Plu.Adj signifie que l'on recherche un adjectif masculin au pluriel. </p>
 
 Exemples de règles : 
 
@@ -42,4 +42,4 @@ Exemples de règles :
 
 # État du code
 
-Actuellement, pour les contraintes, le code ne peut gérer que les adjectifs pour les classes grammaticales, pour les autres cas, un nom sera recherché.
+Actuellement, pour les contraintes, le code ne peut gérer que les adjectifs et les verbes pour les classes grammaticales, pour les autres cas, un nom sera recherché.

@@ -1,2 +1,2 @@
-Initialisation des mots à analyser ---> 24 ms
-Recherche des relations --------------> 3255 ms
+Initialisation des mots à analyser ---> 25 ms
+Recherche des relations --------------> 3537 ms

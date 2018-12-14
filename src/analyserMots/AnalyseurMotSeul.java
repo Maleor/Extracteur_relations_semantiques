@@ -1,7 +1,6 @@
 package analyserMots;
 
 import java.util.ArrayList;
-
 import requeterRezo.Filtre;
 import requeterRezo.Mot;
 import requeterRezo.RequeterRezoDump;
@@ -34,8 +33,8 @@ public class AnalyseurMotSeul {
 	 *            sont séparées par un point)
 	 * 
 	 * @return Le poids de la relation si le Mot respecte la contrainte, -1 sinon.
-	 *         Par exemple, si le Mot doit etre un determinant, la méthode retourne
-	 *         le poids de la relation vers la catégorie grammaticale "Det".
+	 *         Par exemple, si le Mot doit etre un adjectif, la méthode retourne
+	 *         le poids de la relation vers la catégorie grammaticale "Adj".
 	 */
 	public int respecteContrainte(Mot cible, String contrainte) {
 
@@ -121,6 +120,7 @@ public class AnalyseurMotSeul {
 	public ArrayList<String> recupererContraintes(String contraintes) {
 
 		ArrayList<String> toRet = new ArrayList<>();
+		contraintes = contraintes.replaceAll(" ", "");
 
 		if (contraintes.contains(".")) {
 
@@ -163,6 +163,13 @@ public class AnalyseurMotSeul {
 				case " adj ":
 					str = "Adj";
 					break;
+					
+				case "ver":
+				case " ver":
+				case "ver ":
+				case " ver ":
+					str = "Ver";
+					break;
 
 				default:
 					break;
@@ -170,7 +177,8 @@ public class AnalyseurMotSeul {
 				}
 				toRet.add(str);
 			}
-		} else if (!contraintes.contains("Adj") && !contraintes.contains("adj")) {
+		} else if (!contraintes.contains("Adj") && !contraintes.contains("adj")
+				&& !contraintes.contains("Ver") && !contraintes.contains("ver")) {
 			toRet.add("Nom");
 			toRet.add(contraintes);
 		} else
