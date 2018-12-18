@@ -122,9 +122,7 @@ public class Parser {
 		int taille_fenetre, col, ligne, nombre_de_lignes, begin = 0;
 		int id_colonne = template_matrix.get_size();
 
-		String tmpString = "";
-		String previous = "";
-		String following = "";
+		String tmpString = "", precedent_inverse = "" , suivant = "", precedent_normal = "";
 
 		/*
 		 * On parcourt chaque colonne qui représente une taille de template à commencer
@@ -142,10 +140,11 @@ public class Parser {
 			while (begin <= words.size() - taille_fenetre) {
 
 				tmpString = " ";
-				previous = " ";
-				following = " ";
+				precedent_inverse = " ";
+				precedent_normal = "";
+				suivant = " ";
 
-				ArrayList<String> tmpPrevious = new ArrayList<>();
+				ArrayList<String> tmpPrecedent = new ArrayList<>();
 
 				/* On crée un string temporaire contenant la fenetre à analyser */
 				for (int index = begin; index < begin + taille_fenetre; index++)
@@ -174,21 +173,24 @@ public class Parser {
 								if (words.get(begin - jndex).contains("."))
 									break;
 								else
-									tmpPrevious.add(words.get(begin - jndex));
+									tmpPrecedent.add(words.get(begin - jndex));
 
-						Collections.reverse(tmpPrevious);
+						for (String str : tmpPrecedent)
+							precedent_inverse = precedent_inverse + str + " ";
+						
+						Collections.reverse(tmpPrecedent);
 
-						for (String str : tmpPrevious)
-							previous = previous + str + " ";
+						for (String str : tmpPrecedent)
+							precedent_normal = precedent_normal + str + " ";
 
 						if (verbose2)
-							System.out.println("\n\t\tEnsemble de mots analysés avant : " + previous);
+							System.out.println("\n\t\tEnsemble de mots analysés avant : " + precedent_normal);
 
-						previous = analyseStringForName(previous,
+						precedent_inverse = analyseStringForName(precedent_inverse,
 								template_matrix.get_template(col, ligne).getContrainteAnte());
 
 						if (verbose2)
-							System.out.println("\t\t\tMot(s) gardé(s) avant : " + previous);
+							System.out.println("\t\t\tMot(s) gardé(s) avant : " + precedent_inverse);
 
 						/*********************************/
 
@@ -203,24 +205,24 @@ public class Parser {
 								if (words.get(start + kndex).contains("."))
 									break;
 								else
-									following = following + words.get(start + kndex) + " ";
+									suivant = suivant + words.get(start + kndex) + " ";
 
 						if (verbose2)
-							System.out.println("\n\t\tEnsemble de mots analysés apres : " + following);
+							System.out.println("\n\t\tEnsemble de mots analysés apres : " + suivant);
 
-						following = analyseStringForName(following,
+						suivant = analyseStringForName(suivant,
 								template_matrix.get_template(col, ligne).getContraintePost());
 
 						if (verbose2)
-							System.out.println("\t\t\tMot(s) gardé(s) apres : " + following);
+							System.out.println("\t\t\tMot(s) gardé(s) apres : " + suivant);
 
 						/*********************************/
 
 						tmpUtils.protectTemplate(words, begin, taille_fenetre);
 
-						if (previous.length() > 0 && following.length() > 0)
-							discovered_rel.add(previous + " --- "
-									+ template_matrix.get_template(col, ligne).get_relation() + " --- " + following);
+						if (precedent_inverse.length() > 0 && suivant.length() > 0)
+							discovered_rel.add(precedent_inverse + " --- "
+									+ template_matrix.get_template(col, ligne).get_relation() + " --- " + suivant);
 
 						/*********************************/
 
@@ -276,6 +278,7 @@ public class Parser {
 					if (tmpValue > maxPoids) {
 						finalName = s;
 						maxPoids = tmpValue;
+						break;
 					}
 				
 			}

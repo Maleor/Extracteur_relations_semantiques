@@ -1,23 +1,21 @@
-mange
-mange
-421145
+créer
+créer
+94183
 1
 0
 <def>
-Pas de définition disponible ou définition répartie dans les raffinements sémantiques (voir relation "r_raff_sem").
+1. Tirer quelque chose du néant, faire de rien quelque chose.  Dans la mythologie Babylonienne, Apsû (l'eau douce) et Tiamat (l'eau salée), ont créé les Dieux.     Dans la Bible, Dieu a créé le ciel et la terre, puis il créa l'homme à son image.  2. Donner l'existence à quelque chose qui n'existait pas encore, éventuellement à partir d'autres éléments.  Il a créé sa propre société.     Le champ électrique est le champ de forces créé par des particules chargées électriquement.     Le système solaire aurait été créé à partir d'un nuage interstellaire principalement composé d'hydrogène et d'hélium.  3. Fonder, instituer, élire.  Créer une rente, une pension.     Créer des charges, des emplois.     Créer une législation nouvelle.     Créer une académie, une institution, un établissement.  4. Produire, faire naître susciter.  Un art nouvellement créé.     L'ordre de choses que cette révolution venait de créer.     De nouveaux besoins créent de nouvelles industries.  5. (Figuré) Faire subir, donner, provoquer.  Savoir se créer des ressources.     Vous me créez des embarras.     Il se crée à plaisir des difficultés.     Se créer des besoins.     Se créer des chimères.  6. (Théâtre) Créer un rôle : Le jouer le premier.7. (Biologie) Créer un genre, une espèce, etc. : Établir un nouveau genre, une nouvelle espèce, etc., pour y ranger des êtres qu'on ne peut rapporter à aucun genre, à aucune espèce connue.  Ce genre a été créé par tel naturaliste.  8. Produire ; faire naître ; susciter.  [?] ils n'ignorent rien de tout cela et savent notamment fort bien que c'est en l'affirmant qu'ils créeront cette éternité de barbarie nécessaire au maintien des institutions qui leur sont chères.     (Julien Benda, La trahison des clercs, 1927, édition revue & augmentée, Grasset, 1946, p.194)  9. Imaginer ; inventer.  « Impaludé », qui signifie atteint de paludisme, est un néologisme créé par Senghor.     Georges Cuvier a créé la paléontologie.     Créer une science, un système.     Homère a créé l'épopée.  10. La démarche est généralement conduite en mode projet et peut être utilisée pour créer (conception) ou améliorer (reconception) un produit.
 </def>
 voisinage 
-2946892;'Ver:Conjug';4;0
-161698;'Ver:IPre+SG+P1:IPre+SG+P3:SPre+SG+P1:SPre+SG+P3:ImPre+SG+P2';4;50
-2935005;'VerbalTime:Present';4;0
+146882;'Ver:Inf';4;50
+94183;'créer';1;944
 212235;'Ver:';4;50
-421145;'mange';1;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:2935005,45;2946892,45;161698,57;212235,59;
+4:212235,58;146882,268;
 
 // relations entrantes 
 

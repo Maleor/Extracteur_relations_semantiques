@@ -1,24 +1,20 @@
-Le
-Le
-140508
+Severodvinsk
+Severodvinsk
+18003
 1
 0
 <def>
-Pas de définition disponible ou définition répartie dans les raffinements sémantiques (voir relation "r_raff_sem").
+Severodvinsk (en russe : ????????????) est une ville de l'oblast d'Arkhangelsk, en Russie. Fondée en 1936, la ville s'est d'abord appelée Soudostroï (1936-1938), puis Molotovsk (1938-1957). Sa population s'élevait à 183 996 habitants en 2017.
 </def>
 voisinage 
-2586629;'Number:Sing';4;0
-2586627;'Gender:Mas';4;0
-146901;'Det:Mas+SG';4;50
+18003;'Severodvinsk';1;50
 171870;'Nom:';4;50
-140508;'Le';1;50
-147628;'Det:';4;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:171870,30;147628,45;146901,45;2586629,45;2586627,45;
+4:171870,27;
 
 // relations entrantes 
 

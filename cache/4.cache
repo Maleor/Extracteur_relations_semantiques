@@ -1,16 +1,16 @@
-fraises
-fraises
-148208
+archives
+archives
+115970
 1
 0
 <def>
-Pas de définition disponible ou définition répartie dans les raffinements sémantiques (voir relation "r_raff_sem").
+Les archivessont un ensemble de documents conservés pour pouvoir prouver des droits ou témoigner de certaines activités. Par métonymie, elles désignent également le lieu où l'on conserve ces documents (bâtiment ou local de conservation, ou encore l'institution chargée de leur conservation ou de leur gestion).
 </def>
 voisinage 
 2946892;'Ver:Conjug';4;0
 2586630;'Number:Plur';4;0
 2935005;'VerbalTime:Present';4;0
-148208;'fraises';1;114
+115970;'archives';1;80
 2586628;'Gender:Fem';4;0
 3093591;'VerbalMode:Subjonctif';4;0
 212235;'Ver:';4;50
@@ -23,7 +23,7 @@ voisinage
 4,r_pos
 // relations sortantes 
 
-4:2586628,45;2586630,45;2935005,45;2946892,45;3093590,45;3093591,45;146893,53;161710,57;212235,60;171870,269;
+4:3093590,26;3093591,27;2586628,45;2586630,45;2935005,45;2946892,45;146893,53;212235,55;161710,60;171870,65;
 
 // relations entrantes 
 

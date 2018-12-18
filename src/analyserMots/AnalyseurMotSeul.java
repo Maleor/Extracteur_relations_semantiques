@@ -177,6 +177,11 @@ public class AnalyseurMotSeul {
 				}
 				toRet.add(str);
 			}
+			
+			if (!contraintes.contains("Adj") && !contraintes.contains("adj")
+					&& !contraintes.contains("Ver") && !contraintes.contains("ver")) 
+				toRet.add("Nom");
+			
 		} else if (!contraintes.contains("Adj") && !contraintes.contains("adj")
 				&& !contraintes.contains("Ver") && !contraintes.contains("ver")) {
 			toRet.add("Nom");

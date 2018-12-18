@@ -20,7 +20,7 @@ Le programme utilise les données du système JeuxDeMots.org.
     
 ### Les données
 
-<p>*** Le document cible peut être écrit de n'importe quelle manière, cependant, les mots étant analysés via une base de données linguistique, il est nécessaire que ces mots soient écrits sans fautes.</p>
+<p>*** Le document cible peut être écrit de n'importe quelle manière, cependant, les mots étant analysés via une base de données linguistique, il est nécessaire d'éviter le plus possible les fautes.</p>
 <p>*** Le fichier de mots composés n'est pas obligatoire, si vous le donnez en argument, le programme le gérera automatiquement. Dans le fichier, un seul mot composés doit être écrit par ligne.</p>
 
 *** Concernant les règles, elles doivent respecter le format suivant :
