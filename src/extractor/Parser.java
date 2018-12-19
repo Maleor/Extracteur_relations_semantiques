@@ -32,7 +32,7 @@ public class Parser {
 	private String fichierRegles;
 	private String fichierMotsComp;
 	private String dossierSortie;
-	
+
 	private boolean avecMotsComp;
 	private boolean verbose;
 	private boolean verbose2;
@@ -108,10 +108,15 @@ public class Parser {
 	/** PRIVATE METHODS **/
 	///////////////////////
 
+	/**
+	 * Méthode principale qui analyse le document et recherche les relations.
+	 * 
+	 * @throws IOException
+	 */
 	private void recherchePattern() throws IOException {
 
 		Instant begloc = Instant.now();
-		if(!verbose2 && verbose)
+		if (!verbose2 && verbose)
 			System.out.print("Recherche des relations --------------> ");
 
 		/*
@@ -122,7 +127,7 @@ public class Parser {
 		int taille_fenetre, col, ligne, nombre_de_lignes, begin = 0;
 		int id_colonne = template_matrix.get_size();
 
-		String tmpString = "", precedent_inverse = "" , suivant = "", precedent_normal = "";
+		String tmpString = "", precedent_inverse = "", suivant = "", precedent_normal = "";
 
 		/*
 		 * On parcourt chaque colonne qui représente une taille de template à commencer
@@ -177,7 +182,7 @@ public class Parser {
 
 						for (String str : tmpPrecedent)
 							precedent_inverse = precedent_inverse + str + " ";
-						
+
 						Collections.reverse(tmpPrecedent);
 
 						for (String str : tmpPrecedent)
@@ -239,17 +244,17 @@ public class Parser {
 
 		if (verbose2)
 			System.out.println("\nRecherche des relations : " + Duration.between(begloc, endloc).toMillis() + " ms");
-		else if(verbose)
+		else if (verbose)
 			System.out.println(Duration.between(begloc, endloc).toMillis() + " ms");
 
 		if (export_stats)
-			fichierStats
-					.write("Recherche des relations --------------> " + Duration.between(begloc, endloc).toMillis() + " ms\n");
+			fichierStats.write(
+					"Recherche des relations --------------> " + Duration.between(begloc, endloc).toMillis() + " ms\n");
 	}
 
 	/**
 	 * Analyse une chaine de caractères pour vérifier si elle peut être utilisée
-	 * comme un nom ou un nom composé
+	 * comme un nom ou un mot composé
 	 * 
 	 * @param str
 	 *            La chaine de caractères que l'on analyse
@@ -258,15 +263,15 @@ public class Parser {
 	 */
 	private String analyseStringForName(String str, String contrainte) {
 
-		String finalName = "";
+		String mot_final = "";
 
 		if (avecMotsComp)
-			finalName = analyMC.nomCompose(str);
+			mot_final = analyMC.nomCompose(str);
 
 		int maxPoids = 0;
 		int tmpValue;
 
-		if (finalName.equals("")) {
+		if (mot_final.equals("")) {
 
 			String[] wd = str.split(" ");
 
@@ -274,17 +279,17 @@ public class Parser {
 
 				tmpValue = analyMS.analyseWord(s, contrainte, systeme);
 
-				if (tmpValue != -1) 
+				if (tmpValue != -1)
 					if (tmpValue > maxPoids) {
-						finalName = s;
+						mot_final = s;
 						maxPoids = tmpValue;
 						break;
 					}
-				
+
 			}
 		}
 
-		return finalName;
+		return mot_final;
 	}
 
 	/**
@@ -299,9 +304,9 @@ public class Parser {
 	 */
 	private void initWords(boolean avecPT) throws IOException {
 
-		if(verbose || verbose2)
+		if (verbose || verbose2)
 			System.out.print("Initialisation des mots à analyser ---> ");
-		
+
 		Instant begloc = Instant.now();
 
 		String usedFile = fichierCible;
@@ -328,8 +333,8 @@ public class Parser {
 		scanner.close();
 
 		Instant endloc = Instant.now();
-		
-		if(verbose || verbose2)
+
+		if (verbose || verbose2)
 			System.out.println(Duration.between(begloc, endloc).toMillis() + " ms");
 
 		if (export_stats)
@@ -344,21 +349,21 @@ public class Parser {
 	 */
 	private void initMotComposes() throws IOException {
 
-		if(verbose || verbose2)
+		if (verbose || verbose2)
 			System.out.print("Initialisation des mots composés -----> ");
-		
+
 		Instant begloc = Instant.now();
 		Instant endloc;
 
 		String line1;
 		try {
 			BufferedReader br = new BufferedReader(new FileReader(fichierMotsComp));
-			
-			while ((line1 = br.readLine()) != null) 
+
+			while ((line1 = br.readLine()) != null)
 				mots_composes.put(line1, 0);
-			
+
 			br.close();
-			
+
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -366,7 +371,7 @@ public class Parser {
 		analyMC = new AnalyseurMotsComposes(mots_composes);
 		endloc = Instant.now();
 
-		if(verbose || verbose2)
+		if (verbose || verbose2)
 			System.out.println(Duration.between(begloc, endloc).toMillis() + " ms");
 
 		if (export_stats)
@@ -380,10 +385,10 @@ public class Parser {
 	private void export() {
 
 		try {
-			
-			for (String str : discovered_rel) 
+
+			for (String str : discovered_rel)
 				fichierResultats.write(str + "\n");
-			
+
 			fichierResultats.close();
 
 			if (export_stats)
