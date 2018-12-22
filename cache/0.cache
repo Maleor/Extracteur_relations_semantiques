@@ -1,20 +1,23 @@
-Severodvinsk
-Severodvinsk
-18003
+beauté
+beauté
+139352
 1
 0
 <def>
-Severodvinsk (en russe : ????????????) est une ville de l'oblast d'Arkhangelsk, en Russie. Fondée en 1936, la ville s'est d'abord appelée Soudostroï (1936-1938), puis Molotovsk (1938-1957). Sa population s'élevait à 183 996 habitants en 2017.
+1. Jolie fille ou belle femme.  Beauté grecque et beauté romaine se disent des femmes dont la beauté rappelle le caractère des têtes que l'on voit dans les statues et dans les médailles antiques de la Grèce et de Rome.     T'as vu cette beauté ?     Toutes les beautés de la ville étaient à cette fête.     Une beauté dédaigneuse, fière, célèbre.     Une jeune beauté.  2. Qualité de ce qui est beau, de ce qui est esthétique à la perception. ?Note : Se dit en général de ce qui touche et charme les sens, l'esprit, l'âme, de ce qui est excellent en son genre.  Qu'ai-je besoin de demander aux choses d'autres jouissances que celle de leur présence, c'est-à-dire leur beauté et leur parfum ?     (Octave Mirbeau, Ma chaumière, dans Lettres de ma chaumière, 1885)    Conserver, perdre sa beauté.     Nous arrêtons nos regards sur une femme seulement pour satisfaire le plaisir des yeux et pour contempler ce que les hommes appellent la beauté.     (Walter Scott, Ivanhoé, traduit de l'anglais par Alexandre Dumas, 1820)    La stylique ou design est la valorisation esthétique d'un produit. Elle allie fonctionnalité et beauté. C'est un aspect fondamental lors de la mise en marché du produit.     (Ventes et productions touristiques, BTS Ventes et productions touristiques, 2e année, Éditions Bréal, 2003, p. 16)    La beauté d'une voix, d'un concert, d'un spectacle, d'une fête.     Mais si la beauté impressionne les sens, elle ne saurait obtenir d'empire durable et puissant qu'autant qu'elle les subjugue.     (Flora Tristan; Les Femmes de Lima, dans Revue de Paris, tome 32, 1836)    Deux pages parurent, portant des flambeaux et éclairant une femme d'une taille imposante, d'un maintien majestueux, et surtout d'une admirable beauté.     (Alexandre Dumas, La Reine Margot, 1845, vol. I, ch. V)    La beauté d'un cheval, d'un lion, d'un oiseau.     La beauté d'une étoffe, d'une couleur.     Elle découvre des gestes de coquetterie qui, comme les gestes de pudeur, revêtent une sorte de beauté austère d'être accomplis dans la solitude.     (Henri Barbusse, L'Enfer, Éditions Albin Michel, Paris, 1908)    Cette femme n'était pas en beauté hier au soir : Elle paraissait moins belle qu'à l'ordinaire.     La beauté d'une ville, d'un édifice, d'un tableau, d'une statue.  3. Qualité, état de ce qui est bon en raison de sa valeur intellectuelle ou morale.  Nous ne voyons pas de cause à la préférence que l'on accorde à la beauté morale sur la beauté physique, en admettant que le mépris pour la dernière soit véritable.     (Karr, Sous les tilleuls, 1832, p. 260)    Les beautés de cet ouvrage en effacent, à mes yeux, les défauts.     La beauté de l'âme.  4. (En particulier) Ensemble de formes, de proportions et de couleurs qui plaît esthétiquement.  Elle est d'une beauté ravissante, de la plus grande beauté.     Je vis que sa beauté, comme son caractère, était absolument sans fard. Ni rouge aux lèvres, ni fer aux cheveux ; rien aux cils ni aux paupières.     (Pierre Louÿs, Trois filles de leur mère, Trois Filles de leur mère/Chapitre 4, René Bonnel, Paris, 1926)    C'était à cette époque une femme de cinquante-deux à cinquante-trois ans à peu près, qui conservait, grâce à son embonpoint plein de fraîcheur, les traits de sa première beauté.     (Alexandre Dumas, La Reine Margot, 1845, vol. I, ch. VI)    Quand je la menai à l'autel, j'étais bien convaincu que ma femme l'emportait en beauté sur toutes les femmes belles de la terre.     (Octave Mirbeau, Lettres de ma chaumière : La Tête coupée, A. Laurent, 1886)    C'était une femme de trente-deux à trente-trois ans, qui avait dû être d'une merveilleuse beauté avant que ses joues se fussent creusées, avant que son teint eût pâli.     (Alexandre Dumas, Les Mille et Un Fantômes)  5. Le beau ou la beauté est une notion abstraite liée à de nombreux aspects de l'existence humaine. Ce concept est étudié principalement par la discipline philosophique de l'esthétique, mais il est également abordé en partie par d'autres domaines (histoire, sociologie, psychologie, art).
 </def>
 voisinage 
-18003;'Severodvinsk';1;50
+2586629;'Number:Sing';4;0
+2586628;'Gender:Fem';4;0
+146881;'Nom:Fem+SG';4;50
+139352;'beauté';1;1130
 171870;'Nom:';4;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:171870,27;
+4:2586628,45;2586629,45;146881,52;171870,97;
 
 // relations entrantes 
 

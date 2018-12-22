@@ -1,23 +1,25 @@
-tar
-tar
-179124
+perceuse
+perceuse
+67829
 1
 0
 <def>
-1. Le programme tar (de l'anglais tape archiver, littéralement « archiveur pour bande ») est un logiciel d'archivage de fichiers standard des systèmes de type UNIX. Il a été créé dans les premières versions d'UNIX et standardisé par les normes POSIX.1-1988 puis POSIX.1-2001. Il existe plusieurs implémentations tar, la plus couramment utilisée étant GNU tar.2. Le tar, târ, tari, tara, tarra ou tchentchana est un instrument de percussion arabo-andalou. C'est un tambour sur cadre rencontré en Espagne, au Maghreb et au Moyen-Orient (Qatar, Bahreïn, Yémen), cousin du tambourin européen et du riqq arabe et sans doute l'ancêtre des pandeiro et pandero.
+1. (Technique) Outil permettant de percer, de faire des trous, généralement à l'aide d'un foret rotatif.2. Une perceuse ou foreuse est un outil qui sert à percer des trous dans différents matériaux. Les perceuses modernes sont l'aboutissement de plusieurs siècles de technologie. Les vilebrequins sont apparus dans les ateliers de menuisiers et chez les charpentiers vers le XVe siècle. Les perceuses manuelle à engrenage datent du XIXe siècle, et c'est vers la fin du XIXe siècle que sont apparues les premières perceuses électriques.3. Une perceuse ou foreuse est un outil qui sert à percer ou tarauder des trous dans différents matériaux à l'aide de forets. Les perceuses modernes sont l'aboutissement de plusieurs siècles de technologie. Les vilebrequins sont apparus dans les ateliers de menuisiers et chez les charpentiers vers le XVe siècle. Les perceuses manuelle à engrenage datent du XIXe siècle, et c'est vers la fin du XIXe siècle que sont apparues les premières perceuses électriques.
 </def>
 voisinage 
 2586629;'Number:Sing';4;0
-2586627;'Gender:Mas';4;0
-179124;'tar';1;50
-146885;'Nom:Mas+SG';4;50
+2586628;'Gender:Fem';4;0
+146881;'Nom:Fem+SG';4;50
+67829;'perceuse';1;132
+146894;'Adj:Fem+SG';4;50
 171870;'Nom:';4;50
+171869;'Adj:';4;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:146885,25;2586627,25;2586629,25;171870,35;
+4:2586628,45;2586629,45;146894,54;171869,55;146881,59;171870,95;
 
 // relations entrantes 
 

@@ -1,31 +1,22 @@
-les
-les
-143442
+marcher
+marcher
+16964
 1
 0
 <def>
-1. Pronom personnel de la troisième personne du pluriel accusatif.  Je les ai attendues pendant une heure !  2. Les pièces de Giraudoux, Louis Jouvet les a créées (anaphore). - Louis Jouvet les a créées, les pièces de Giraudoux (cataphore).3. Pronom personnel de la troisième personne du pluriel accusatif.  Les chevaux islandais se vendaient pour rien autrefois, et la coutume était de les acheter pour les revendre au retour ; [?].     (Jules Leclercq, La Terre de glace, Féroë, Islande, les geysers, le mont Hékla, Paris : E. Plon & Cie, 1883, p.17)  4. La France d'outre-mer ou les Outre-mer comprend les territoires de la République française éloignés de la France métropolitaine située sur le continent européen. On parle également de DROM-COM (départements et régions et collectivités d'outre-mer) ou encore de DOM-TOM (départements et territoires d'outre-mer).
+1. (Figuré) Fonctionner.  Mon ordinateur ne marche plus, je dois l'envoyer chez le réparateur.     Maigret, après un regard circulaire à la pièce, posait une question encore plus inattendue.?Est-ce que toutes les horloges marchaient ?Maintenant, il y en avait d'arrêtées et le commissaire, machinalement, alla les remonter.     (Georges Simenon, Cécile est morte, 2ème partie, chapitre 4, 1942)    Ça y est, ça marche !  2. (Familier) (Figuré) Donner des résultats.  Depuis trente ans, le Languedoc-Roussillon affiche clairement sa volonté de passer du gros rouge qui tache à des vins pleins de charme et de caractère. Et ça marche.     (Ophélie Neiman, Le vin pour ceux qui n'y connaissent rien, L'Étudiant, 2013, p.111)    Pour parler moins lyriquement, ça marchait ferme, les gros tirages se multipliaient et les droits d'auteur s'encaissaient avec une précision rothschildienne [?].     (Léon Bloy, Le Salut par les Juifs, Joseph Victorion et Cie, 1906)  3. (Transitif) (Littéraire) (Technique) Suivre sa route.4. (Intransitif) Croire en une supercherie, un mensonge.  Ai-je cru vraiment, à cette époque ? Il me semble que j'ai marché dans la chose de la sainte religion, comme dans les images d'Épinal, ou dans mes bouquins de contes de fées à tranches dorées.     (Victor Méric, Les Compagnons de l'Escopette, Éditions de l'Épi, Paris, 1930, p. 247)  5. (Intransitif) Se déplacer par un mouvement alternatif des jambes ou des pattes, en ayant toujours un appui au sol.  Fin février est très beau et le 2 mars nous quittons le cantonnement de Marquigny. Nous marchons en arrière-garde du bataillon et, par Louvergny, La Cassine, nous arrivons à l'étape à midi à Chémery-sur-Bar.     (Gustave Folcher & ?Rémy Cazals, Les carnets de guerre de Gustave Folcher, paysan languedocien, 1939-1945, François Maspéro, 1981, p.62)    Maintenant qu'il avait dépassé la zone et franchi les lignes de rebat, Kinkin marchait plus librement, respirant à longs traits, révâssait même un peu.     (Louis Pergaud, L'Évasion de Kinkin, dans Les Rustiques, nouvelles villageoises, 1921)    Pendant de longues heures nous marchons en silence, ne regardant ni à droite ni à gauche, la tête baissée sous nos capuchons pour nous garantir de l'ondée cinglante.     (Frédéric Weisgerber, Trois mois de campagne au Maroc : étude géographique de la région parcourue, Paris : Ernest Leroux, 1904, p. 36)    Les uns allaient rendre leurs armes ; d'autres, qui les avaient abandonnées déjà, marchaient silencieusement, les mains ballantes.     (Paul et Victor Margueritte, Le Désastre, p.451, 86e éd., Plon-Nourrit & Cie)  6. (Transitif) (Vieilli) (Technique) Fouler au pied une matière malléable.
 </def>
 voisinage 
-2586630;'Number:Plur';4;0
-148899;'Pro:PL+P3';4;50
-2586628;'Gender:Fem';4;0
-2586627;'Gender:Mas';4;0
-2356740;'Pro:Pers';4;0
-2931520;'Pro:Pers:COD';4;0
-147628;'Det:';4;50
-143442;'les';1;60
-147826;'Pro:';4;50
-161754;'Det:Fem+PL';4;50
-146906;'Det:InvGen+PL';4;50
-146907;'Det:Mas+PL';4;50
+146882;'Ver:Inf';4;50
+16964;'marcher';1;2258
+212235;'Ver:';4;50
 171870;'Nom:';4;50
 
 // types relations (id,nom)
 4,r_pos
 // relations sortantes 
 
-4:171870,-30;2356740,31;146907,45;2586630,45;2586627,45;161754,45;2586628,45;2931520,51;148899,57;147826,57;146906,60;147628,68;
+4:171870,-32;212235,53;146882,86;
 
 // relations entrantes 
 
