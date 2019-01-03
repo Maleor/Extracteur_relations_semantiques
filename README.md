@@ -38,8 +38,8 @@ Exemples de règles :
 <p/>Sing ; r_carac-1 ; caractérise le ; Sing.Masc ;
 <p/>Sing ; r_against ; agit contre la ; Fem.Sing ;
 <p/>Sing ; r_against ; agit contre le ; Masc.Sing ;
-<p/>Sing ; r_telic_role ; a pour role d' ; ; 
-<p/>Sing.Fem ; r_telic_role ; est faite pour ; ;
+<p/>Sing ; r_telic_role ; a pour role d' ; Ver ; 
+<p/>Sing.Fem ; r_telic_role ; est faite pour ; Ver ;
 <p/>Plu.Masc ; r_carac ; sont-ils ; Adj.Plu.Masc ;
 
 
