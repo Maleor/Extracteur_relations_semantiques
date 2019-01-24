@@ -101,6 +101,8 @@ public class Parser {
 		recherchePattern();
 
 		export();
+		
+		systeme.sauvegarder();
 
 	}
 

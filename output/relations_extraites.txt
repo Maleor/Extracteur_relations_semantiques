@@ -1,9 +1,0 @@
-beauté ---  r_carac-1  --- perceuse
-marcheur ---  r_agent-1  --- marcher
-peluche ---  r_lieu  --- table
-poney ---  r_isa  --- animal
-loup ---  r_isa  --- animal
-loup ---  r_carac  --- méchant
-Maman ---  r_carac  --- gentille
-monde ---  r_carac  --- grand
-singe ---  r_can_eat  --- fraises
