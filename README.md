@@ -14,14 +14,14 @@ Le programme utilise les données du système JeuxDeMots.org.
 		-cible document/à/analyser
 		-comp fichier/mots/composes [optionnel]
 		-output dossier/de/sortie
-		-verbose(2) [optionnel] : verbose pour afficher dans le terminal le déroulement de l'exécution,
+		-verbose(2) [optionnel] : Afficher dans le terminal le déroulement de l'exécution,
 						verbose2 pour plus de détails
 		-export_stats [optionnel] : Exporter les statistiques de l'exécution
     
 ### Les données
 
 <p>*** Le document cible peut être écrit de n'importe quelle manière, cependant, les mots étant analysés via une base de données linguistique, il est nécessaire d'éviter le plus possible les fautes.</p>
-<p>*** Le fichier de mots composés n'est pas obligatoire, si vous le donnez en argument, le programme le gérera automatiquement. Dans le fichier, un seul mot composés doit être écrit par ligne.</p>
+<p>*** Le fichier de mots composés n'est pas obligatoire, si vous le donnez en argument, le programme le gérera automatiquement. Dans le fichier, un seul mot composé doit être écrit par ligne.</p>
 
 *** Concernant les règles, elles doivent respecter le format suivant :
 
@@ -38,8 +38,8 @@ Exemples de règles :
 <p/>Sing ; r_carac-1 ; caractérise le ; Sing.Masc ;
 <p/>Sing ; r_against ; agit contre la ; Fem.Sing ;
 <p/>Sing ; r_against ; agit contre le ; Masc.Sing ;
-<p/>Sing ; r_telic_role ; a pour role d' ; Ver ; 
-<p/>Sing.Fem ; r_telic_role ; est faite pour ; Ver ;
+<p/>Sing ; r_telic_role ; a pour role d' ; ; 
+<p/>Sing.Fem ; r_telic_role ; est faite pour ; ;
 <p/>Plu.Masc ; r_carac ; sont-ils ; Adj.Plu.Masc ;
 
 
