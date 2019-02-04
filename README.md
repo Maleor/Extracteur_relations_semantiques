@@ -14,7 +14,7 @@ Le programme utilise les données du système JeuxDeMots.org.
 		-cible document/à/analyser
 		-comp fichier/mots/composes [optionnel]
 		-output dossier/de/sortie
-		-verbose(2) [optionnel] : Afficher dans le terminal le déroulement de l'exécution,
+		-verbose(2) [optionnel] : verbose pour afficher dans le terminal le déroulement de l'exécution,
 						verbose2 pour plus de détails
 		-export_stats [optionnel] : Exporter les statistiques de l'exécution
     
